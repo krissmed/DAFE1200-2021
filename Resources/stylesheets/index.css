@@ -1,0 +1,27 @@
+body{
+     margin: 0; /* Remove default margin around the edges */
+     height: 200%;
+}
+#headerImg{
+    width: 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+/* Navigation bar at the tip */
+nav{
+    position: sticky;
+    height: 5rem;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+nav a{
+    font-size: 2rem;
+}
+#navLogo{
+    height: 100%;
+}
