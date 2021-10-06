@@ -1,0 +1,150 @@
+/*-----------FOOTER---------------------------------------------------------------------------------------------------------------*/
+
+/*Creates the footer container*/
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    color: black;
+    border-top: 1px solid #e5e5e5;
+    z-index: 1;
+    position: relative;
+    bottom: 0;
+    width: 95vw;
+    background-color: #edf5e1;
+}
+    /*Properties when hovered over*/
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    /*Makes the content in the box flex*/
+    .footer > * {
+        flex: 1 100%;
+    }
+
+/*Styles the adress bar */
+.footeraddr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+/*Chooses the size of the footer logo */
+.footerlogo {
+    width: 25%;
+    height: auto;
+}
+
+
+/*Chooses the size of the font on the titel over the brackets */
+.navtitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+/* Chooses the font style and color for the content inside of the <adress> tag */
+.footer address {
+    font-style: normal;
+    color: #454545;
+}
+
+/* Styles the Email button */
+.footerbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgba(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #454545;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+}
+
+/* Sets a spesific styling for everything in the <ul>-tag */
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Sets a spesific styling for everything in the <li>-tag */
+.footer li {
+    line-height: 3em;
+}
+
+/* Styles makes the link not have any decorations*/
+.footer a {
+    text-decoration: none;
+}
+
+/* Makes the brackets in the footer flex*/
+.footernav {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+    /* Makes the brackets in the footer flex*/
+    .footernav > * {
+        flex: 1 50%;
+        margin-right: 1.25em;
+    }
+
+/* styles all the links for the class*/
+.navul a {
+    color: #454545;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Adds extra space between each column*/
+.navul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+}
+
+/* Makes the line with the copyright stuff flex and choose the color of the font*/
+.legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #454545;
+}
+/* Sosial media images*/
+.sosialimg {
+    width: 3vw;
+    height: auto;
+    margin-right: 1vh;
+}
+
+
+/* Makes the margin for the legal line auto, when the media screen reaches a minimum size*/
+@media screen and (min-width: 24.375em) {
+    .legal {
+        margin-left: auto;
+    }
+}
+
+/* Makes the links in the footer flex when til reaches a choosen size */
+@media screen and (min-width: 40.375em) {
+    .footernav > * {
+        flex: 1;
+    }
+
+    /* Makes the item grow relative to the rest of the flexible items in the same container*/
+    .navitem--extra {
+        flex-grow: 2;
+    }
+
+    /* chooses flex grow and flex shrink for the address bar*/
+    .footeraddr {
+        flex: 1 0;
+    }
+
+    /* chooses flex grow and flex shrink for navigation menu in the footer*/
+    .footernav {
+        flex: 2 0;
+    }
+}
