@@ -41,3 +41,13 @@ nav a{
 #frontpageImg{
     width: 100vw;
 }
+.readMoreBtn{
+    background-color: red;
+    text-decoration: none;
+    color: black;
+    border-radius: 25%;
+    height: 500px;
+    width: 500px;
+    text-transform:uppercase;
+    border: solid white 1px;
+}
