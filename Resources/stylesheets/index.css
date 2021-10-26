@@ -45,9 +45,9 @@ nav a{
     background-color: red;
     text-decoration: none;
     color: black;
-    border-radius: 25%;
-    height: 500px;
-    width: 500px;
+    border-radius: 12px;
+    height: 50px;
+    width: 100px;
     text-transform:uppercase;
     border: solid white 1px;
 }
