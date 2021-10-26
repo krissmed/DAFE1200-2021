@@ -1,6 +1,7 @@
 body{
      margin: 0; /* Remove default margin around the edges */
      height: 200%;
+     overflow-x: hidden;
 }
 #headerImg{
     width: 100%;
@@ -10,7 +11,7 @@ body{
     top: 0;
     width: 100%;
   }
-/* Navigation bar at the tip */
+/* Navigation bar at the top */
 nav{
     position: sticky;
     height: 5rem;
@@ -24,4 +25,10 @@ nav a{
 }
 #navLogo{
     height: 100%;
+}
+/* Show fullpage slideshow of text and images */
+.slideshow{
+    height: 100vh;
+    background-color: green;
+    border-bottom: 1px solid white;
 }
