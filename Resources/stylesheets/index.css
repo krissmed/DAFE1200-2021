@@ -31,4 +31,13 @@ nav a{
     height: 100vh;
     background-color: green;
     border-bottom: 1px solid white;
+    overflow: hidden;
+}
+#slogan{
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+#frontpageImg{
+    width: 100vw;
 }
