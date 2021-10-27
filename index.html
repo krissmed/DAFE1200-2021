@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="Resources/stylesheets/index.css">
     <link rel="stylesheet" href="Resources/stylesheets/footer.css">
+    <!--Special Chars (æ,ø,å)-->
+    <meta charset="UTF-8">
+    <!--Better control of layout on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
+<!------------------------- NAVBAR ----------------------------------->
     <nav id="navBar">
         <img id="navLogo" src="https://acceleratechange.org/wp-content/uploads/2019/09/ACF-logo-placeholder.png">
-        <a>Hjem</a>
-        <a>Løsning</a>
-        <a>Problem</a>
-        <a>about us</a>
-        <a>About us</a>
-        <a>about us</a>
+        <a href="index.html">Hjem</a>
+        <a href="solution.html">Løsning</a>
+        <a href="problem.html">Problem</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contact.html">Contact</a>
     </nav>
     <!-- First slideshow -->
     <div class="slideshow">
-        <img id="frontpageImg" src="Resources/pictures/frontpage.jpg">
+        <img id="frontpageImg" src="Resources/images/frontpage.jpg">
         <div class="text">
-            <h1 id="slogan">Reduce, Reuse, Recycle - Rebound</h1>
+            <h1 id="slogan">Reduce, Reuse, Recycle - <span style="color:green;">Rebound</span></h1>
         </div>
     </div>
     <!-- Second slideshow -->
@@ -26,13 +32,13 @@
         <div>
             <h1>What is the problem</h1>
             <p></p>
-            <div class="readMoreBtn">
-                <a href="problem.html">Read more</a>
-            </div>
+
+            <a class="readMoreBtn" href="problem.html">Read more</a>
+
         </div>
     </div>
     <div class="slideshow">
-        <img id="frontpageImg"src="Resources/pictures/frontpage.jpg">
+        <img id="frontpageImg" src="Resources/images/frontpage.jpg">
     </div>
     </div>
     <div class="slideshow">
@@ -41,68 +47,65 @@
             <p></p>
         </div>
     </div>
- <!------------------------- FOOTER CONTAINER ----------------------------------->
- <footer class="footer">
+    <!------------------------- FOOTER CONTAINER ----------------------------------->
+    <footer class="footer">
 
-    <!--Box where the adress, logo and mail button will be-->
-    <div class="footeraddr">
-        <!--Adding the logo-->
-        <img class="footerlogo" src="Resources/pictures/logo.png" alt="logo footer">
-    </div>
-    <!--Makes a bracket for the for the links for navigation-->
-    <ul class="footernav">
-        <li class="navitem">
-            <!--Makes the titel over the bracket-->
-            <h2 class="navtitle">Our Work</h2>
-            <!--Creates the bracket-->
-            <ul class="navul">
-                <li>
-                    <a href="contact.html#faqDiv">Sources</a>
-                </li>
-                <li>
-                    <a href="contact.html#costDiv">Team</a>
-                </li>
+        <!--Box where the adress, logo and mail button will be-->
+        <div class="footeraddr">
+            <!--Adding the logo-->
+            <img class="footerlogo" src="Resources/images/logo.png" alt="logo footer">
+        </div>
+        <!--Makes a bracket for the for the links for navigation-->
+        <ul class="footernav">
+            <li class="navitem">
+                <!--Makes the titel over the bracket-->
+                <h2 class="navtitle">Our Work</h2>
+                <!--Creates the bracket-->
+                <ul class="navul">
+                    <li>
+                        <a href="contact.html#faqDiv">Sources</a>
+                    </li>
+                    <li>
+                        <a href="contact.html#costDiv">Team</a>
+                    </li>
 
-            </ul>
+                </ul>
 
-        <li class="navitem">
-            <h2 class="navtitle">Address</h2>
-            
+                <li class="navitem">
+                    <h2 class="navtitle">Address</h2>
 
-        <address>
+
+                    <address>
             Pilestredet 35, 0166 Oslo
             <br>
             <!--Makes the mail us button-->
             <a class="footerbtn" href="mailto:Support@rebound.com">Email Us</a>
         </address>
-        </li>
-        <!--Sosial media-->
-        <li class="navitem">
-            <h2 class="navtitle">Social</h2>
-            <ul class="navul">
-                <li>
-                    <a href="https://facebook.com">
-                        <img src="assets/Images/facebook.svg" class=sosialimg
-                             alt="facebook">
-                    </a>
-                    <a href="https://instagram.com">
-                        <img src="assets/Images/instagram.svg" class=sosialimg
-                             alt="instagram">
-                    </a>
-                    <a href="https://twitter.com">
-                        <img src="assets/Images/twitter.svg" class=sosialimg
-                             alt=twitter>
-                    </a>
-                    <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
-                        <img src="assets/Images/github.svg"
-                             class=sosialimg alt="github">
-                    </a>
                 </li>
-            </ul>
-        </li>
-    </ul>
-</footer>
-    
+                <!--Sosial media-->
+                <li class="navitem">
+                    <h2 class="navtitle">Social</h2>
+                    <ul class="navul">
+                        <li>
+                            <a href="https://facebook.com">
+                                <img src="assets/images/facebook.svg" class=sosialimg alt="facebook">
+                            </a>
+                            <a href="https://instagram.com">
+                                <img src="assets/images/instagram.svg" class=sosialimg alt="instagram">
+                            </a>
+                            <a href="https://twitter.com">
+                                <img src="assets/images/twitter.svg" class=sosialimg alt=twitter>
+                            </a>
+                            <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
+                                <img src="assets/images/github.svg" class=sosialimg alt="github">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+        </ul>
+    </footer>
+
 </body>
 <script src="Resources/scripts/index.js"></script>
+
 </html>
