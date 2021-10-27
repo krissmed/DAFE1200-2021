@@ -1,12 +1,19 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function() { myFunction() };
 
 var navbar = document.getElementById("navBar");
 var sticky = navbar.offsetTop; // Kopiert fra w3schools
 
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
 }
+
+function isElementvisible() {
+    windowTop = window.screenTop
+    console.log(windowTop)
+}
+
+window.onscroll = function(){isElementvisible()} 
