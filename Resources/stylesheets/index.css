@@ -1,53 +1,86 @@
-body{
-     margin: 0; /* Remove default margin around the edges */
-     height: 200%;
-     overflow-x: hidden;
+body {
+    margin: 0;
+    /* Remove default margin around the edges */
+    height: 200%;
+    overflow-x: hidden;
 }
-#headerImg{
+
+#headerImg {
     width: 100%;
 }
+
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
+
+
 /* Navigation bar at the top */
-nav{
+
+nav {
     position: sticky;
     height: 5rem;
     background-color: red;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
-nav a{
+
+nav a {
     font-size: 2rem;
 }
-#navLogo{
+
+#navLogo {
     height: 100%;
 }
+
+
 /* Show fullpage slideshow of text and images */
-.slideshow{
+
+.slideshow {
     height: 100vh;
     background-color: green;
     border-bottom: 1px solid white;
+    /* fjernes */
     overflow: hidden;
 }
-#slogan{
+
+#slogan {
     position: absolute;
     left: 50px;
     top: 200px;
 }
-#frontpageImg{
+
+#frontpageImg {
     width: 100vw;
 }
-.readMoreBtn{
-    background-color: red;
+
+.readMoreBtn {
+    background-color: rgb(222, 224, 227);
     text-decoration: none;
-    color: black;
+    color: rgb(19, 18, 18);
     border-radius: 12px;
     height: 50px;
     width: 100px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     border: solid white 1px;
+    padding: 5px 20px 10px 20px;
+}
+
+.readMoreBtn:hover {
+    box-shadow: black;
+}
+
+.readMoreBtn {
+    font-size: 1.5em;
+}
+
+@keyframes slidein {
+    0% {
+        margin-top: 10px;
+    }
+    100% {
+        margin-top: 0px;
+    }
 }
