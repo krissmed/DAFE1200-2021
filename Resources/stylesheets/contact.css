@@ -2,24 +2,48 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: auto;
     justify-content: space-evenly;
     align-items: center;
     padding: 3vh;
-    margin-top: 5rem;
+    overflow: visible;
 }
 header {
     text-align: center;
     width: 100%;
 }
 .cards {
-    border: 2px solid yellow;
+    text-align: center;
     padding: 1vh;
     margin: 1vh;
     max-width: 200px;
     min-width: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: default;
+}
+.cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
     .profilePic {
         width: 100%;
         height: 20%;
     }
+    .profileJobTitle {
+        color: grey;
+    }
+    .profileIcon{
+        width: 1rem;
+        height: 1rem;
+    }
+
+@media screen and (max-width: 1030px) {
+    .header {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container {
+        margin-top: 0;
+    }
+}
