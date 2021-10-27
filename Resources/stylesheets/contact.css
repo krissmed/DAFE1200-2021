@@ -36,6 +36,7 @@ header {
         height: 1rem;
     }
 
+    /*When screenwidth under 1030px*/
 @media screen and (max-width: 1030px) {
     .header {
         display: block;
