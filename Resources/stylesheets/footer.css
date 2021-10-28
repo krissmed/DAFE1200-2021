@@ -32,7 +32,8 @@
 
 /*Chooses the size of the footer logo */
 .footerlogo {
-    width: 60%;
+    padding-top: 6vh;
+    width: 50%;
     height: auto;
 }
 
