@@ -1,66 +1,9 @@
-/*
-
-.nav-bar{
-    display: flex;
-    width: 100% !important;
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 60px;
-    align-items: center;
-    padding: 0;
-}
-.nav-logo{
-    height: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.box {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .box:first-child > img { margin-right: auto; }
-
-  /*.box:nth-child(2) > li {
-      width: 100px;
-}*/
-  /*
-  .box:last-child  > img { margin-left: auto;  }
-
-.nav-all-items{
-    list-style: none;
-    padding: 0;
-    margin: 10px;
-}
-
-.nav-item-li{
-    width: auto;
-    text-align: center; 
-    margin: auto;
-}
-  
-
-.nav-item-li a, .nav-item-li a:link {
-    color:#000000; 
-    text-decoration:none; 
-    font:17px arial; 
-    outline:0; 
-    background-color:none;
-    width:100%; 
-    height:100%; 
-}
-*/
-
-
 .nav-bar { 
     width: 100% !important;
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 10000;
+    z-index: 1;
     height: 60px;
     align-items: center;
     display: flex;
@@ -74,14 +17,13 @@
 }
 
 .nav-item-li { 
-    width: auto;  
     text-align: center; 
-    margin: 0 5px;
+    margin: 0 20px;
     padding: 5px;
 }
 
 
-.nav-item-li a, .nav-item-li a:link {
+.nav-item-a, .nav-item-li a:link {
     color:#000000; 
     text-decoration:none; 
     font:17px arial; 
@@ -96,3 +38,117 @@
     margin-right: 10px;
     margin-left: 10px;
 }
+
+.active{
+    border-bottom: thick double #32ce3f;
+}
+
+.nav-item-li:not(.active):hover{
+    transition: linear 0.2s;
+    border-bottom: thick double #32ce3f;
+
+
+}
+
+@media (max-width: 728px){
+    .nav-all-items{
+        display: none;
+    }
+    .flagbox{
+        display: none;
+    }
+    .hamburger-nav-bar{
+        display: block;
+    }
+    .hamburger, .close{
+        display: block;
+    }
+}
+@media (min-width: 728px){
+    .nav-all-items{
+        display: flex;
+    }
+    .flagbox{
+        display: flex;
+    }
+    .hamburger-nav-bar{
+        display: none;
+    }
+    .hamburger, .close{
+        display: none;
+    }
+}
+
+
+
+
+.hamburger, .close {
+    z-index: 100000;
+    border: none;
+    cursor: pointer;
+    /* position absolute position the icons relative to the body because they have no position relative parents*/
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .hamburger {
+    background: white;
+  }
+  
+  .close {
+    background: black;
+  }
+  
+  .hamburger img, .close img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hamburger-nav-bar {
+    position: absolute;
+    /* a higher z-index put navbar above hamburger */
+    z-index: 100;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* basic menu styling*/
+    list-style: none;
+    background: black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* animate slide up/down */
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+  }
+  
+  /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
+  
+  .hamburger-nav-bar:target {
+    /* show navbar */
+    transform: translateY(0);
+  }
+  
+  .hamburger-li a {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    /* remove default underline and add our own with padding and border bottom */
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5rem;
+  }
+  
+  .hamburger-li a:hover, .hamburger-li a:focus {
+    /* show border bottom */
+    border-bottom: 1px solid white;
+  }
+  
