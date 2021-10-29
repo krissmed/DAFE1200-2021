@@ -87,7 +87,7 @@
     border: none;
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     width: 36px;
@@ -108,13 +108,13 @@
   }
   
   .hamburger-nav-bar {
-    position: absolute;
+    position: fixed;
     /* a higher z-index put navbar above hamburger */
-    z-index: 100;
+    z-index: 1000000000000000000000;
     top: -100px;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: calc(100% + 100px);
     overflow: hidden;
     /* basic menu styling*/
     list-style: none;
@@ -152,3 +152,18 @@
     border-bottom: 1px solid white;
   }
   
+#hamburger-nav-bar:target > li{
+    text-decoration: overline;
+
+}
+
+
+.hamburger-x-btn{
+    height: 36px;
+    width: 36px;
+    background-color: yellow;
+    top: 100px;
+    right: 70px;
+    position: absolute;
+}
+
