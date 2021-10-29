@@ -75,3 +75,14 @@ nav a {
     box-shadow: inset 200px 200px 0 0 #000000;
     color: white;
 }
+
+.bodyText{
+    font-size: 1.6em;
+    width: 50%;
+}
+.devide{
+    display: flex;
+}
+.devide img{
+    margin-left: 250px;
+}
