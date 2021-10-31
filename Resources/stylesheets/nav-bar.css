@@ -109,14 +109,12 @@
   
   .hamburger-nav-bar {
     position: fixed;
-    /* a higher z-index put navbar above hamburger */
     z-index: 1000000000000000000000;
     top: -100px;
     left: 0;
     width: 100%;
     height: calc(100% + 100px);
     overflow: hidden;
-    /* basic menu styling*/
     list-style: none;
     background: black;
     display: flex;
