@@ -42,7 +42,7 @@ nav a {
 
 .slideshow {
     min-height: 100vh;
-    background-color: #cb997e;
+    background-color: #cfcccc;
     overflow: hidden;
 }
 
@@ -53,24 +53,28 @@ nav a {
 }
 
 #frontpageImg {
+    background-image: url("Resources\images\frontpage.jpg");
     height: 100vh;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
 }
 
 .readMoreBtn {
-    background-color: #ffffff;
+    background-color: #cfcccc;
     text-decoration: none;
     color: rgb(19, 18, 18);
     height: 50px;
     width: 100px;
-    padding: 5px 5px 5px 5px;
+    padding: 6px 15px 6px 15px;
     font-size: 1.2em;
-    box-shadow: inset 0 0 0 0 #000000;
+    box-shadow: inset 0 0 0 0 #222121;
     transition:  ease 0.3s;
-    border:solid black 2px;
+    border:solid #222121 2px;
 }
 
 .readMoreBtn:hover {
-    box-shadow: inset 200px 200px 0 0 #000000;
+    box-shadow: inset 200px 200px 0 0 #222121;
     color: white;
 }
 

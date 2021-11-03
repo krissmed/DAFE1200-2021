@@ -10,7 +10,7 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
-
+*/
 function isElementvisible() {
     windowTop = window.screenTop
     console.log(windowTop)
