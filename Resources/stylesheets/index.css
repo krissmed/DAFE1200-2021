@@ -15,35 +15,13 @@ body {
     width: 100%;
 }
 
-
-/* Navigation bar at the top */
-
-nav {
-    position: sticky;
-    height: 5rem;
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a {
-    font-size: 2rem;
-    text-decoration: none;
-    color: black;
-}
-
-#navLogo {
-    height: 100%;
-}
-
-
 /* Show fullpage slideshow of text and images */
 
 .slideshow {
     min-height: 100vh;
     background-color: #cfcccc;
     overflow: hidden;
+    border-bottom: black solid 3px; /* Denne må fjernes før innlevering */
 }
 
 #slogan {
@@ -58,7 +36,14 @@ nav a {
     background-position-x: center;
     background-position-y: top;
     background-size: cover;
-}
+     /* Set a specific height */
+     min-height: 500px; 
+  
+     /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
 
 .readMoreBtn {
     background-color: #cfcccc;
@@ -87,4 +72,6 @@ nav a {
 }
 .devide img{
     margin-left: 250px;
+    width: 400px;
+    height: auto;
 }
