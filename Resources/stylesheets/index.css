@@ -31,18 +31,15 @@ body {
 }
 
 #frontpageImg {
-    background-image: url("Resources\images\frontpage.jpg");
+    background-image: url("../images/frontpage.jpg");
     height: 100vh;
     background-position-x: center;
     background-position-y: top;
     background-size: cover;
-     /* Set a specific height */
-     min-height: 500px; 
-  
-     /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
       }
 
 .readMoreBtn {
