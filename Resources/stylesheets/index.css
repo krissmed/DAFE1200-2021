@@ -1,3 +1,14 @@
+@media (max-width: 600px){
+    .split img{
+        display: none;
+    }
+    .split{
+        display: initial;
+    }
+    .bodyText{
+        width: 100% !important;
+    }
+}
 body {
     margin: 0;
     /* Remove default margin around the edges */
