@@ -155,10 +155,16 @@
     -ms-transform:translateY(0);
     transform:translateY(0)
 }
-.hamburger-nav-bar:target .hamburger-a-closed,.hamburger-nav-bar:target li{
+.hamburger-nav-bar:target li{
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex
+}
+.hamburger-nav-bar:target .hamburger-a-closed{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:block
+
 }
 .hamburger-li a{
     display:block;
