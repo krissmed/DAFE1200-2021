@@ -39,8 +39,11 @@ body {
 #frontpageImg {
     background-image: url("../images/frontpage.jpg");
     height: 100vh;
+}
 
-    }
+#img2{
+    background-image: url("../images/mobile-phone-3734545_1280.jpg");
+}
 
 .readMoreBtn {
     background-color: #cfcccc;
@@ -64,10 +67,10 @@ body {
     font-size: 1.6em;
     width: 50%;
 }
-.devide{
+.split{
     display: flex;
 }
-.devide img{
+.split img{
     margin-left: 250px;
     width: 400px;
     height: auto;
