@@ -9,8 +9,6 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(221, 190, 169, 200);
-    
-
 }
 
 .nav-all-items {
@@ -131,8 +129,9 @@
     list-style: none;
     position: fixed;
     padding: 0px;
-    height: calc(100% + 100px);
+    height: calc(100%);
     top: -100px;
+    overflow: scroll;
     width: 100%;
     background-color: #007009;
     z-index: 2;
@@ -143,14 +142,18 @@
 
 .hamburger-nav-bar li{
     margin-top: 25%;
-    display: flex;
+    display: none;
     justify-content: space-evenly;
 
 }
 
 
-.hamburger-nav-bar:target {
+.hamburger-nav-bar:target{
     transform: translateY(0);
+}
+
+.hamburger-nav-bar:target li{
+    display: flex;
 }
   
 .hamburger-li a{
