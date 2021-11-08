@@ -169,7 +169,7 @@
 .hamburger-li a{
     display:block;
     font-family:'Open Sans',sans-serif;
-    color:#fff;
+    color:rgb(0, 0, 0);
     font-weight:700;
     font-size:1.2rem;
     text-decoration:none;
