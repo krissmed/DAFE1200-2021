@@ -76,7 +76,7 @@
     .hamburger-nav-bar{
         display: none;
     }
-    .hamburger, .close{
+    .hamburger-a, .close{
         display: none;
     }
 }
@@ -84,41 +84,50 @@
 
 
 
-.hamburger, .close {
-    z-index: 100000;
-    border: none;
-    cursor: pointer;
-    /* position absolute position the icons relative to the body because they have no position relative parents*/
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 36px;
+  
+    
+.hamburger-line-open{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px;
+}
+
+.hamburger-line-closed{
+    width: 35px;
+    height: 5px;
+    top: 10px;
+    background-color: rgb(102, 6, 6);
+    margin: 6px;
+
+}
+
+.hamburger-a-closed{
+    top: 10px;
     height: 36px;
-  }
-  
-  .hamburger {
-    background: white;
-  }
-  
-  .close {
-    background: black;
-  }
-  
-  .hamburger img, .close img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .hamburger-nav-bar {
+    width: 36px;
+    z-index: 100000000000px;
+}
+
+.hamburger-a{
     position: fixed;
-    z-index: 1000000000000000000000;
+    top: 10px;
+    right: 18px;
+    height: 36px;
+    width: 36px;
+    z-index: 1;
+}
+  
+.hamburger-nav-bar {
+    position: fixed;
+    z-index: 2;
     top: -100px;
     left: 0;
     width: 100%;
     height: calc(100% + 100px);
     overflow: hidden;
     list-style: none;
-    background: black;
+    background: rgba(0, 94, 16, 0.445);
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
@@ -126,44 +135,27 @@
     /* animate slide up/down */
     transform: translateY(-100%);
     transition: transform 0.2s ease;
-  }
+}
   
   /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
   
-  .hamburger-nav-bar:target {
-    /* show navbar */
+.hamburger-nav-bar:target {
     transform: translateY(0);
-  }
+}
   
-  .hamburger-li a {
+.hamburger-li a {
     display: block;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
-    /* remove default underline and add our own with padding and border bottom */
     text-decoration: none;
     border-bottom: 1px solid black;
     padding-bottom: 0.5rem;
-  }
+}
   
-  .hamburger-li a:hover, .hamburger-li a:focus {
-    /* show border bottom */
+.hamburger-li a:hover, .hamburger-li a:focus {
     border-bottom: 1px solid white;
-  }
-  
-#hamburger-nav-bar:target > li{
-    text-decoration: overline;
-
 }
 
-
-.hamburger-x-btn{
-    height: 36px;
-    width: 36px;
-    background-color: yellow;
-    top: 100px;
-    right: 70px;
-    position: absolute;
-}
 
