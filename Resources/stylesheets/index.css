@@ -8,6 +8,10 @@
     .bodyText{
         width: 100% !important;
     }
+    .slideshow{
+        min-height: 65vh !important;
+        display: block;
+    }
 }
 body {
     margin: 0;
@@ -32,7 +36,6 @@ body {
     min-height: 100vh;
     background-color: #cfcccc;
     overflow: hidden;
-    border-bottom: black solid 3px; /* Denne må fjernes før innlevering */
 }
 
 #slogan {
