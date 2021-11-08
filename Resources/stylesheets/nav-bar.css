@@ -62,7 +62,7 @@
     .hamburger-nav-bar{
         display: block;
     }
-    .hamburger, .close{
+    .hamburger-a{
         display: block;
     }
 }
@@ -76,16 +76,12 @@
     .hamburger-nav-bar{
         display: none;
     }
-    .hamburger-a, .close{
+    .hamburger-a{
         display: none;
     }
 }
 
 
-
-
-  
-    
 .hamburger-line-open{
     width: 35px;
     height: 5px;
@@ -101,49 +97,49 @@
     margin: 6px;
 
 }
-
-.hamburger-a-closed{
-    top: 10px;
-    height: 36px;
-    width: 36px;
-    z-index: 100000000000px;
-}
-
 .hamburger-a{
     position: fixed;
     top: 10px;
     right: 18px;
     height: 36px;
-    width: 36px;
     z-index: 1;
 }
-  
-.hamburger-nav-bar {
+
+.hamburger-a-closed{
+    top: 10px;
+    right: 17px;
+    height: 36px;
     position: fixed;
-    z-index: 2;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: calc(100% + 100px);
-    overflow: hidden;
+}
+
+  
+.hamburger-nav-bar{
     list-style: none;
-    background: rgba(0, 94, 16, 0.445);
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    /* animate slide up/down */
+    position: fixed;
+    padding: 0px;
+    height: calc(100% + 100px);
+    top: -100px;
+    width: 100%;
+    background-color: #32ce3f8c;
+    z-index: 2;
     transform: translateY(-100%);
     transition: transform 0.2s ease;
+    margin-top: 100px;
 }
-  
-  /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
-  
+
+.hamburger-nav-bar li{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
 .hamburger-nav-bar:target {
     transform: translateY(0);
 }
   
-.hamburger-li a {
+.hamburger-li a{
     display: block;
     font-family: 'Open Sans', sans-serif;
     color: white;
