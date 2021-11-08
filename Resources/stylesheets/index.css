@@ -30,17 +30,17 @@ body {
     top: 200px;
 }
 
+.scrolling {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 #frontpageImg {
     background-image: url("../images/frontpage.jpg");
     height: 100vh;
-    background-position-x: center;
-    background-position-y: top;
-    background-size: cover;
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-      }
+
+    }
 
 .readMoreBtn {
     background-color: #cfcccc;
