@@ -40,12 +40,12 @@ body {
 
 #slogan {
     position: absolute;
+    width: 100%;
     color:white;
-    left: 38%;
     top: 200px;
-    background-color: (51, 170, 51, .7);    /*  70% opaque green */ 
-    border-radius: 15px;
     font-size: 1.5em;
+    text-align: center;
+    border: solid black 1px;
 }
 
 .scrolling {
