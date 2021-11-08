@@ -7,6 +7,7 @@
     }
     .bodyText{
         width: 100% !important;
+        font-size: 1.2em !important;
     }
     .slideshow{
         min-height: 65vh !important;
@@ -16,7 +17,6 @@
 body {
     margin: 0;
     /* Remove default margin around the edges */
-    height: 200%;
     overflow-x: hidden;
 }
 
@@ -40,8 +40,12 @@ body {
 
 #slogan {
     position: absolute;
-    left: 50px;
+    color:white;
+    left: 38%;
     top: 200px;
+    background-color: (51, 170, 51, .7);    /*  70% opaque green */ 
+    border-radius: 15px;
+    font-size: 1.5em;
 }
 
 .scrolling {
@@ -51,12 +55,16 @@ body {
 }
 
 #frontpageImg {
-    background-image: url("../images/frontpage.jpg");
+    background-image: url("../images/frontimage.png");
     height: 100vh;
 }
 
 #img2{
-    background-image: url("../images/mobile-phone-3734545_1280.jpg");
+    background-image: url("../images/mobile-phone-3734545_1280 (2).jpg");
+}
+.slideshow h1{
+    text-align: center;
+    font-size: 2.5em;
 }
 
 .readMoreBtn {
@@ -83,9 +91,9 @@ body {
 }
 .split{
     display: flex;
+    justify-content: space-evenly;
 }
 .split img{
-    margin-left: 250px;
     width: 400px;
     height: auto;
 }
