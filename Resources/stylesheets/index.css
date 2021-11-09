@@ -1,7 +1,4 @@
 @media (max-width: 600px){
-    .split img{
-        display: none;
-    }
     .split{
         display: initial;
     }
@@ -13,7 +10,38 @@
         min-height: 65vh !important;
         display: block;
     }
+
+    
+    margin: ;
 }
+
+ @media only screen and (max-width: 950px) {
+    .split img{
+        display: none;
+    }
+    .split{
+        display: inline;
+        margin: 0px 5vw 0px 5vw;
+        justify-content: start;
+    }
+    .bodyText{
+        width: 100% !important;
+    }
+    
+ }
+ 
+ @media only screen and (min-width: 768px) {
+
+ }
+ 
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+
+ } 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 body {
     margin: 0;
     /* Remove default margin around the edges */
@@ -38,14 +66,19 @@ body {
     overflow: hidden;
 }
 
+.text-container{
+    display: inline;
+    border: solid black 1px;
+}
 #slogan {
     position: absolute;
     width: 100%;
     color:white;
-    top: 200px;
-    font-size: 1.5em;
-    text-align: center;
-    border: solid black 1px;
+    top: 350px;
+    font-size: 4em;
+    text-align: left;
+    margin-left: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .scrolling {
@@ -65,6 +98,7 @@ body {
 .slideshow h1{
     text-align: center;
     font-size: 2.5em;
+    font-style: bold;
 }
 
 .readMoreBtn {
@@ -78,6 +112,7 @@ body {
     box-shadow: inset 0 0 0 0 #222121;
     transition:  ease 0.3s;
     border:solid #222121 2px;
+    margin-left: 3vw;
 }
 
 .readMoreBtn:hover {
@@ -91,9 +126,8 @@ body {
 }
 .split{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .split img{
     width: 400px;
-    height: auto;
 }
