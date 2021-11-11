@@ -15,8 +15,6 @@
     -webkit-box-pack:justify;
     -ms-flex-pack:justify;
     justify-content:space-between;
-    background-color: #ffffff;
-    box-shadow: black;
 }
 .nav-all-items{
     list-style:none;
@@ -30,7 +28,7 @@
     padding:5px
 }
 .nav-item-a,.nav-item-li a:link{
-    color:#000;
+    color:#fff;
     text-decoration:none;
     font:17px arial;
     outline:0;
