@@ -56,7 +56,15 @@ body {
     min-height: 100vh;
     background-color: #cfcccc;
     overflow: hidden;
+    position: sticky;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    position: -webkit-sticky;
+    scroll-snap-align: start;
+    top: 0;
 }
+
 
 .text-container{
     display: inline;
@@ -82,6 +90,7 @@ body {
 #frontpageImg {
     background-image: url("../images/frontimage.png");
     height: 100vh;
+    position: sticky;
 }
 
 #img2{
