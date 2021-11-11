@@ -148,9 +148,9 @@ html{
 }
 .logo-container {
     margin: 0 auto;
-    margin-left: 15px;
+    margin-left: 0px;
     position: absolute;
-    top: 30%;
+    top: 25%;
     width: 100%;
 }
 .logo-text{
@@ -179,7 +179,7 @@ html{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-right: 25vw;
+    margin-right: 0vw;
 }
 .logo-img{
     height: 80px;
