@@ -167,6 +167,12 @@ html{
     font-weight: bolder;
     font-size: 30pt;
 }
+.green{
+    color: darkgreen;
+}
+.orange{
+    color: rgb(182, 100, 0);
+}
 
 .logo-flex{
     display: flex;
