@@ -155,11 +155,13 @@ html{
 }
 .logo-text{
     margin-left: 10px;
-    color: rgb(199, 198, 198);
+    color: rgb(237, 255, 225);
     font-size: 18pt;
+    font-weight: 100;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .logo-text:first-child{
     font-weight: bolder;
@@ -189,8 +191,6 @@ html{
     animation-duration: 4s;  
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
-.a-arrows{
 }
 .arrow-box{
     display: flex;
