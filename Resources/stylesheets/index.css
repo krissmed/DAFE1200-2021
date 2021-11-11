@@ -1,94 +1,80 @@
-@media (max-width: 600px){
-    .split{
+@media (max-width: 600px) {
+    .split {
         display: initial;
     }
-    .bodyText{
+    .bodyText {
         width: 100% !important;
         font-size: 1.2em !important;
     }
-    .slideshow{
+    .slideshow {
         min-height: 65vh !important;
         display: block;
+    }
 }
-}
-@media only screen and (max-width: 500px) {
 
-    .logo-flex{
+@media only screen and (max-width: 500px) {
+    .logo-flex {
         flex-direction: column !important;
         margin-right: 0px !important;
     }
-    .logo-container{
+    .logo-container {
         margin-right: 0px !important;
         margin-left: 0px !important;
     }
-    .logo-text{
+    .logo-text {
         margin-right: 0px !important;
     }
-    
- }
- @media only screen and (max-width: 380px) {
+}
 
-    .logo-img{
+@media only screen and (max-width: 380px) {
+    .logo-img {
         height: 50px !important;
         width: 90px !important;
     }
-    .logo-text:first-child{
+    .logo-text:first-child {
         font-size: 15pt !important;
     }
-    .logo-text{
+    .logo-text {
         font-size: 12pt !important;
     }
- }
+}
 
-
- @media only screen and (max-width: 950px) {
-
-    .split{
+@media only screen and (max-width: 950px) {
+    .split {
         flex-direction: column;
         align-items: center;
     }
-    .slideshow{
+    .slideshow {
         position: relative !important;
         height: auto !important;
     }
-    .bodyText{
+    .bodyText {
         width: 80% !important;
     }
+}
 
-    
- }
-
- 
- @media only screen and (min-width: 950px) and (max-height: 750px) {
-
-
-    .split{
+@media only screen and (min-width: 950px) and (max-height: 750px) {
+    .split {
         flex-direction: column !important;
         align-items: center !important;
     }
-    .slideshow{
+    .slideshow {
         position: relative !important;
         height: auto !important;
     }
-    .bodyText{
+    .bodyText {
         width: 80% !important;
     }
-    
- }
+}
 
- 
- @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {}
 
- }
- 
- @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {}
 
- }
- 
- @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {}
 
- }
- /* Import external font*/
+/* Import external font*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 body {
     margin: 0;
@@ -98,13 +84,18 @@ body {
 }
 
 @keyframes arrow-animation {
-    0% {bottom: 35px;}
-    50% {bottom: 50px;}
-    100% {bottom: 35px;}
-  }
-  
+    0% {
+        bottom: 35px;
+    }
+    50% {
+        bottom: 50px;
+    }
+    100% {
+        bottom: 35px;
+    }
+}
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -126,26 +117,23 @@ html{
     top: 0;
 }
 
-.odd{
+.odd {
     background-color: #222121;
     color: #aaaaaa;
     text-decoration-color: #aaaaaa;
     position: relative;
-
 }
 
-  
-
-.slideshow-div{
+.slideshow-div {
     margin-top: 75px;
     margin-bottom: 15px;
 }
 
-
-.text-container{
+.text-container {
     display: inline;
     border: solid black 1px;
 }
+
 .logo-container {
     margin: 0 auto;
     margin-left: 0px;
@@ -153,7 +141,8 @@ html{
     top: 25%;
     width: 100%;
 }
-.logo-text{
+
+.logo-text {
     margin-left: 10px;
     color: rgb(237, 255, 225);
     font-size: 18pt;
@@ -163,46 +152,53 @@ html{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.logo-text:first-child{
+
+.logo-text:first-child {
     font-weight: bolder;
     font-size: 30pt;
 }
-.green{
+
+.green {
     color: darkgreen;
 }
-.orange{
+
+.orange {
     color: rgb(182, 100, 0);
 }
 
-.logo-flex{
+.logo-flex {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-right: 0vw;
 }
-.logo-img{
+
+.logo-img {
     height: 80px;
     width: 150px;
 }
-.span-rebound{
+
+.span-rebound {
     color: darkgreen;
 }
 
-.div-arrows{
+.div-arrows {
     position: absolute;
     bottom: 35px;
     width: 100%;
     animation-name: arrow-animation;
-    animation-duration: 4s;  
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-.arrow-box{
+
+.arrow-box {
     display: flex;
     justify-content: center;
 }
-.arrows{
+
+.arrows {
     height: 80px;
     width: 50px;
 }
@@ -219,10 +215,11 @@ html{
     position: sticky;
 }
 
-#img2{
+#img2 {
     background-image: url("../images/mobile-phone-3734545_1280 (2).jpg");
 }
-.slideshow-title{
+
+.slideshow-title {
     text-align: center;
     font-size: 2.5em;
     font-style: bold;
@@ -238,15 +235,15 @@ html{
     padding: 6px 15px 6px 15px;
     font-size: 1.2em;
     box-shadow: inset 0 0 0 0 #222121;
-    transition:  ease 0.3s;
-    border:solid #222121 2px;
+    transition: ease 0.3s;
+    border: solid #222121 2px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     margin-top: 15px;
 }
 
-.btn-on-black{
+.btn-on-black {
     border: solid #aaaaaa 2px;
     box-shadow: inset 0 0 0 0 #aaaaaa;
     background-color: #222121;
@@ -257,21 +254,24 @@ html{
     box-shadow: inset 200px 200px 0 0 #222121;
     color: white;
 }
-.btn-on-black:hover{
+
+.btn-on-black:hover {
     box-shadow: inset 200px 200px 0 0 #aaaaaa;
     color: #222121;
 }
 
-.bodyText{
+.bodyText {
     font-size: 1.3em;
     width: 50%;
 }
-.split{
+
+.split {
     margin-top: 75px;
     display: flex;
     justify-content: space-evenly;
 }
-.split img{
+
+.split img {
     height: 300px;
     border-radius: 7px;
 }
