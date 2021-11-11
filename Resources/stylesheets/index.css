@@ -257,6 +257,10 @@ html{
     box-shadow: inset 200px 200px 0 0 #222121;
     color: white;
 }
+.btn-on-black:hover{
+    box-shadow: inset 200px 200px 0 0 #aaaaaa;
+    color: #222121;
+}
 
 .bodyText{
     font-size: 1.3em;
