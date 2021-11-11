@@ -57,6 +57,25 @@
 
     
  }
+
+ 
+ @media only screen and (min-width: 950px) and (max-height: 750px) {
+
+
+    .split{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .slideshow{
+        position: relative !important;
+        height: auto !important;
+    }
+    .bodyText{
+        width: 80% !important;
+    }
+    
+ }
+
  
  @media only screen and (min-width: 768px) {
 
