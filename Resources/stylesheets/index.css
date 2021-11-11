@@ -97,6 +97,17 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+@keyframes arrow-animation {
+    0% {bottom: 35px;}
+    50% {bottom: 50px;}
+    100% {bottom: 35px;}
+  }
+  
+
+html{
+    scroll-behavior: smooth;
+}
+
 #headerImg {
     width: 100%;
 }
@@ -170,6 +181,26 @@ body {
     color: darkgreen;
 }
 
+.div-arrows{
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    animation-name: arrow-animation;
+    animation-duration: 4s;  
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.a-arrows{
+}
+.arrow-box{
+    display: flex;
+    justify-content: center;
+}
+.arrows{
+    height: 80px;
+    width: 50px;
+}
+
 .scrolling {
     background-size: cover;
     background-attachment: fixed;
@@ -207,7 +238,6 @@ body {
     margin-right: auto;
     display: flex;
     margin-top: 15px;
-    border-radius: 4px;
 }
 
 .readMoreBtn:hover {
