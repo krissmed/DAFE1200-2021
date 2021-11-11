@@ -81,19 +81,22 @@ body {
     width: 100%;
 }
 .logo-text{
-    color: rgb(8, 41, 0);
+    color: rgb(199, 198, 198);
 }
 .logo-flex{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-right: 25vw;
 }
 .logo-img{
     height: 60px;
-    width: 200px;
+    width: 150px;
 }
-
+.span-rebound{
+    color: darkgreen;
+}
 
 .scrolling {
     background-size: cover;
