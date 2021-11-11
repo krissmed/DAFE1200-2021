@@ -82,7 +82,16 @@ body {
 }
 .logo-text{
     color: rgb(199, 198, 198);
+    font-size: 15pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+.logo-text:first-child{
+    font-weight: bolder;
+    font-size: 30pt;
+    margin-top: 10px;
+}
+
 .logo-flex{
     display: flex;
     flex-direction: row;
@@ -91,7 +100,7 @@ body {
     margin-right: 25vw;
 }
 .logo-img{
-    height: 60px;
+    height: 80px;
     width: 150px;
 }
 .span-rebound{
