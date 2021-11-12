@@ -1,3 +1,12 @@
-.source-container{
+#text-sources{
+    display: flex;
+    flex-direction: column;
+}
+.text-source-container {
     border: solid black 1px;
+    margin-top: 30px;
+}
+#top-navigaion{
+    display:flex;
+    justify-content: space-evenly;
 }
