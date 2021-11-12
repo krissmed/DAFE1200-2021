@@ -121,7 +121,7 @@ html {
     background-color: #222121;
     color: #aaaaaa;
     text-decoration-color: #aaaaaa;
-    position: relative;
+        position: relative;
 }
 
 .slideshow-div {
@@ -259,13 +259,14 @@ html {
 .bodyText {
     font-size: 1.4em;
     width: 50%;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .split {
     margin-top: 75px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
 }
 
 .split img {
