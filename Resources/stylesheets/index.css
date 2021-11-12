@@ -215,10 +215,6 @@ html {
     position: sticky;
 }
 
-#img2 {
-    background-image: url("../images/mobile-phone-3734545_1280 (2).jpg");
-}
-
 .slideshow-title {
     text-align: center;
     font-size: 2.5em;
@@ -261,8 +257,9 @@ html {
 }
 
 .bodyText {
-    font-size: 1.3em;
+    font-size: 1.4em;
     width: 50%;
+    line-height: 1.5;
 }
 
 .split {
@@ -272,6 +269,6 @@ html {
 }
 
 .split img {
-    height: 300px;
+    height: 350px;
     border-radius: 7px;
 }
