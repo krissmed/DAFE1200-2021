@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="no">
-
+<html>
 <head>
     <link rel="stylesheet" href="Resources/stylesheets/contact.css">
     <link rel="stylesheet" href="Resources/stylesheets/index.css">
@@ -11,167 +10,153 @@
     <meta charset="UTF-8">
     <!--Better control of layout on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rebound</title>
 
 </head>
-
 <body>
-    <!------------------------- NAVBAR ----------------------------------->
-    <nav class="nav-bar">
-        <a href="index.html" class="box">
-            <img src="Resources/images/infilogo.png" alt="Rebound logo" class="nav-logo">
-        </a>
-        <ul class="nav-all-items box">
-            <li class="nav-item-li">
-                <a class="nav-item-a" href="index.html">Home</a>
-            </li>
-
-            <li class="nav-item-li">
-                <a class="nav-item-a" href="problem.html">Problem</a>
-            </li>
-
-            <li class="nav-item-li">
-                <a class="nav-item-a" href="solution.html">Solution</a>
-            </li>
-
-            <li class="nav-item-li">
-                <a class="nav-item-a" href="aboutus.html">About us</a>
-            </li>
-
-            <li class="nav-item-li active">
-                <a class="nav-item-a" href="contact.html">Contact</a>
-            </li>
-        </ul>
-        <a href="TODO" class="box flagbox">
-            <img src="Resources/images/norge.png" alt="Norweigan flag" class="nav-logo flag">
-        </a>
-    </nav>
-    <ul class="hamburger-nav-bar" id="hamburger-nav-bar">
-        <li class="hamburger-li"><a href="index.html">Home</a></li>
-        <li class="hamburger-li"><a href="problem.html">Problem</a></li>
-        <li class="hamburger-li"><a href="solution.html">Solution</a></li>
-        <li class="hamburger-li"><a href="aboutus.html">About us</a></li>
-        <li class="hamburger-li"><a href="contact.html">Contact</a></li>
-
-        <a href="#" class="hamburger-a-closed">
-            <div class="hamburger-line-closed"></div>
-            <div class="hamburger-line-closed"></div>
-            <div class="hamburger-line-closed"></div>
-        </a>
-    </ul>
-
-    <a class="hamburger-a" href="#hamburger-nav-bar">
-        <div class="hamburger-line-open"></div>
-        <div class="hamburger-line-open"></div>
-        <div class="hamburger-line-open"></div>
+<!------------------------- NAVBAR ----------------------------------->
+<nav class="nav-bar">
+    <a href="index.html" class="box">
+        <img src="Resources/images/infilogo.png" alt="Rebound logo" class="nav-logo">
     </a>
+    <ul class="nav-all-items box">
+        <li class="nav-item-li active">
+            <a class="nav-item-a" href="index.html">Home</a>
+        </li>
+        
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="problem.html">Problem</a>
+        </li>
 
-    <!------------------------- CONTENT ----------------------------------->
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="solution.html">Solution</a>
+        </li>
+
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="aboutus.html">About us</a>
+        </li>
+
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="contact.html">Contact</a>
+        </li>
+    </ul>
+    <a href="TODO" class="box flagbox">
+        <img src="Resources/images/norge.png" alt="Norweigan flag" class="nav-logo flag">
+    </a>
+</nav>
+<ul class="hamburger-nav-bar" id="hamburger-nav-bar">
+    <li class="hamburger-li"><a href="#">Home</a></li>
+    <li class="hamburger-li"><a href="#">Profile</a></li>
+    <li class="hamburger-li"><a href="#">About</a></li>
+    <li class="hamburger-li"><a href="#">Contacts</a></li>
+    <a class="close" href="#">
+      <img src="https://ljc-dev.github.io/testing0/ham-close.svg" alt="close">
+    </a>
+  </ul>
+  <a class="hamburger" href="#hamburger-nav-bar">
+      <img src="https://ljc-dev.github.io/testing0/ham.svg" alt="menu">
+  </a>
+
+<!------------------------- CONTENT ----------------------------------->
 
     <!-- Container -->
-    <div class="slideshow container">
-        <div class="header">
-            <h1>Våre Ansatte</h1>
-            <h2>Kontakt Info</h2>
-        </div>
-        <!--Cards to display team members-->
-        <div class="cards">
-            <img src="Resources/pictures/TeamMembers/person2.jpg" alt="Profile Picture" class="profilePic">
-            <h2 class="profileName">Sophie Parat</h2>
-            <p class="profileJobTitle">CEO & Grunnlegger</p>
-            <p class="profileInfo"><img src="Resources/images/call.png" alt="Phone" class="profileIcon"> +47 67 90 37 17
-            </p>
-            <p class="profileInfo"><img src="Resources/images/email.png" alt="Phone" class="profileIcon">
-                SophieParat@rebound.no</p>
-        </div>
-        <div class="cards">
-            <img src="Resources/pictures/TeamMembers/person1.png" alt="Profile Picture" class="profilePic">
-            <h2 class="profileName">Samuel Stokke</h2>
-            <p class="profileJobTitle">CTO & Med-Grunnlegger</p>
-            <p class="profileInfo"><img src="Resources/images/call.png" alt="Phone" class="profileIcon"> +47 95 34 27 67
-            </p>
-            <p class="profileInfo"><img src="Resources/images/email.png" alt="Phone" class="profileIcon">
-                Samuel@rebound.no</p>
-        </div>
-        <div class="cards">
-            <img src="Resources/pictures/TeamMembers/person3.jpg" alt="Profile Picture" class="profilePic">
-            <h2 class="profileName">Karen Persson</h2>
-            <p class="profileJobTitle">Servicetekniker</p>
-            <p class="profileInfo"><img src="Resources/images/call.png" alt="Phone" class="profileIcon"> +47 95 00 07 25
-            </p>
-            <p class="profileInfo"><img src="Resources/images/email.png" alt="Phone" class="profileIcon">
-                PerssonKaren@rebound.no</p>
-        </div>
-        <div class="cards">
-            <img src="Resources/pictures/TeamMembers/person4.jpg" alt="Profile Picture" class="profilePic">
-            <h2 class="profileName">Josef Knutsson</h2>
-            <p class="profileJobTitle">Kundebehandling</p>
-            <p class="profileInfo"><img src="Resources/images/call.png" alt="Phone" class="profileIcon"> +47 45 54 98 01
-            </p>
-            <p class="profileInfo"><img src="Resources/images/email.png" alt="Phone" class="profileIcon">
-                Josef123@rebound.no</p>
-        </div>
+<div class="slideshow container">
+    <div class="header">
+        <h1>Våre Ansatte</h1>
+        <h2>Kontakt Info</h2>
     </div>
+    <!--Cards to display team members-->
+    <div class="cards">
+        <img src="Resources/pictures/TeamMembers/person2.jpg" alt="Profile Picture" class="profilePic">
+        <h2 class="profileName">Sophie Parat</h2>
+        <p class="profileJobTitle">CEO & Grunnlegger</p>
+        <p class="profileInfo"><img src="Resources/images/call.png" alt="Phone" class="profileIcon"> +47 67 90 37 17</p>
+        <p class="profileInfo"><img src="Resources/images/email.png" alt="Phone" class="profileIcon"> SophieParat@rebound.no</p>
+    </div>
+    <div class="cards">
+        <img src="Resources/pictures/TeamMembers/person1.png" alt="Profile Picture" class="profilePic">
+        <h2 class="profileName">Samuel Stokke</h2>
+        <p class="profileJobTitle">CTO & Med-Grunnlegger</p>
+        <p class="profileInfo"><img src="Resources/images/call.png" alt="Phone" class="profileIcon"> +47 95 34 27 67</p>
+        <p class="profileInfo"><img src="Resources/images/email.png" alt="Phone" class="profileIcon"> Samuel@rebound.no</p>
+    </div>
+    <div class="cards">
+        <img src="Resources/pictures/TeamMembers/person3.jpg" alt="Profile Picture" class="profilePic">
+        <h2 class="profileName">Karen Persson</h2>
+        <p class="profileJobTitle">Servicetekniker</p>
+        <p class="profileInfo"><img src="Resources/images/call.png" alt="Phone" class="profileIcon"> +47 95 00 07 25</p>
+        <p class="profileInfo"><img src="Resources/images/email.png" alt="Phone" class="profileIcon"> PerssonKaren@rebound.no</p>
+    </div>
+    <div class="cards">
+        <img src="Resources/pictures/TeamMembers/person4.jpg" alt="Profile Picture" class="profilePic">
+        <h2 class="profileName">Josef Knutsson</h2>
+        <p class="profileJobTitle">Kundebehandling</p>
+        <p class="profileInfo"><img src="Resources/images/call.png" alt="Phone" class="profileIcon"> +47 45 54 98 01</p>
+        <p class="profileInfo"><img src="Resources/images/email.png" alt="Phone" class="profileIcon"> Josef123@rebound.no</p>
+    </div>
+</div>
 
-    <!------------------------- FOOTER CONTAINER ----------------------------------->
-    <footer class="footer">
+ <!------------------------- FOOTER CONTAINER ----------------------------------->
+ <footer class="footer">
 
-        <!--Box where the adress, logo and mail button will be-->
-        <div class="footeraddr">
-            <!--Adding the logo-->
-            <img class="footerlogo" src="Resources/images/logo.png" alt="logo footer">
-        </div>
-        <!--Makes a bracket for the for the links for navigation-->
-        <ul class="footernav">
-            <li class="navitem">
-                <!--Makes the titel over the bracket-->
-                <h2 class="navtitle">Our Work</h2>
-                <!--Creates the bracket-->
-                <ul class="navul">
-                    <li>
-                        <a href="contact.html#faqDiv">Sources</a>
-                    </li>
-                    <li>
-                        <a href="contact.html#costDiv">Team</a>
-                    </li>
+    <!--Box where the adress, logo and mail button will be-->
+    <div class="footeraddr">
+        <!--Adding the logo-->
+        <img class="footerlogo" src="Resources/images/logo.png" alt="logo footer">
+    </div>
+    <!--Makes a bracket for the for the links for navigation-->
+    <ul class="footernav">
+        <li class="navitem">
+            <!--Makes the titel over the bracket-->
+            <h2 class="navtitle">Our Work</h2>
+            <!--Creates the bracket-->
+            <ul class="navul">
+                <li>
+                    <a href="contact.html#faqDiv">Sources</a>
+                </li>
+                <li>
+                    <a href="contact.html#costDiv">Team</a>
+                </li>
 
-                </ul>
+            </ul>
 
-            <li class="navitem">
-                <h2 class="navtitle">Address</h2>
+        <li class="navitem">
+            <h2 class="navtitle">Address</h2>
+            
 
+        <address>
+            Pilestredet 35, 0166 Oslo
+            <br>
+            <!--Makes the mail us button-->
+            <a class="footerbtn" href="mailto:Support@rebound.com">Email Us</a>
+        </address>
+        </li>
+        <!--Sosial media-->
+        <li class="navitem">
+            <h2 class="navtitle">Social</h2>
+            <ul class="navul">
+                <li>
+                    <a href="https://facebook.com">
+                        <img src="assets/Images/facebook.svg" class=sosialimg
+                             alt="facebook">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="assets/Images/instagram.svg" class=sosialimg
+                             alt="instagram">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="assets/Images/twitter.svg" class=sosialimg
+                             alt=twitter>
+                    </a>
+                    <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
+                        <img src="assets/Images/github.svg"
+                             class=sosialimg alt="github">
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</footer>
 
-                <address>
-                    Pilestredet 35, 0166 Oslo
-                    <br>
-                    <!--Makes the mail us button-->
-                    <a class="footerbtn" href="mailto:Support@rebound.com">Email Us</a>
-                </address>
-            </li>
-            <!--Sosial media-->
-            <li class="navitem">
-                <h2 class="navtitle">Social</h2>
-                <ul class="navul">
-                    <li>
-                        <a href="https://facebook.com">
-                            <img src="Resources/Images/facebook.svg" class=sosialimg alt="facebook">
-                        </a>
-                        <a href="https://instagram.com">
-                            <img src="Resources/Images/instagram.svg" class=sosialimg alt="instagram">
-                        </a>
-                        <a href="https://twitter.com">
-                            <img src="Resources/Images/twitter.svg" class=sosialimg alt=twitter>
-                        </a>
-                        <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
-                            <img src="Resources/Images/github.svg" class=sosialimg alt="github">
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </footer>
-
-    <script src="Resources/scripts/index.js"></script>
+<script src="Resources/scripts/index.js"></script>
 </body>
-
 </html>
