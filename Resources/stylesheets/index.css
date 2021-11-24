@@ -22,7 +22,7 @@
 @media (max-width: 1120px){
     .bodyText{
         padding-right: 0.5vw !important;
-        padding-left: 0.5vw !important;
+        padding-left: 1vw !important;
     }
     .split img{
         height: 300px !important;
@@ -34,7 +34,7 @@
     .bodyText{
         font-size: 1em !important;
         padding-right: 0vw !important;
-        padding-left: 0vw !important;
+        padding-left: 0.5vw !important;
 
     }
 
