@@ -31,8 +31,11 @@
 
 @media screen and (max-width: 544px){
     .rbmtall{
+        height: 65vh !important;
+        margin-top: 12.5vh !important;
+    }
+    .ss-solution{
         height: 100vh !important;
-        width: 50vw !important;
     }
     .about{
         width: 45% !important;
