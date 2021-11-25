@@ -58,10 +58,14 @@ body {
         position: absolute;
         width: 100%;
         display: flex;
-        margin: 83vh auto 0;
+        margin: 50vh auto 0;
         justify-content: center;
-
     }
+
+    .mobileArrow {
+        display: none;
+    }
+
 
 
 /*Slide 2 with written conten*/
@@ -109,9 +113,15 @@ body {
     .underslides {
         min-width: 50%;
     }
+    .desktopArrow {
+        display: none;
+    }
+    .mobileArrow {
+        display: block;
+    }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 560px){
     .underslides {
         width: 100%;
         margin-top: 50px;
@@ -119,5 +129,4 @@ body {
     .graph {
         margin: 30px;
     }
-
 }
