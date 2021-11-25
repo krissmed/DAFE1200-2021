@@ -1,12 +1,10 @@
 /*Oppretter en boks rundt pilene*/
 .scroll-div {
-	display: fixed;
-	margin: auto;
+	display: flex;
 	width: 2.4em;
-	height: 10em;
-	margin-top: 12.5em;
 }
  
+
 .arrows-green
 {
   display: inline-block;
@@ -16,11 +14,11 @@
   height: 1.6em;
 
   /*Bestemmer størrelsen på margin*/
-  margin: 0 0 0.2em 0.2em;
+  margin: 0 0 0.4em 0.4em;
 
   /*Setter fargen på border til solid hvit slik at det ser ut som piler*/
-  border-right:  solid darkgreen;
-  border-bottom:  solid darkgreen;
+  border-right:  solid rgb(0, 109, 15) 3px;
+  border-bottom:  solid rgb(0, 109, 15) 3px;
 
   
   
@@ -86,7 +84,8 @@
 /*Setter animation til alle tre klassene vi bruker til pilene*/
 .en, .to, .tre
 {
-    animation: scroll-ani 1s infinite;
+    animation: scroll-ani 2s infinite;
+    animation-timing-function: linear;
 }
 
 /*Ettersom at pil nr en ikke har noen overseg trenger vi kun å dytte pil to og tre lengere opp.*/
@@ -120,20 +119,20 @@
     }
 20% {
     
-    opacity: 0.20;
+    opacity: 0.50;
     }
 
 40%  { 
     
-    opacity: 0.40;
+    opacity: 1;
     }
 60% {
     
-    opacity: 0.60;
+    opacity: 1;
     }
 80% {
     
-    opacity: 0.80;
+    opacity: 1;
     }
 100% { 
     

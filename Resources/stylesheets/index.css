@@ -40,14 +40,14 @@
 
 }
 
-@media (max-height: 500px){
+/*@media (max-height: 500px){
     .div-arrows{
         bottom: 0px !important;
     }
     .scroll-div{
         height: 7em !important;
     }
-}
+}*/
 
 
 @media only screen and (max-width: 500px) {
@@ -59,9 +59,20 @@
         margin-right: 0px !important;
         margin-left: 0px !important;
     }
-    .logo-text {
+    .logo-img {
+        height: 50px !important;
+        width: 90px !important;
+    }
+    .logo-text:first-child {
+        font-size: 20pt !important;
         margin-right: 0px !important;
     }
+    .logo-text {
+        font-size: 16pt !important;
+        margin-right: 0px !important;
+
+    }
+
 }
 
 @media only screen and (max-width: 380px) {
@@ -119,7 +130,7 @@
         margin-top: 10px !important;
     }
     .logo-container{
-        top: 20% !important;
+        top: 15% !important;
     }
 
 }
@@ -191,7 +202,7 @@ html {
     margin: 0 auto;
     margin-left: 0px;
     position: absolute;
-    top: 25%;
+    top: 12%;
     width: 100%;
 }
 
@@ -219,6 +230,10 @@ html {
     color: rgb(182, 100, 0);
 }
 
+.red{
+    color: rgb(182, 100, 0);
+}
+
 .logo-flex {
     display: flex;
     flex-direction: row;
@@ -238,12 +253,12 @@ html {
 
 .div-arrows {
     position: absolute;
-    bottom: 35px;
+    bottom: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    /*animation-name: arrow-animation;*/
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    z-index: 10;
 }
 
 .arrow-box {
