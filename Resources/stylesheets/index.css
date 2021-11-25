@@ -252,8 +252,9 @@ html {
 }
 
 #frontpageImg {
-    background-image: url("../images/ewaste3.jpg");
+    background-image: url("../images/RTX1IUQV_China-Cellphone-waste.jpg");
     height: 100vh;
+    filter: grayscale(100%);
     position: sticky;
 }
 
