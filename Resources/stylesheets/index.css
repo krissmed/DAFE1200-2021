@@ -252,7 +252,7 @@ html {
 }
 
 #frontpageImg {
-    background-image: url("../images/ew.png");
+    /*background-image: url("../images/ew.png");*/
     height: 100vh;
     position: sticky;
 }
