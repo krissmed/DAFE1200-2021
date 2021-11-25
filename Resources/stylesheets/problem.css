@@ -14,7 +14,7 @@ body {
 }
 
 /*Front page with the 2 slides parted on desktop*/
-.frontPage{
+.frontPage {
     display: flex;
     flex-flow: row wrap;
     margin: 0;
@@ -26,16 +26,16 @@ body {
         display: block;
         text-align: center;
     }
-        .logo-img{
+        .logo-img {
             height: 10vh;
             width: 25vw;
             position: relative;
-            margin-top: 50%;
+            margin-top: 40%;
         }
         .slide1Title {
             color: rgb(7, 72, 19);
             position: relative;
-            margin-top: 50px;
+            margin-top: 40px;
             font-size: 4vw;
         }
     .slide2Main {
@@ -45,7 +45,7 @@ body {
         display: inline-block;
     }
         .slide2Main h2{
-            margin-top: 30%;
+            margin-top: 20%;
         }
         p {
             margin: 20px 30px 0;
@@ -78,13 +78,14 @@ body {
     width: 100vw;
     min-height: 50vh;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     margin: auto;
     justify-content: space-evenly;
+    align-items: flex-start;
 }
 
     .underslides {
-        width: 30%;
+       width: 30%;
     }
 
     .underslides h3 {
@@ -95,3 +96,28 @@ body {
         width: 80%;
         margin: 10px auto;
     }
+
+
+@media only screen and (max-width: 768px){
+    .slide1Main {
+        width: 100%;
+    }
+    .slide2Main {
+        width: 100%;
+    }
+
+    .underslides {
+        min-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .underslides {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .graph {
+        margin: 30px;
+    }
+
+}

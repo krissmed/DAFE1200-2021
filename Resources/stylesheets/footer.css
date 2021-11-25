@@ -12,7 +12,7 @@
     position: relative;
     bottom: 0;
     width: 95vw;
-    height: 30vh;
+    min-height: 30vh;
     background-color: #edf5e1;
 }
     /*Properties when hovered over*/
@@ -22,13 +22,6 @@
     /*Makes the content in the box flex*/
     .footer > * {
         flex: 1 100%;
-    }
-
-    @media (max-width: 1000px) {
-        .footer{
-            height: 80vh;
-        }
-    
     }
 
 /*Styles the adress bar */
