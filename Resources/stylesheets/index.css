@@ -253,8 +253,12 @@ html {
 
 #frontpageImg {
     /*background-image: url("../images/ew.png");*/
-    /*height: 100vh;*/
+    height: 100vh;
     position: sticky;
+}
+
+#front-img{
+    filter: blur(2px);
 }
 
 .slideshow-title {
