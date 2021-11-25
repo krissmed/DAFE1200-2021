@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lnag="no">
-
+<html>
 <head>
     <link rel="stylesheet" href="Resources/stylesheets/index.css">
     <link rel="stylesheet" href="Resources/stylesheets/footer.css">
@@ -11,59 +10,36 @@
     <meta charset="UTF-8">
     <!--Better control of layout on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rebound</title>
-
 </head>
-
 <body>
-    <!------------------------- NAVBAR ----------------------------------->
-    <nav class="nav-bar">
-        <a href="index.html" class="box">
-            <img src="Resources/images/infilogo.png" alt="Rebound logo" class="nav-logo">
-        </a>
-        <ul class="nav-all-items box">
-            <li class="nav-item-li">
-                <a class="nav-item-a" href="index.html">Home</a>
-            </li>
+<!------------------------- NAVBAR ----------------------------------->
+<nav class="nav-bar">
+    <a href="index.html" class="box">
+        <img src="Resources/images/infilogo.png" alt="Rebound logo" class="nav-logo">
+    </a>
+    <ul class="nav-all-items box">
+        <li class="nav-item-li active">
+            <a class="nav-item-a" href="index.html">Home</a>
+        </li>
+        
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="problem.html">Problem</a>
+        </li>
 
-            <li class="nav-item-li">
-                <a class="nav-item-a" href="problem.html">Problem</a>
-            </li>
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="solution.html">Solution</a>
+        </li>
 
-            <li class="nav-item-li">
-                <a class="nav-item-a" href="solution.html">Solution</a>
-            </li>
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="aboutus.html">About us</a>
+        </li>
 
-            <li class="nav-item-li active">
-                <a class="nav-item-a" href="aboutus.html">About us</a>
-            </li>
-
-            <li class="nav-item-li">
-                <a class="nav-item-a" href="contact.html">Contact</a>
-            </li>
-        </ul>
-        <a href="TODO" class="box flagbox">
-            <img src="Resources/images/norge.png" alt="Norweigan flag" class="nav-logo flag">
-        </a>
-    </nav>
-    <ul class="hamburger-nav-bar" id="hamburger-nav-bar">
-        <li class="hamburger-li"><a href="index.html">Home</a></li>
-        <li class="hamburger-li"><a href="problem.html">Problem</a></li>
-        <li class="hamburger-li"><a href="solution.html">Solution</a></li>
-        <li class="hamburger-li"><a href="aboutus.html">About us</a></li>
-        <li class="hamburger-li"><a href="contact.html">Contact</a></li>
-
-        <a href="#" class="hamburger-a-closed">
-            <div class="hamburger-line-closed"></div>
-            <div class="hamburger-line-closed"></div>
-            <div class="hamburger-line-closed"></div>
-        </a>
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="contact.html">Contact</a>
+        </li>
     </ul>
-
-    <a class="hamburger-a" href="#hamburger-nav-bar">
-        <div class="hamburger-line-open"></div>
-        <div class="hamburger-line-open"></div>
-        <div class="hamburger-line-open"></div>
+    <a href="TODO" class="box flagbox">
+        <img src="Resources/images/norge.png" alt="Norweigan flag" class="nav-logo flag">
     </a>
     <div class="slideshow even">
         <div class="div-arrows">
@@ -75,6 +51,24 @@
                     </div>
                 </a>
             </div>
+</nav>
+<ul class="hamburger-nav-bar" id="hamburger-nav-bar">
+    <li class="hamburger-li"><a href="#">Home</a></li>
+    <li class="hamburger-li"><a href="#">Profile</a></li>
+    <li class="hamburger-li"><a href="#">About</a></li>
+    <li class="hamburger-li"><a href="#">Contacts</a></li>
+    <a class="close" href="#">
+      <img src="https://ljc-dev.github.io/testing0/ham-close.svg" alt="close">
+    </a>
+  </ul>
+  <a class="hamburger" href="#hamburger-nav-bar">
+      <img src="https://ljc-dev.github.io/testing0/ham.svg" alt="menu">
+  </a>
+<!-- First slideshow -->
+    <div class="slideshow">
+        <img id="frontpageImg" src="Resources/pictures/frontpage.jpg">
+        <div class="text">
+            <h1 id="slogan">Reduce, Reuse, Recycle - Rebound</h1>
         </div>
         <div class="scrolling" id="frontpageImg"><img id="front-img" src="Resources/images/team1.jpg"></div>
         <div class="logo-container">
@@ -137,65 +131,68 @@
 
         </div>
     </div>
-    <!------------------------- FOOTER CONTAINER ----------------------------------->
-    <footer class="footer">
+ <!------------------------- FOOTER CONTAINER ----------------------------------->
+ <footer class="footer">
 
-        <!--Box where the adress, logo and mail button will be-->
-        <div class="footeraddr">
-            <!--Adding the logo-->
-            <img class="footerlogo" src="Resources/images/logo.png" alt="logo footer">
-        </div>
-        <!--Makes a bracket for the for the links for navigation-->
-        <ul class="footernav">
-            <li class="navitem">
-                <!--Makes the titel over the bracket-->
-                <h2 class="navtitle">Our Work</h2>
-                <!--Creates the bracket-->
-                <ul class="navul">
-                    <li>
-                        <a href="contact.html#faqDiv">Sources</a>
-                    </li>
-                    <li>
-                        <a href="contact.html#costDiv">Team</a>
-                    </li>
+    <!--Box where the adress, logo and mail button will be-->
+    <div class="footeraddr">
+        <!--Adding the logo-->
+        <img class="footerlogo" src="Resources/pictures/logo.png" alt="logo footer">
+    </div>
+    <!--Makes a bracket for the for the links for navigation-->
+    <ul class="footernav">
+        <li class="navitem">
+            <!--Makes the titel over the bracket-->
+            <h2 class="navtitle">Our Work</h2>
+            <!--Creates the bracket-->
+            <ul class="navul">
+                <li>
+                    <a href="sources.html">Sources</a>
+                </li>
+                <li>
+                    <a href="contact.html#costDiv">Team</a>
+                </li>
 
-                </ul>
+            </ul>
 
-            <li class="navitem">
-                <h2 class="navtitle">Address</h2>
+        <li class="navitem">
+            <h2 class="navtitle">Address</h2>
+            
 
-
-                <address>
-                    Pilestredet 35, 0166 Oslo
-                    <br>
-                    <!--Makes the mail us button-->
-                    <a class="footerbtn" href="mailto:Support@rebound.com">Email Us</a>
-                </address>
-            </li>
-            <!--Sosial media-->
-            <li class="navitem">
-                <h2 class="navtitle">Social</h2>
-                <ul class="navul">
-                    <li>
-                        <a href="https://facebook.com">
-                            <img src="Resources/Images/facebook.svg" class=sosialimg alt="facebook">
-                        </a>
-                        <a href="https://instagram.com">
-                            <img src="Resources/Images/instagram.svg" class=sosialimg alt="instagram">
-                        </a>
-                        <a href="https://twitter.com">
-                            <img src="Resources/Images/twitter.svg" class=sosialimg alt=twitter>
-                        </a>
-                        <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
-                            <img src="Resources/Images/github.svg" class=sosialimg alt="github">
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </footer>
-
+        <address>
+            Pilestredet 35, 0166 Oslo
+            <br>
+            <!--Makes the mail us button-->
+            <a class="footerbtn" href="mailto:Support@rebound.com">Email Us</a>
+        </address>
+        </li>
+        <!--Sosial media-->
+        <li class="navitem">
+            <h2 class="navtitle">Social</h2>
+            <ul class="navul">
+                <li>
+                    <a href="https://facebook.com">
+                        <img src="assets/Images/facebook.svg" class=sosialimg
+                             alt="facebook">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="assets/Images/instagram.svg" class=sosialimg
+                             alt="instagram">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="assets/Images/twitter.svg" class=sosialimg
+                             alt=twitter>
+                    </a>
+                    <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
+                        <img src="assets/Images/github.svg"
+                             class=sosialimg alt="github">
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</footer>
+    
 </body>
 <script src="Resources/scripts/index.js"></script>
-
 </html>

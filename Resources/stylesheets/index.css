@@ -10,6 +10,12 @@
         min-height: 65vh !important;
         display: block;
     }
+    .arrows-green{
+        border-right:  solid rgb(0, 109, 15) 2px !important;
+        border-bottom:  solid rgb(0, 109, 15) 2px !important;
+        width: 1.2em !important;
+        height: 1.2em !important;  
+    }
 }
 
 @media (min-aspect-ratio: 2/1){
@@ -17,6 +23,36 @@
         width: 100% !important;
     }
 }
+
+@media (min-aspect-ratio: 1/1) and (max-height: 500px){
+    .arrows-green{
+        display: none !important;
+    }
+    .logo-flex {
+        flex-direction: row !important;
+        margin-right: 0px !important;
+    }
+    .logo-container {
+        top: 25% !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+    .logo-img {
+        height: 50px !important;
+        width: 90px !important;
+    }
+    .logo-text:first-child {
+        font-size: 20pt !important;
+        margin-right: 0px !important;
+    }
+    .logo-text {
+        font-size: 16pt !important;
+        margin-right: 0px !important;
+
+    }
+
+}
+
 
 @media (max-width: 1280px) {
     .bodyText{
@@ -135,9 +171,6 @@
     .bodyText{
         margin-top: 10px !important;
     }
-    .logo-container{
-        top: 16% !important;
-    }
 
 }
 
@@ -145,7 +178,6 @@
 @media only screen and (min-width: 1200px) {}
 
 /* Import external font*/
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 body {
     margin: 0;
@@ -238,12 +270,13 @@ html {
 }
 
 .red{
-    color: rgb(182, 100, 0);
+    color: rgb(182, 17, 17);
 }
 
 .logo-flex {
     display: flex;
     flex-direction: row;
+    text-align: center;
     align-items: center;
     justify-content: center;
     margin-right: 0vw;
@@ -260,12 +293,12 @@ html {
 
 .div-arrows {
     position: absolute;
-    bottom: 52%;
+    bottom: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .arrow-box {
