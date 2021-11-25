@@ -1,0 +1,64 @@
+
+
+.rbmvid{
+    height: 100vh;
+    position: sticky;
+
+}
+
+.solution{
+    overflow: hidden;
+}
+
+.infobox-left{
+    position: absolute;
+    top: 25%;
+    width: 98%;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.infobox-text{
+    width: 35%;
+}
+
+.info-sentence{
+    font-size: 16pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ss-content{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+}
+.ss-solution{
+    height: 150vh;
+}
+
+.rbmtall{
+}
+
+.about{
+    position: absolute;
+    width: 28%;
+}
+.pipe{
+    top: 12%;
+}
+.filter{
+    top: 32%;
+}
+.tubing{
+    top: 55%;
+}
+.intake{
+    top: 75%;
+}
+.left{
+    left: 5%;
+}
+.right{
+    right: 3%;
+}
