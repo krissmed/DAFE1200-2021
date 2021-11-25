@@ -1,4 +1,28 @@
 
+@media screen and (max-width: 980px){
+    .info-sentence{
+        font-size: 14pt !important;
+    }
+}
+@media screen and (max-width: 740px){
+    .slideshow{
+        left: -150px !important;
+        width: calc(150px + 100vw);
+        font-size: 13pt !important;
+    }
+    .logo-flex{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 612px){
+    .info-sentence{
+        font-size: 12pt !important;
+    }
+}
+
+.rbm-text-logo{
+    width: 100%;
+}
 
 .rbmvid{
     height: 100vh;
@@ -14,8 +38,12 @@
     position: absolute;
     top: 25%;
     width: 98%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: right;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
     
 }
 
@@ -28,8 +56,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .ss-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 100%;
 
 }
