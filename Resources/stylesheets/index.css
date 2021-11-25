@@ -258,7 +258,7 @@ html {
 }
 
 #front-img{
-    filter: blur(2px);
+    filter: blur(0px);
 }
 
 .slideshow-title {
