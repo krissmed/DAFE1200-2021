@@ -101,6 +101,21 @@ body {
         margin: 10px auto;
     }
 
+/*Animation for element to slideIn*/
+    .slideIn {
+        animation: slide-in-from-left .3s ease-in;
+    }
+    @keyframes slide-in-from-left {
+        0% {
+            margin-left: -100vw;
+        }
+        50% {
+            margin-left: 0;
+        }
+        100% {
+            margin-left: auto;
+        }
+    }
 
 @media only screen and (max-width: 768px){
     .slide1Main {
