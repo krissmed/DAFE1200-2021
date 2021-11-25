@@ -16,19 +16,19 @@ body {
 /*Front page with the 2 slides parted on desktop*/
 .frontPage{
     display: flex;
+    flex-flow: row wrap;
+    margin: 0;
 }
     /*slides on main*/
     .slide1Main {
         height: 100vh;
-        width: 50vw;
-        background-image: url(../images/ewaste3.jpg);
+        width: 50%;
         display: block;
         text-align: center;
     }
         .logo-img{
             height: 10vh;
             width: 25vw;
-            z-index: 1;
             position: relative;
             margin-top: 50%;
         }
@@ -38,23 +38,60 @@ body {
             margin-top: 50px;
             font-size: 4vw;
         }
-    .slide1Main {
-        height: 100vh;
-        width: 50vw;
+    .slide2Main {
+        min-height: 100vh;
+        width: 50%;
+        text-align: center;
+        display: inline-block;
     }
+        .slide2Main h2{
+            margin-top: 30%;
+        }
+        p {
+            margin: 20px 30px 0;
+            padding: 10px;
+            line-height: 170%;
+            font-size: medium;
+
+        }
+    .div-arrows {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        margin: 83vh auto 0;
+        justify-content: center;
+
+    }
+
 
 /*Slide 2 with written conten*/
 .problemPage2 {
-    height: 100vh;
+    min-height: 100vh;
 }
+    .problemPage2 h2 {
+        text-align: center;
+        padding-top: 80px;
+    }
 
 /*Slide 3 with 2 underSlides*/
 .slides3 {
     width: 100vw;
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: space-evenly;
 }
 
     .underslides {
-        width: 33vw;
+        width: 30%;
+    }
+
+    .underslides h3 {
+        text-align: center;
+    }
+    .graph {
+        height: auto;
+        width: 80%;
+        margin: 10px auto;
     }

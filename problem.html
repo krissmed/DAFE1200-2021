@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="Resources/stylesheets/footer.css">
     <link rel="stylesheet" href="Resources/stylesheets/nav-bar.css">
     <link rel="stylesheet" href="Resources/stylesheets/problem.css">
+    <link rel="stylesheet" href="Resources/stylesheets/scroll.css">
+
     <!--Special Chars (æ,ø,å)-->
     <meta charset="UTF-8">
     <!--Better control of layout on mobile devices-->
@@ -17,11 +19,11 @@
         <img src="Resources/images/infilogo.png" alt="Rebound logo" class="nav-logo">
     </a>
     <ul class="nav-all-items box">
-        <li class="nav-item-li active">
+        <li class="nav-item-li">
             <a class="nav-item-a" href="index.html">Home</a>
         </li>
         
-        <li class="nav-item-li">
+        <li class="nav-item-li active">
             <a class="nav-item-a" href="problem.html">Problem</a>
         </li>
 
@@ -55,32 +57,72 @@
   </a>
 <!------------------------- CONTENT ----------------------------------->
 <div class="container">
-    <!--Two parted on desktop-->
+    <!--Two parted on desktop, splits when less width-->
     <div class="frontPage">
-        <div class="slide1Main">
-            <!--Background image-->
-            <img class="logo-img" src="Resources/images/infinite-mathematical-symbol(2).svg" alt="Background content">
-            <!--Slide title-->
-            <h1 class="slide1Title">The problem</h1>
-        </div>
-        <div class="slide2Main" style="background-color: snow">
-
+            <div class="slide1Main">
+                <!--logo image-->
+                <img class="logo-img" src="Resources/images/infinite-mathematical-symbol(2).svg" alt="Logo">
+                <!--Slide title-->
+                <h1 class="slide1Title">The Problem</h1>
+            </div>
+            <div class="slide2Main">
+                <h2>Intro</h2>
+                <p class="slide2content">
+                    <b>Har ikke lagt til ferdig tekst, farge eller bilder da det er best å legge til når vi har funnet ut av løsning og hvordan ting skal formidles.</b><br><br>
+                    I dag blir teknologi raskt byttet ut for noe nyere og bedre, til tross for at det man allerede har er bra nok. Det er også produkter som har skade på noen av komponentene, samtidig som mange av komponentene kan hentes ut av enheten og bli gjenbrukt. Det er også store menneskerettighetsproblemer koblet opp mot produksjon av mobiler og pcer. Mer spesifikt er gruvearbeid for å få ut metallene som brukes i batterier skadelig for arbeiderne. Man ser også gjennom NRK dokumentarer at avfallet blir heller ikke håndtert på en ansvarlig måte. Derfor må vi i Norge og vesten generelt kutte i forbruket slik at vi holder oss innenfor hva vi har krav på. Dette kan gjøre ved å bruke mindre, men også ved å gjenbruke og gjenvinne. Vi har begrensede naturressurser, så å bruke dem på en bærekraftig måte har blitt mer og mer viktig.
+                </p>
+            </div>
+        <div class="div-arrows">
+            <div class="scroll-div">
+                <a href="#arrowHref">
+                    <div>
+                        <span class="arrows-green to"></span>
+                        <span class="arrows-green tre"></span>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 
-    <!--Main information-->
-    <div class="problemPage2" style="background-color: indigo">
 
+    <!--Main information-->
+    <div class="problemPage2" id="arrowHref">
+        <h2>Hovedside med informasjonen</h2>
+        <p>
+            <b>Hvorfor skjer det? Hvordan er det et problem?</b> <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis turpis metus. Fusce eget justo convallis, viverra arcu non, elementum erat. Maecenas blandit ullamcorper libero. Quisque interdum risus urna, eu consequat ligula volutpat ac. Donec eget consectetur tortor, id consequat nisi. Donec velit quam, ornare dictum mauris ut, maximus dictum eros. Pellentesque interdum ultricies odio vitae euismod. In dignissim molestie lacus id elementum.
+<br><br>
+            Cras a nisi non magna gravida mollis. Suspendisse tortor dolor, aliquam a consectetur vel, ornare ut neque. Vivamus porttitor nisi non placerat accumsan. Cras a tempor est, ut sodales massa. Sed vestibulum augue quis massa iaculis placerat. Ut lacinia justo at lacus interdum, a maximus diam finibus. Quisque pulvinar mollis arcu at blandit. Vestibulum a porttitor dui. Quisque porta mattis nulla sed dictum. Integer sit amet libero pretium sapien vulputate bibendum. Etiam eu mi vitae neque egestas rutrum. Aliquam at lectus et lectus ornare convallis nec eu urna. Nunc nec mi purus. Sed faucibus massa lorem, in vulputate ante ultricies sit amet. Etiam metus turpis, maximus quis nibh sit amet, volutpat ultricies lorem.
+
+        <br><br>
+            <b>Smeller inn relevant bilde her, som passer info og teksten</b>
+        </p>
     </div>
 
     <div class="slides3">
-        <div class="underslides 1" style="background-color: black">
+        <div class="underslides 1">
+            <h3>Lorem Ipsum</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt convallis quam et imperdiet. Vestibulum in volutpat urna. Curabitur sit amet sollicitudin turpis. Nam efficitur mi non nulla porta commodo. Donec semper massa nibh, a consequat ex egestas eget. Ut commodo libero id tellus facilisis imperdiet. Aenean eu vestibulum urna.
+            </p>
 
         </div>
-        <div class="underslides 2" style="background-color: #e9e9e9">
+        <div class="underslides 2">
+            <h3>Bare smelle inn korte fakta her tenkes</h3>
+            <p>
+                Sed vehicula orci id interdum ultrices. Aliquam lobortis, velit eu dapibus iaculis, eros lorem consectetur nisi, ac venenatis odio magna vel ipsum. Morbi mollis sagittis molestie. Etiam accumsan augue non semper imperdiet. Suspendisse blandit mauris a porttitor interdum. Phasellus in nibh ac lorem iaculis sagittis. Class aptent taciti sociosqu ad.
+            </p>
+            <img class="graph" src="Resources/images/RandomGraf.png" alt="Graph">
 
         </div>
-        <div class="underslides 3" style="background-color: darkred">
+        <div class="underslides 3">
+            <h3>Lorem Ipsum</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id felis pretium, pharetra leo quis, laoreet orci. Donec eget sodales lectus. Maecenas eget nisl vel augue rhoncus auctor. Nulla facilisi. Vivamus semper turpis non bibendum tempus. Fusce placerat tincidunt quam, ut ultricies arcu auctor quis. Sed condimentum rutrum erat, at cursus tellus cursus id. Nam aliquet sem sed ante sollicitudin molestie eget eget metus. Pellentesque.
+            <br><br>
+                <b>Mulig: Liten intro til løsning også lesmer-knapp som går videre til løsning.html</b>
+
+            </p>
 
         </div>
     </div>
