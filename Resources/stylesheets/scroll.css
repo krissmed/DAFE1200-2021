@@ -1,0 +1,144 @@
+/*Oppretter en boks rundt pilene*/
+.scroll-div {
+	display: fixed;
+	margin: auto;
+	width: 2.4em;
+	height: 10em;
+	margin-top: 1em;
+}
+ 
+.arrows-green
+{
+  display: inline-block;
+
+  /*Bredden og høyden på diven som lager pilene*/
+  width: 1.6em;
+  height: 1.6em;
+
+  /*Bestemmer størrelsen på margin*/
+  margin: 0 0 0.2em 0.2em;
+
+  /*Setter fargen på border til solid hvit slik at det ser ut som piler*/
+  border-right:  solid darkgreen;
+  border-bottom:  solid darkgreen;
+
+  
+  
+
+  /*Disse gjør at blocken roter seg 45 grader, slik at det ser ut som piler. */
+  -ms-transform: rotate(45deg); /* Denne gjør at funksjonen fungerer sammen med internett exploerer*/
+  -webkit-transform: rotate(45deg); /*Denne gjør at den fungerer sammen med alle chromium baserte nettlesere*/
+  transform: 45deg; /*Denne må være med ettersom at vi må definere en standerd transform i tilfelle det er en nettleser som ikke er chormium eller IE*/  
+}
+
+
+
+.arrows-white
+{
+  display: inline-block;
+
+  /*Bredden og høyden på diven som lager pilene*/
+  width: 1.6em;
+  height: 1.6em;
+
+  /*Bestemmer størrelsen på margin*/
+  margin: 0 0 0.2em 0.2em;
+
+  /*Setter fargen på border til solid hvit slik at det ser ut som piler*/
+  border-right:  solid white;
+  border-bottom:  solid white;
+
+  
+  
+
+  /*Disse gjør at blocken roter seg 45 grader, slik at det ser ut som piler. */
+  -ms-transform: rotate(45deg); /* Denne gjør at funksjonen fungerer sammen med internett exploerer*/
+  -webkit-transform: rotate(45deg); /*Denne gjør at den fungerer sammen med alle chromium baserte nettlesere*/
+  transform: 45deg; /*Denne må være med ettersom at vi må definere en standerd transform i tilfelle det er en nettleser som ikke er chormium eller IE*/  
+}
+
+
+
+.arrows-black
+{
+  display: inline-block;
+
+  /*Bredden og høyden på diven som lager pilene*/
+  width: 1.6em;
+  height: 1.6em;
+
+  /*Bestemmer størrelsen på margin*/
+  margin: 0 0 0.2em 0.2em;
+
+  /*Setter fargen på border til solid sort slik at det ser ut som piler*/
+  border-right:  solid black;
+  border-bottom:  solid black;
+
+  
+  
+
+  /*Disse gjør at blocken roter seg 45 grader, slik at det ser ut som piler. */
+  -ms-transform: rotate(45deg); /* Denne gjør at funksjonen fungerer sammen med internett exploerer*/
+  -webkit-transform: rotate(45deg); /*Denne gjør at den fungerer sammen med alle chromium baserte nettlesere*/
+  transform: 45deg; /*Denne må være med ettersom at vi må definere en standerd transform i tilfelle det er en nettleser som ikke er chormium eller IE*/  
+}
+
+/*Setter animation til alle tre klassene vi bruker til pilene*/
+.en, .to, .tre
+{
+    animation: scroll-ani 1s infinite;
+}
+
+/*Ettersom at pil nr en ikke har noen overseg trenger vi kun å dytte pil to og tre lengere opp.*/
+.to, .tre {
+    margin-top: -0.6em;
+}
+
+/*Setter en bestemt forsinkelse i animasjonen slik at det ser ut som den går gradevis*/
+.en
+{
+  animation-delay: .2s;
+}
+
+/*Setter en bestemt forsinkelse i animasjonen slik at det ser ut som den går gradevis*/
+.to
+{
+  animation-delay: .3s;
+}
+
+/*Setter en bestemt forsinkelse i animasjonen slik at det ser ut som den går gradevis*/
+.tre
+{
+  animation-delay: .5s;
+}
+
+/*Oppretter animasjonen ved hjelp av keyframes. Den øker synling heten av boksene ila 5 trinn som øker gradevis*/
+@keyframes scroll-ani {
+0%   { 
+    display: none;
+    opacity: 0;
+    }
+20% {
+    
+    opacity: 0.20;
+    }
+
+40%  { 
+    
+    opacity: 0.40;
+    }
+60% {
+    
+    opacity: 0.60;
+    }
+80% {
+    
+    opacity: 0.80;
+    }
+100% { 
+    
+    opacity: 1;
+    }
+}
+
+
