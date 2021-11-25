@@ -3,6 +3,74 @@
     }
 }
 
+@media screen and (max-width: 1310px){
+    .ss-content{
+        justify-content: flex-start !important;
+    }
+
+    .left{
+        left: initial !important;
+        right: 3% !important;
+    }
+    .about .info-sentence{
+        font-size: 12pt !important;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .rbmtall{
+        height: 100vh !important;
+    }
+    .about .info-sentence{
+        font-size: 10pt !important;
+    }
+    .about{
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 544px){
+    .rbmtall{
+        height: 100vh !important;
+        width: 50vw !important;
+    }
+    .about{
+        width: 45% !important;
+    }
+    .pipe{
+        top: 3% !important;
+    }
+    .filter{
+        top: 30% !important;
+    }
+    .tubing{
+        top: 62% !important;
+    }
+    .intake{
+        top: 80% !important;
+    }
+    .about .info-sentence{
+        font-size: 9pt !important;
+    }
+        
+}
+@media screen and (max-width: 421px) {
+    .right{
+        right: 1% !important;
+    }
+    .left{
+        right: 1% !important;
+    }
+}
+@media screen and (max-width: 303px) {
+    .right{
+        right: 1% !important;
+    }
+    .left{
+        right: 1% !important;
+    }
+}
+
 
 @media screen and (max-width: 980px){
     .info-sentence{
@@ -10,7 +78,7 @@
     }
 }
 @media screen and (max-width: 740px){
-    .slideshow{
+    .solutionfirst{
         left: -150px !important;
         width: -webkit-calc(150px + 100vw);
         width: -moz-calc(150px + 100vw);
@@ -30,11 +98,11 @@
     }
 }
 @media screen and (max-width: 560px){
-    .slideshow{
-        left: -220px !important;
-        width: -webkit-calc(220px + 100vw);
-        width: -moz-calc(220px + 100vw);
-        width: calc(220px + 100vw);
+    .solutionfirst{
+        left: -200px !important;
+        width: -webkit-calc(200px + 100vw);
+        width: -moz-calc(200px + 100vw);
+        width: calc(200px + 100vw);
     }
     .info-sentence{
         font-size: 12pt !important;
@@ -45,6 +113,9 @@
     }
 }
 
+.rbmtall{
+    height: 100%;
+}
 
 .rbm-text-logo{
     width: 100%;
