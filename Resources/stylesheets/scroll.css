@@ -1,7 +1,10 @@
 /*Oppretter en boks rundt pilene*/
 .scroll-div {
-	display: flex;
+	display: fixed;
 	width: 2.4em;
+    margin: auto;
+    height: 10em;
+    margin-top: 12.5em;
 }
  
 
