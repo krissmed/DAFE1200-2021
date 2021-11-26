@@ -124,6 +124,13 @@
     }
 }
 
+/* media tags for scaling .gif/.mp4 header video with aspect-ratio*/
+
+@media screen (min-aspect-ratio: ){
+    
+
+}
+
 .rbmtall{
     height: 100%;
 }
