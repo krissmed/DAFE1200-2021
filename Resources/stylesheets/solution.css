@@ -1,5 +1,4 @@
 
-
 @media screen and (max-width: 1310px){
     .ss-content{
         justify-content: flex-start !important;
@@ -69,7 +68,7 @@
         right: 1% !important;
     }
     .scaling .infobox-text .info-sentence{
-        font-size: 1em !important;
+        font-size: 1rem !important;
     }
 }
 @media screen and (max-width: 303px) {
@@ -172,7 +171,7 @@
         width: 60% !important;
     }
     .infobox-left .infobox-text .info-sentence{
-        font-size: 0.6em !important;
+        font-size: 1.5vmax !important;
     }
     .solutionfirst{
         left: 0px !important;
@@ -185,6 +184,7 @@
         width: calc(120% + 100px) !important;
     }
 }
+
 @media screen and (aspect-ratio: 1024/1366){
     .scaling{
         display: flex !important;
@@ -201,6 +201,7 @@
         display: none !important;
     }    
 }
+
 
 
 .scaling{
