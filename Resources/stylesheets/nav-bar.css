@@ -19,7 +19,7 @@ html {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgb(0, 0, 0);
 }
 
 .nav-all-items {
