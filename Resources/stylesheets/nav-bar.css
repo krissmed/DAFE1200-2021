@@ -99,7 +99,7 @@ html {
 .hamburger-line-open {
     width: 35px;
     height: 5px;
-    background-color: #000;
+    background-color: rgb(0, 70, 0);
     margin: 6px;
 }
 
@@ -107,7 +107,7 @@ html {
     width: 35px;
     height: 5px;
     top: 10px;
-    background-color: #000;
+    background-color: rgb(0, 70, 0);
     margin: 6px;
 }
 
