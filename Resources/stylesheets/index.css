@@ -89,7 +89,7 @@ body{
 @media (max-width: 1020px){
     .bodyText{
         font-size: 1em !important;
-        padding-right: 0vw !important;
+        padding-right: 0 !important;
         padding-left: 0.5vw !important;
 
     }

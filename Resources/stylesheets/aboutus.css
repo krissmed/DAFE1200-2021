@@ -61,12 +61,10 @@
         visibility: hidden;
         background: rgba(37, 36, 36, 0.637);
         opacity: 0;
-        
       }
       .popup:target {
         visibility: visible;
         opacity: 1;
-        
       }
       
       .popup-img {
