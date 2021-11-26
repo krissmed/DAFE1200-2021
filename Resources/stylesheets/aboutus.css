@@ -77,8 +77,8 @@
       
     .popup-div {
         position: relative;
-        left: 50;
-        top: 50%;
+        top: 45vh;
+        left: 17ch;
         transform: translate(-50%,-50%);
         margin: 7em auto;
         background: #fff;
