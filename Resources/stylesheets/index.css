@@ -89,7 +89,7 @@ body{
 @media (max-width: 1020px){
     .bodyText{
         font-size: 1em !important;
-        padding-right: 0vw !important;
+        padding-right: 0 !important;
         padding-left: 0.5vw !important;
 
     }
@@ -287,7 +287,7 @@ html {
 
 .logo-text {
     margin-left: 10px;
-    color: #E3E3E3;
+    color: #fefefe;
     font-size: 18pt;
     font-weight: 100;
     margin-top: 0px;
@@ -303,6 +303,9 @@ html {
 
 .green {
     color: darkgreen;
+}
+.lightergreen{
+    color: green;
 }
 
 .orange {
