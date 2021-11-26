@@ -4,15 +4,134 @@
     <link rel="stylesheet" href="../Resources/stylesheets/index.css">
     <link rel="stylesheet" href="../Resources/stylesheets/footer.css">
     <link rel="stylesheet" href="../Resources/stylesheets/nav-bar.css">
-    <script src="../Resources/scripts/index.js"></script>
+    <link rel="stylesheet" href="../Resources/stylesheets/solution.css">
+
+    <!-- Document Title -->
+    <title>Rebound | Solution</title>
+    <!-- Meta Description -->
+    <meta name="description" content="The Rebound Machine">
+
     <!--Special Chars (æ,ø,å)-->
     <meta charset="UTF-8">
     <!--Better control of layout on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="../Resources/images/infinite-mathematical-symbol(2).svg" />
-    <title>Løsning</title>
+    <!-- Viewport for responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
 </head>
 <body>
+<!------------------------- NAVBAR ----------------------------------->
+<nav class="nav-bar">
+    <a href="index.html" class="box">
+        <img src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="Rebound logo" class="nav-logo">
+    </a>
+    <ul class="nav-all-items box">
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="index.html">Hjem</a>
+        </li>
+
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="problem.html">Problem</a>
+        </li>
+
+        <li class="nav-item-li active">
+            <a class="nav-item-a" href="løsning.html">Løsning</a>
+        </li>
+
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="omOss.html">Om oss</a>
+        </li>
+
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="kontakt.html">Kontakt</a>
+        </li>
+    </ul>
+    <a href="../solution.html" class="box flagbox">
+        <img src="../Resources/images/english.png" alt="English flag" class="nav-logo flag">
+    </a>
+</nav>
+<ul class="hamburger-nav-bar" id="hamburger-nav-bar">
+    <li class="hamburger-li"><a href="index.html">Home</a></li>
+    <li class="hamburger-li"><a href="problem.html">Problem</a></li>
+    <li class="hamburger-li"><a href="løsning.html">Solution</a></li>
+    <li class="hamburger-li"><a href="omOss.html">About us</a></li>
+    <li class="hamburger-li"><a href="kontakt.html">Contact</a></li>
+    <a href="#" class="hamburger-a-closed">
+        <div class="hamburger-line-closed"></div>
+        <div class="hamburger-line-closed"></div>
+        <div class="hamburger-line-closed"></div>
+    </a>
+</ul>
+<a class="hamburger-a" href="#hamburger-nav-bar">
+    <div class="hamburger-line-open"></div>
+    <div class="hamburger-line-open"></div>
+    <div class="hamburger-line-open"></div>
+</a>
+<!-- First slideshow -->
+<div class="slideshow solutionfirst">
+    <!--<video class="rbmvid" loop="true" autoplay="autoplay" muted>
+        <source src="Resources/video/rbmpanoramic.mp4" type="video/mp4">
+    </video>-->
+    <img class="rbmvid" src="../Resources/video/rbmpanoramic.gif">
+    <div class="logo-container solution">
+        <div class="rbm-text-logo">
+            <div>
+                <h1 class="logo-text span-rebound">The Rebound Machine</h1>
+            </div>
+        </div>
+    </div>
+    <div class="infobox-left">
+        <div class="infobox-text">
+            <span class="info-sentence">The Rebound Machine removes dangerous pollution caused by e-waste from the air. </span>
+            <br><br>
+            <span class="info-sentence">The machine works like an industrial air purifier. It sucks in air, purifies it and sends it back to the enviroment.</span>
+            <br><br>
+            <span class="info-sentence">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"</span>
+        </div>
+
+    </div>
+
+</div>
+<!-- Second slideshow -->
+<div class="slideshow ss-solution odd">
+
+    <div class="ss-content">
+        <img src="../Resources/images/rbmtall.png" class="rbmtall">
+    </div>
+    <div class="about pipe left">
+            <span class="info-sentence">
+            The pipe of the machine spews out clean, breathable, filtered air.
+            The pipe makes sure the same air is not filtered over and over again.
+            <hr><br>
+            </span>
+    </div>
+    <div class="about filter right">
+            <span class="info-sentence">
+            The upper body of the machine filters the air.
+            The polluted air goes undergoes a thorough chemical and mechanical filtering process before it is sent to the pipe.
+            <hr><br>
+            </span>
+    </div>
+    <div class="about tubing left">
+            <span class="info-sentence">
+            The tubes send the polluted air from the intake to the filters.
+            <hr><br>
+            </span>
+    </div>
+    <div class="about intake right">
+            <span class="info-sentence">
+            The air intake on the front of the machine uses multiple internal turbines to inhale polluted air.
+            <hr><br>
+            </span>
+    </div>
+
+
+
+</div>
+<!------------------------- FOOTER CONTAINER ----------------------------------->
+<footer>
+</footer>
 
 </body>
+<script src="../Resources/scripts/index.js"></script>
 </html>
