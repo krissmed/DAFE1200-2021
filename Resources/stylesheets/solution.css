@@ -332,13 +332,16 @@
     position: absolute;
     top: 25%;
     width: 98%;
+    justify-content: flex-end;
     display: flex;
-    justify-content: right;
     
 }
 
 .infobox-text{
     width: 35%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .info-sentence{
