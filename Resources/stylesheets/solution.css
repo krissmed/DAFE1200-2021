@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (max-width: 780px) and (min-aspect-ratio: 655/290){
+@media screen and (width: 780px) and (aspect-ratio: 655/290){
     .rbmtall{
         height: 100% !important;
     }
@@ -146,26 +146,33 @@
 @media screen and (max-width: 330px) {
 
     .solutionfirst{
-        left: -150px !important;
-        width: -webkit-calc(150px + 100vw);
-        width: -moz-calc(150px + 100vw);
-        width: calc(150px + 100vw);
+        left: -100px !important;
+        width: -webkit-calc(100px + 100vw);
+        width: -moz-calc(100px + 100vw);
+        width: calc(100px + 100vw);
     }
 
     .rbm-text-logo{
-        width: calc(100% + 150px) !important;
+        width: calc(100% + 100px) !important;
     }
 
 }
 
 /* media tags for scaling .gif/.mp4 header video with aspect-ratio*/
 
-@media screen and (min-aspect-ratio: 568/320){
+@media screen and (min-aspect-ratio: 720/540){
     .scaling{
-        display: flex !important;
+        display: none !important;
     }
     .infobox-left{
-        display: none !important;
+        display: flex !important;
+        top: 35% !important;
+    }
+    .infobox-text{
+        width: 60% !important;
+    }
+    .infobox-left .infobox-text .info-sentence{
+        font-size: 0.6em !important;
     }
     .solutionfirst{
         left: 0px !important;
@@ -175,21 +182,29 @@
     }
 
     .rbm-text-logo{
-        width: calc(100% + 100px) !important;
+        width: calc(120% + 100px) !important;
     }
 }
-@media screen and (min-aspect-ratio: 1024/1366){
+@media screen and (aspect-ratio: 1024/1366){
     .scaling{
         display: flex !important;
     }
     .infobox-left{
         display: none !important;
+    }    
+}
+@media screen and (aspect-ratio: 768/1024){
+    .scaling{
+        display: flex !important;
     }
-
-    
+    .infobox-left{
+        display: none !important;
+    }    
 }
 
+
 .scaling{
+    top: -10px;
     justify-content: center;
     min-height: max-content !important;
     max-height: max-content;
@@ -201,19 +216,21 @@
 }
 
 .scaling .infobox-text{
-    width: 100vw;
-    margin-top: 3.5vh;
-    margin-bottom: 3.5vh;
+    width: 70vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     display: flex;
+    flex-direction: column;
 
 }
+
 .scaling .info-sentence{
-    margin-left: 2vw;
     display: flex;
     justify-content: space-evenly;
-    margin-right: 2vw;
 
 }
+
+
 
 .rbmtall{
     height: 100%;
