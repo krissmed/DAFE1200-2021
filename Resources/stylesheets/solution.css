@@ -1,4 +1,5 @@
 
+
 @media screen and (max-width: 1310px){
     .ss-content{
         justify-content: flex-start !important;
@@ -66,6 +67,9 @@
     }
     .left{
         right: 1% !important;
+    }
+    .scaling .infobox-text .info-sentence{
+        font-size: 1em !important;
     }
 }
 @media screen and (max-width: 303px) {
@@ -156,14 +160,38 @@
 
 /* media tags for scaling .gif/.mp4 header video with aspect-ratio*/
 
-@media screen (min-aspect-ratio: ){
+@media screen and (min-aspect-ratio: 568/320){
+    .scaling{
+        display: flex !important;
+    }
+    .infobox-left{
+        display: none !important;
+    }
+    .solutionfirst{
+        left: 0px !important;
+        width: -webkit-calc(0px + 100vw);
+        width: -moz-calc(0px + 100vw);
+        width: calc(0px + 100vw);
+    }
 
+    .rbm-text-logo{
+        width: calc(100% + 100px) !important;
+    }
+}
+@media screen and (min-aspect-ratio: 1024/1366){
+    .scaling{
+        display: flex !important;
+    }
+    .infobox-left{
+        display: none !important;
+    }
 
+    
 }
 
 .scaling{
     justify-content: center;
-    min-height: max-content;
+    min-height: max-content !important;
     max-height: max-content;
     height: auto;
     text-align: center;
