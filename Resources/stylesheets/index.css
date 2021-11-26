@@ -304,6 +304,9 @@ html {
 .green {
     color: darkgreen;
 }
+.lightergreen{
+    color: green;
+}
 
 .orange {
     color: rgb(182, 100, 0);
