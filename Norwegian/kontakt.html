@@ -1,18 +1,171 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
+    <link rel="stylesheet" href="../Resources/stylesheets/contact.css">
     <link rel="stylesheet" href="../Resources/stylesheets/index.css">
     <link rel="stylesheet" href="../Resources/stylesheets/footer.css">
     <link rel="stylesheet" href="../Resources/stylesheets/nav-bar.css">
-    <script src="../Resources/scripts/index.js"></script>
+
     <!--Special Chars (æ,ø,å)-->
     <meta charset="UTF-8">
     <!--Better control of layout on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="../Resources/images/infinite-mathematical-symbol(2).svg" />
-    <title>Kontakt</title>
+<title>Kontakt oss</title>
 </head>
 <body>
+<!------------------------- NAVBAR ----------------------------------->
+<nav class="nav-bar">
+    <a href="index.html" class="box">
+        <img src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="Rebound logo" class="nav-logo">
+    </a>
+    <ul class="nav-all-items box">
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="index.html">Home</a>
+        </li>
 
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="problem.html">Problem</a>
+        </li>
+
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="løsning.html">Løsning</a>
+        </li>
+
+        <li class="nav-item-li">
+            <a class="nav-item-a" href="omOss.html">Om oss</a>
+        </li>
+
+        <li class="nav-item-li active">
+            <a class="nav-item-a" href="kontakt.html">Kontakt</a>
+        </li>
+    </ul>
+    <a href="../contact.html" class="box flagbox">
+        <img src="../Resources/images/english.png" alt="English flag" class="nav-logo flag">
+    </a>
+</nav>
+<ul class="hamburger-nav-bar" id="hamburger-nav-bar">
+    <li class="hamburger-li"><a href="index.html">Hjem</a></li>
+    <li class="hamburger-li"><a href="problem.html">Problem</a></li>
+    <li class="hamburger-li"><a href="løsning.html">Løsning</a></li>
+    <li class="hamburger-li"><a href="omOss.html">Om oss</a></li>
+    <li class="hamburger-li"><a href="kontakt.html">Kontakt</a></li>
+    <a href="#" class="hamburger-a-closed">
+        <div class="hamburger-line-closed"></div>
+        <div class="hamburger-line-closed"></div>
+        <div class="hamburger-line-closed"></div>
+    </a>
+</ul>
+<a class="hamburger-a" href="#hamburger-nav-bar">
+    <div class="hamburger-line-open"></div>
+    <div class="hamburger-line-open"></div>
+    <div class="hamburger-line-open"></div>
+</a>
+<!------------------------- CONTENT ----------------------------------->
+<div class="containerContact">
+    <span class="logo-heading">
+                        <!--logo image-->
+                <img class="logo-img" src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="Logo">
+    </span>
+
+    <h2>Kontakt oss da vel!</h2>
+    <h3>Fortell oss hva vi kan hjelpe deg med</h3>
+    <form>
+        <div class="name form">
+            <label for="name">Ditt Navn *</label>
+            <input type="text" id="name" placeholder="Ditt fulle navn…" required>
+        </div>
+
+        <div class="email form">
+            <label for="email">Email * </label>
+            <input type="text" id="email" placeholder="Email…" required>
+        </div>
+
+        <div class="contact form">
+            <label for="contactReason">Grunn for kontakt *</label>
+            <select id="contactReason" name="Contact Reason" required>
+                <option hidden disabled selected value> -- Velg et alternativ -- </option>
+                <option value="sales">Kjøp</option>
+                <option value="billing">Faktura</option>
+                <option value="Help">Hjelp</option>
+                <option value="Other">Annet</option>
+            </select>
+        </div>
+
+        <div class="message form">
+            <label for="message">Melding</label>
+            <textarea id="message" name="Message" rows="10" cols="30" placeholder="Skriv din melding her…" required>
+            </textarea>
+        </div>
+
+        <div class="submit">
+            <input type="submit" id="submit" name="Submit" class="submitButton" value="Send inn">
+        </div>
+
+    </form>
+</div>
+
+<!------------------------- FOOTER CONTAINER ----------------------------------->
+<footer class="footer">
+
+    <!--Box where the adress, logo and mail button will be-->
+    <div class="footeraddr">
+        <!--Adding the logo-->
+        <img class="footerlogo" src="../Resources/images/logo.png" alt="logo footer">
+    </div>
+    <!--Makes a bracket for the for the links for navigation-->
+    <ul class="footernav">
+        <li class="navitem">
+            <!--Makes the titel over the bracket-->
+            <h2 class="navtitle">Vårt Arbeid</h2>
+            <!--Creates the bracket-->
+            <ul class="navul">
+                <li>
+                    <a href="../sources.html">Sources</a>
+                </li>
+                <li>
+                    <a href="omOss.html">Team</a>
+                </li>
+
+            </ul>
+
+        <li class="navitem">
+            <h2 class="navtitle">Address</h2>
+
+
+            <address>
+                Pilestredet 35, 0166 Oslo
+                <br>
+                <!--Makes the mail us button-->
+                <a class="footerbtn" href="mailto:Support@rebound.com">Send en email</a>
+            </address>
+        </li>
+        <!--Sosial media-->
+        <li class="navitem">
+            <h2 class="navtitle">Sosialt</h2>
+            <ul class="navul">
+                <li>
+                    <a href="https://facebook.com">
+                        <img src="../Resources/images/facebook.svg" class=sosialimg
+                             alt="facebook">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="../Resources/images/instagram.svg" class=sosialimg
+                             alt="instagram">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="../Resources/images/twitter.svg" class=sosialimg
+                             alt=twitter>
+                    </a>
+                    <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
+                        <img src="../Resources/images/github.svg"
+                             class=sosialimg alt="github">
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</footer>
+<script src="../Resources/scripts/contact.js"></script>
+<script src="../Resources/scripts/index.js"></script>
 </body>
 </html>
