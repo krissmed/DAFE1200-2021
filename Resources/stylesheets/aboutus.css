@@ -71,6 +71,8 @@
       
       .popup-img {
           float: left;
+          width: 50vh;
+          height: auto;
       }
       
     .popup-div {
