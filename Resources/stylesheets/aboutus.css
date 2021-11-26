@@ -103,12 +103,15 @@
             min-height: 100vh;
             background-color: #E3E3E3;
             overflow: hidden;
-            height: 110vh;
+            height: 1500vh;
             width: 100%;
             position: sticky;
             scroll-snap-align: start;
             top: 0;
-            position: relative;
         }
 
         
+.last {
+   
+        position: relative;
+}
