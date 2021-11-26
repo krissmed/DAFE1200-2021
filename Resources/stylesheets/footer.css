@@ -33,7 +33,7 @@
 /*Chooses the size of the footer logo */
 .footerlogo {
     padding-top: 6vh;
-    width: 50%;
+    width: 15em;
     height: auto;
 }
 
@@ -142,5 +142,17 @@
     /* chooses flex grow and flex shrink for navigation menu in the footer*/
     .footernav {
         flex: 2 0;
+    }
+}
+
+@media screen and (min-width: 1190px) {
+    .footerlogo {
+        width: 20vh;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .footerlogo {
+        width: 25vh;
     }
 }
