@@ -1,9 +1,3 @@
-@media (min-aspect-ratio: 666/300){
-    .rbmvid{
-    }
-}
-
-
 @media screen and (max-width: 1310px){
     .ss-content{
         justify-content: flex-start !important;
@@ -127,7 +121,7 @@
 /* media tags for scaling .gif/.mp4 header video with aspect-ratio*/
 
 @media screen (min-aspect-ratio: ){
-    
+
 
 }
 
