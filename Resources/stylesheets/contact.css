@@ -1,50 +1,68 @@
-.container {
+.containerContact {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 3vh;
-    overflow: visible;
+    color: rgb(33,34,34);
+    background-color: rgb(227,227,227);
 }
-header {
-    text-align: center;
+
+.logo-heading {
+    margin-top: 80px;
+}
+
+.form {
     width: 100%;
+    margin: 20px;
 }
-.cards {
-    text-align: center;
-    padding: 1vh;
-    margin: 1vh;
-    max-width: 200px;
-    min-width: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    cursor: default;
+
+input[type=text], select, textarea {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-.cards:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+.submit {
+    text-align: end;
+    margin: 20px;
 }
-    .profilePic {
-        width: 100%;
-        height: 20%;
-    }
-    .profileJobTitle {
-        color: grey;
-    }
-    .profileIcon{
-        width: 1rem;
-        height: 1rem;
+input[type=submit]{
+    border-radius: 4px;
+    color: rgb(33,34,34);
+    border: 1px solid rgb(33,34,34);
+    cursor: pointer;
+    height: 2rem;
+    width: 5rem;
+}
+input[type=submit]:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+    color: rgb(227,227,227);
+    background-color: rgb(33,34,34);
+
+}
+
+input[type=text], select:focus {
+    background-color: lightblue;
+    outline: none;
+}
+
+input[type=text]:hover, select:hover, textarea:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+
+@media only screen and (max-width: 500px) {
+    input[type=text], select:focus {
+        background-color: white;
+        outline: none;
     }
 
-    /*When screenwidth under 1030px*/
-@media screen and (max-width: 1030px) {
-    .header {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    .container {
-        margin-top: 0;
+    .form {
+        width: 80%;
     }
 }
