@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1310px){
     .ss-content{
         justify-content: flex-start !important;
@@ -118,10 +119,71 @@
     }
 }
 
+/* Media tags for scaling av første slideshow*/
+
+@media screen and (max-width: 420px){
+    .scaling{
+        display: flex !important;
+    }
+    .infobox-left{
+        display: none !important;
+    }
+    .solutionfirst{
+        left: -100px !important;
+        width: -webkit-calc(100px + 100vw);
+        width: -moz-calc(100px + 100vw);
+        width: calc(100px + 100vw);
+    }
+
+    .rbm-text-logo{
+        width: calc(100% + 100px) !important;
+    }
+}
+@media screen and (max-width: 330px) {
+
+    .solutionfirst{
+        left: -150px !important;
+        width: -webkit-calc(150px + 100vw);
+        width: -moz-calc(150px + 100vw);
+        width: calc(150px + 100vw);
+    }
+
+    .rbm-text-logo{
+        width: calc(100% + 150px) !important;
+    }
+
+}
+
 /* media tags for scaling .gif/.mp4 header video with aspect-ratio*/
 
 @media screen (min-aspect-ratio: ){
 
+
+}
+
+.scaling{
+    justify-content: center;
+    min-height: max-content;
+    max-height: max-content;
+    height: auto;
+    text-align: center;
+    justify-content: space-evenly;
+    display: none;
+
+}
+
+.scaling .infobox-text{
+    width: 100vw;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+    display: flex;
+
+}
+.scaling .info-sentence{
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2vw;
 
 }
 
@@ -134,6 +196,13 @@
     display: flex;
     justify-content: center;
 }
+/*
+.solutionfirst{
+    background-image: url("rbmpanoramic.gif");
+    background-position: 10% !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}*/
 
 .rbmvid{
     min-width: 100%;
