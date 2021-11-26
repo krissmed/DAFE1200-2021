@@ -51,11 +51,11 @@
     </a>
 </nav>
 <ul class="hamburger-nav-bar" id="hamburger-nav-bar">
-    <li class="hamburger-li"><a href="index.html">Home</a></li>
+    <li class="hamburger-li"><a href="index.html">Hjem</a></li>
     <li class="hamburger-li"><a href="problem.html">Problem</a></li>
-    <li class="hamburger-li"><a href="løsning.html">Solution</a></li>
-    <li class="hamburger-li"><a href="omOss.html">About us</a></li>
-    <li class="hamburger-li"><a href="kontakt.html">Contact</a></li>
+    <li class="hamburger-li"><a href="løsning.html">Løsning</a></li>
+    <li class="hamburger-li"><a href="omOss.html">Om oss</a></li>
+    <li class="hamburger-li"><a href="kontakt.html">Kontakt</a></li>
     <a href="#" class="hamburger-a-closed">
         <div class="hamburger-line-closed"></div>
         <div class="hamburger-line-closed"></div>
@@ -69,67 +69,128 @@
 </a>
 <!-- First slideshow -->
 <div class="slideshow solutionfirst">
-    <!--<video class="rbmvid" loop="true" autoplay="autoplay" muted>
-        <source src="Resources/video/rbmpanoramic.mp4" type="video/mp4">
-    </video>-->
-    <img class="rbmvid" src="../Resources/video/rbmpanoramic.gif">
+    <video class="rbmvid" loop="true" autoplay="autoplay" muted defaultMuted playsinline>
+        <source src="../Resources/video/rbmpanoramic.mp4" type="video/mp4">
+    </video>
+    <!--<img class="rbmvid" src="Resources/video/rbmpanoramic.gif">-->
     <div class="logo-container solution">
         <div class="rbm-text-logo">
             <div>
-                <h1 class="logo-text span-rebound">The Rebound Machine</h1>
+                <h1 class="logo-text span-rebound text">The Rebound Machine</h1>
             </div>
         </div>
     </div>
     <div class="infobox-left">
         <div class="infobox-text">
-            <span class="info-sentence">The Rebound Machine removes dangerous pollution caused by e-waste from the air. </span>
-            <br><br>
-            <span class="info-sentence">The machine works like an industrial air purifier. It sucks in air, purifies it and sends it back to the enviroment.</span>
-            <br><br>
-            <span class="info-sentence">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"</span>
+            <span class="info-sentence text">The Rebound Machine removes dangerous pollution caused by e-waste from the air. </span>
+            <br>
+            <span class="info-sentence text">The machine works like an industrial air purifier. It sucks in air, purifies it and sends it back to the enviroment.</span>
+            <br>
+            <span class="info-sentence text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"</span>
         </div>
 
     </div>
 
 </div>
+<div class="slideshow scaling">
+    <div class="infobox-text">
+        <span class="info-sentence text">The Rebound Machine removes dangerous pollution caused by e-waste from the air. </span>
+        <br><br>
+        <span class="info-sentence text">The machine works like an industrial air purifier. It sucks in air, purifies it and sends it back to the enviroment.</span>
+        <br><br>
+        <span class="info-sentence text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"</span>
+    </div>
+</div>
 <!-- Second slideshow -->
-<div class="slideshow ss-solution odd">
+<div class="slideshow ss-solution odd last">
 
     <div class="ss-content">
         <img src="../Resources/images/rbmtall.png" class="rbmtall">
     </div>
     <div class="about pipe left">
-            <span class="info-sentence">
+            <span class="info-sentence text">
             The pipe of the machine spews out clean, breathable, filtered air.
             The pipe makes sure the same air is not filtered over and over again.
             <hr><br>
             </span>
     </div>
     <div class="about filter right">
-            <span class="info-sentence">
+            <span class="info-sentence text">
             The upper body of the machine filters the air.
             The polluted air goes undergoes a thorough chemical and mechanical filtering process before it is sent to the pipe.
             <hr><br>
             </span>
     </div>
     <div class="about tubing left">
-            <span class="info-sentence">
+            <span class="info-sentence text">
             The tubes send the polluted air from the intake to the filters.
             <hr><br>
             </span>
     </div>
     <div class="about intake right">
-            <span class="info-sentence">
+            <span class="info-sentence text">
             The air intake on the front of the machine uses multiple internal turbines to inhale polluted air.
             <hr><br>
             </span>
     </div>
-
+</div>
+<!------------------------- NEW SLIDESHOW ----------------------------------->
+<div class="slideshow">
 
 
 </div>
+
 <!------------------------- FOOTER CONTAINER ----------------------------------->
-<footer>
+<footer class="footer">
+    <!--Box where the adress, logo and mail button will be-->
+    <div class="footeraddr">
+        <!--Adding the logo-->
+        <img class="footerlogo" src="../Resources/images/logo.png" alt="logo footer">
+    </div>
+    <!--Makes a bracket for the for the links for navigation-->
+    <ul class="footernav">
+        <li class="navitem">
+            <!--Makes the titel over the bracket-->
+            <h2 class="navtitle">Vårt Arbeid</h2>
+            <!--Creates the bracket-->
+            <ul class="navul">
+                <li>
+                    <a href="../sources.html">Kilder</a>
+                </li>
+                <li>
+                    <a href="omOss.html">Team</a>
+                </li>
+            </ul>
+        <li class="navitem">
+            <h2 class="navtitle">Addresse</h2>
+            <address>
+                Pilestredet 35, 0166 Oslo
+                <br>
+                <!--Makes the mail us button-->
+                <a class="footerbtn" href="mailto:Support@rebound.com">Send en email</a>
+            </address>
+        </li>
+        <!--Sosial media-->
+        <li class="navitem">
+            <h2 class="navtitle">Sosialt</h2>
+            <ul class="navul">
+                <li>
+                    <a href="https://facebook.com">
+                        <img src="../Resources/images/facebook.svg" class=sosialimg alt="facebook">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="../Resources/images/instagram.svg" class=sosialimg alt="instagram">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="../Resources/images/twitter.svg" class=sosialimg alt=twitter>
+                    </a>
+                    <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
+                        <img src="../Resources/images/github.svg" class=sosialimg alt="github">
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
 </footer>
 
 </body>
