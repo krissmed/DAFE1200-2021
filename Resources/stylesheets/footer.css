@@ -109,11 +109,7 @@
 }
 
 /* Sosial media images*/
-.sosialimg {
-    width: 3vw;
-    height: auto;
-    margin-right: 1vh;
-}
+
 
 
 /* Makes the margin for the legal line auto, when the media screen reaches a minimum size*/
@@ -155,4 +151,41 @@
     .footerlogo {
         width: 25vh;
     }
+}
+
+@media screen and (min-width: 0) and (max-width: 648px){
+    .sosialimg {
+        width: 20vw;
+        height: auto;
+        margin-right: 10vh;
+        margin-bottom: 2vh;
+    }
+    
+}
+@media screen and (min-width: 648px){
+    .sosialimg {
+        width: 13vw;
+        height: auto;
+        margin-right: 3vh;
+        margin-bottom: 2vh;
+    }
+    
+}
+@media screen and (min-width: 697px){
+    .sosialimg {
+        width: 5vw;
+        height: auto;
+        margin-right: 1vh;
+        margin-bottom: 2vh;
+    }
+    
+}
+@media screen and (min-width: 1252px){
+    .sosialimg {
+        width: 3vw;
+        height: auto;
+        margin-right: 1vh;
+        margin-bottom: 2vh;
+    }
+    
 }
