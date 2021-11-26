@@ -13,7 +13,7 @@ function kontroll() {
     let reason  = document.getElementById("contactReason").value;
     let message = document.getElementById("message").value;
 
-    if (name.length > 0 && email.length > 0 && reason.length > 0 && (message.length - 12) > 0){
+    if (name.length > 0 && email.length > 0 && reason.length > 0 && message.length > 0){
 
         return true;
     }

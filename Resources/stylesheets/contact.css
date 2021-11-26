@@ -45,7 +45,7 @@ input[type=submit]:hover{
 
 }
 
-input[type=text], select:focus {
+input[type=text]:focus-visible, select:focus, textarea:focus {
     background-color: lightblue;
     outline: none;
 }
