@@ -180,10 +180,6 @@
         display: none !important;
     }
     .infobox-left{
-        display: -webkit-box !important;
-        display: -webkit-flex !important;
-        display: -moz-box !important;
-        display: -ms-flexbox !important;
         display: flex !important;
         top: 35% !important;
     }
@@ -336,11 +332,8 @@
     position: absolute;
     top: 25%;
     width: 98%;
-    -webkit-box-pack: right;
-    -webkit-justify-content: right;
-       -moz-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    display: flex;
+    justify-content: right;
     
 }
 
