@@ -3,6 +3,7 @@
     }
 }
 
+
 @media screen and (max-width: 1310px){
     .ss-content{
         justify-content: flex-start !important;
@@ -17,9 +18,9 @@
     }
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px) and (min-aspect-ratio: 655/290){
     .rbmtall{
-        height: 100vh !important;
+        height: 100% !important;
     }
     .about .info-sentence{
         font-size: 10pt !important;
@@ -57,6 +58,13 @@
     }
         
 }
+
+@media screen and (max-height: 660px) and (max-width: 400px) {
+    .about .info-sentence{
+        font-size: 6pt !important;
+    }
+}
+
 @media screen and (max-width: 421px) {
     .right{
         right: 1% !important;
