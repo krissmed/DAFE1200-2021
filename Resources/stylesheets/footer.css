@@ -7,13 +7,13 @@
     padding-left: 5vw;
     padding-top: 2vh;
     color: black;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #E3E3E3;
     z-index: 0;
     position: relative;
     bottom: 0;
     width: 95vw;
     min-height: 30vh;
-    background-color: #edf5e1;
+    background-color: #E3E3E3;
 }
     /*Properties when hovered over*/
     .footer a:hover {
@@ -64,6 +64,7 @@
 
 /* Styles makes the link not have any decorations*/
 .footer a {
+    color: black;
     text-decoration: none;
 }
 
