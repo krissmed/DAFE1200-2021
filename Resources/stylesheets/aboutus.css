@@ -4,10 +4,8 @@
 .grid {
     position: relative;
     z-index: 1;
-    max-width: 1100px;
-    min-width: 700px;
-    
-   
+    height: auto;
+    width: 11vw;
 }
 .grid:hover {
     background-color: gray;
@@ -22,14 +20,14 @@
     z-index: 2;
     text-align: center;
     padding: 1vh;
-    margin: 1vh;
+    margin-top: -40vh;
     
     background-color: #E3E3E3;
     color: darkgreen;
 }
     .profilePic {
-        width: 50%;
-        height: 10%;
+        width: 10vw;
+        height: auto;
     }
     .profileJobTitle {
         color: darkgreen;
@@ -103,7 +101,7 @@
             min-height: 100vh;
             background-color: #E3E3E3;
             overflow: hidden;
-            height: 1500vh;
+            height: 100vh;
             width: 100%;
             position: sticky;
             scroll-snap-align: start;
@@ -112,6 +110,42 @@
 
         
 .last {
-   
         position: relative;
+}
+
+@media screen and (max-width: 1400px) {
+    .profilePic {
+        width: 15vw;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .profilePic {
+        width: 24vw;
+        height: auto;
+    }
+    .grid {
+        position: relative;
+        z-index: 1;
+        height: auto;
+        width: 34vw;
+    }
+    .cards {
+        margin-top: -20vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    .profilePic {
+        width: 24vw;
+        height: auto;
+    }
+    .grid {
+        position: relative;
+        z-index: 1;
+        height: 50vh;
+        width: 90vw;
+    }
+    .cards {
+        margin-top: -20vh;
+    }
 }
