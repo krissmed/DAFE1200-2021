@@ -47,6 +47,7 @@ body {
         display: inline-block;
         color: white;
         background-color: rgb(33,34,34);
+        border-radius: 5%;
     }
         .slide2Main h2{
             margin-top: 20%;
@@ -101,6 +102,8 @@ body {
     .underslides {
        width: 33.33%;
         height: 100%;
+        border-radius: 5%;
+
     }
 
     .underslides h3 {
