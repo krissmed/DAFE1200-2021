@@ -6,14 +6,12 @@
     flex-flow: row wrap;
     padding-top: 2vh;
     color: black;
-    border-top: 1px solid #E3E3E3;
     z-index: 0;
     position: relative;
     bottom: 0;
     width: 100%;
     min-height: 30vh;
-    background-color: #E3E3E3;
-    border-top: black 3px solid;
+    background-color: white;
 }
 
 .navitem{
@@ -54,7 +52,7 @@
 /* Chooses the font style and color for the content inside of the <adress> tag */
 .footer address {
     font-style: normal;
-    color: #454545;
+    color: black;
 }
 
 /* Sets a spesific styling for everything in the <ul>-tag */
