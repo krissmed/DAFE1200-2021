@@ -84,6 +84,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
     .underslides {
@@ -93,6 +94,9 @@ body {
         flex-flow: column;
         background-color: rgb(227,227,227);
         color: rgb(33,34,34);
+    }
+    .u1 p, .u2 p, .u4 p, .u5 p, .u6 p, .u7 p, .u8 p{
+        margin: 0 50px;
     }
     .u3 {
         width: 100%;
