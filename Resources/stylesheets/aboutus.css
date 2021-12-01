@@ -461,7 +461,7 @@ html {
 @media screen and (max-height: 700px) {
    
     .popup-div{
-        top: -160px;
+        margin-top: 400px;
         font: 1em sans-serif;
     
     }
@@ -469,6 +469,11 @@ html {
         width: 35vh;
         margin-right: 50px;
     }
+    .popup-img-vetle {
+        width: 25vh;
+        margin-top: -20px;
+        margin-right: 50px;
+      }
     .odd{
         height: 200vh;
     }
