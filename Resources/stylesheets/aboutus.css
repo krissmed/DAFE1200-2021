@@ -88,8 +88,6 @@ html {
     
     background-color: #1a1a1a;
     color: #e9e9e9;
-    -webkit-text-decoration-color: #e9e9e9;
-            text-decoration-color: #e9e9e9;
 }
 
 .slideshow-div {
@@ -245,7 +243,6 @@ html {
       }
       
     .popup-innhold{
-        color: black;
         font-size: 1em;
         padding: 5vmin;
     }
