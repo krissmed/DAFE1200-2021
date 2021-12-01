@@ -160,13 +160,25 @@ html {
     height: 100%;
 }
 
-.slideshow-title {
+.slideshow-title-black {
     text-align: center;
     font-size: 2.5em;
     font-style: bold;
+    color: black;
     -webkit-text-decoration-color: black;
             text-decoration-color: black;
 }
+
+
+.slideshow-title-white {
+    text-align: center;
+    font-size: 2.5em;
+    font-style: bold;
+    color: white;
+    -webkit-text-decoration-color: white;
+            text-decoration-color: white;
+}
+
 
 
 
@@ -239,6 +251,7 @@ html {
     .clickus{
         display: flex;
         justify-content: center;
+        color: black;
     }
 
     .container {
@@ -279,11 +292,7 @@ html {
           text-decoration: underline;
           font-weight: bolder;
       }
-      .popup-img-vetle {
-        float: left;
-        width: 40vh;
-        height: auto;
-      }
+     
       
     .popup-div {
         background: #fff;
