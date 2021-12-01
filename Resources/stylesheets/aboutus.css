@@ -233,9 +233,9 @@ html {
         height: 1rem;
     }
     .profilePic-vetle{
-        width: 7.3vw;
+        width: 15vmax;
         height: auto;
-        margin-bottom: -13px;
+        margin-bottom: 30px;
     }
 
     .clickus{
