@@ -87,13 +87,18 @@ body {
 }
 
     .underslides {
-       width: 33%;
+       width: 50%;
+        min-height: 120px;
         display: flex;
         flex-flow: column;
         background-color: rgb(227,227,227);
         color: rgb(33,34,34);
     }
-
+    .u3 {
+        width: 100%;
+        min-height: 150px;
+        margin: 0 5vw;
+    }
     .underslides h3 {
         text-align: center;
     }
