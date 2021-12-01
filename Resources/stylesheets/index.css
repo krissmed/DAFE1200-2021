@@ -75,7 +75,7 @@ body{
 
 }
 
-@media (max-width: 1120px){
+@media (max-width: 1150px){
     .bodyText{
         padding-right: 0.5vw !important;
         padding-left: 1vw !important;
