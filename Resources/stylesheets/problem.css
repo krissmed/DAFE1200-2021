@@ -23,7 +23,7 @@ body {
             height: 10vh;
             width: 25vw;
             position: relative;
-            margin-top: 40%;
+            margin-top: 30vh;
         }
         .slide1Title {
             color: rgb(7, 72, 19);
@@ -38,8 +38,7 @@ body {
             display: inline-block;
         }
         .img-frontPage img{
-            height: 20vh;
-            width: 12vw;
+            height: 12vh;
             border-radius: 3%;
         }
     .slide2Main {
