@@ -1,8 +1,12 @@
 
+
 body{
+    /* Removes the standard margin*/
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* */
 
 @media (max-width: 600px) {
     .split {
@@ -20,22 +24,6 @@ body{
         height: 1.2em !important;  
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 380px) {
     .logo-img {
@@ -468,4 +456,35 @@ html {
         
     }
 
+}
+
+@media screen and (max-height: 700px) {
+   
+    .popup-div{
+        top: -160px;
+        font: 1em sans-serif;
+    
+    }
+    .popup-img {
+        width: 35vh;
+        margin-right: 50px;
+    }
+    .odd{
+        height: 200vh;
+    }
+}
+@media screen and (max-height: 750px) {
+   
+    .popup-div{
+        top: -100px;
+   
+    
+    }
+    .popup-img {
+        width: 35vh;
+        margin-right: 50px;
+    }
+    .even {
+        height: 250vh;
+    }
 }
