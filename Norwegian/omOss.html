@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="no">
-
 <head>
-    <link rel="stylesheet" href="../Resources/stylesheets/index.css">
+    <link rel="stylesheet" href="../Resources/stylesheets/aboutus.css">
     <link rel="stylesheet" href="../Resources/stylesheets/footer.css">
     <link rel="stylesheet" href="../Resources/stylesheets/nav-bar.css">
-    <link rel="stylesheet" href="../Resources/stylesheets/aboutus.css">
     <link rel="stylesheet" href="../Resources/stylesheets/scroll.css">
-    <script src="../Resources/scripts/index.js"></script>
+
+    <!-- Document Title -->
+    <title>Rebound | Contact</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Contact us">
+
     <!--Special Chars (æ,ø,å)-->
     <meta charset="UTF-8">
     <!--Better control of layout on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="../Resources/images/infinite-mathematical-symbol(2).svg" />
-    <title>Om Oss</title>
-</head>
+    <!-- Viewport for responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
+</head>
 <body>
+    <!------------------------- NAVBAR ----------------------------------->
     <nav class="nav-bar">
-        <a href="index.html" class="box">
-            <img src="Resources/images/infilogo.png" alt="Rebound logo" class="nav-logo">
+        <a href="indeks.html" class="box">
+            <img src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="Rebound logo" class="nav-logo">
         </a>
         <ul class="nav-all-items box">
-            <li class="nav-item-li active">
+            <li class="nav-item-li">
                 <a class="nav-item-a" href="index.html">Home</a>
             </li>
 
@@ -31,207 +35,227 @@
             </li>
 
             <li class="nav-item-li">
-                <a class="nav-item-a" href="solution.html">Solution</a>
+                <a class="nav-item-a" href="løsning.html">Solution</a>
+            </li>
+
+            <li class="nav-item-li active">
+                <a class="nav-item-a" href="omOss.html">About us</a>
             </li>
 
             <li class="nav-item-li">
-                <a class="nav-item-a" href="aboutus.html">About us</a>
-            </li>
-
-            <li class="nav-item-li">
-                <a class="nav-item-a" href="contact.html">Contact</a>
+                <a class="nav-item-a" href="kontakt.html">Contact</a>
             </li>
         </ul>
-        <a href="../aboutus.html" class="box flagbox">
-            <img src="Resources/images/norge.png" alt="Norweigan flag" class="nav-logo flag">
+        <a href="../index.html" class="box flagbox">
+            <img src="../Resources/images/US.png" alt="American flag" class="nav-logo flag">
         </a>
-
-
     </nav>
-
-
+    <ul class="hamburger-nav-bar" id="hamburger-nav-bar">
+        <li class="hamburger-li"><a href="index.html">Home</a></li>
+        <li class="hamburger-li"><a href="problem.html">Problem</a></li>
+        <li class="hamburger-li"><a href="løsning.html">Solution</a></li>
+        <li class="hamburger-li"><a href="omOss.html">About us</a></li>
+        <li class="hamburger-li"><a href="kontakt.html">Contact</a></li>
+        <a href="#" class="hamburger-a-closed" name="Close hamburger menu" title="Close hamburger menu">
+            <div class="hamburger-line-closed"></div>
+            <div class="hamburger-line-closed"></div>
+            <div class="hamburger-line-closed"></div>
+        </a>
+    </ul>
+    <a class="hamburger-a" href="#hamburger-nav-bar" name="Open hamburger menu" title="Open hamburger menu">
+        <div class="hamburger-line-open"></div>
+        <div class="hamburger-line-open"></div>
+        <div class="hamburger-line-open"></div>
+    </a>
+    
+    <!--First slideshow on the site, the odd tag changes it color to gray-->
     <div class="slideshow odd">
         <div class="slideshow-div">
-            <h1 class="slideshow-title">Hvem er <span class="green">vi?</span></h1>
+            
+            <!--Title-->
+            <h1 class="slideshow-title-white">Who are <span class="green">we?</span></h1>
             <div class="split">
-                <p class="bodyText">
-                    La oss introdusere oss selv. Vi er et lite team fra Norge. Sammen har vi ett felles ønske - å
-                    forandre verden.
-                    Vi har alle forskjellig bakgrunn, men vi smaler oss rundt to felles interesser: teknologi og
-                    muligheten til å gjøre en forandring.
-                    Vi bestemte oss derfor for å starte et selskap hvor vi skulle blande disse felles interesserene og
-                    lage noe vi virkelig brenner for.
-                    Dette selskapet ble døpt til Rebound. Vi har et sterkt ønske om å sprette tilbake og få verden på
-                    rett kjøl igjen når det kommer til katastrofale klimaendringer.
+                <!--Tekst-->
+                <p class="bodyText">First of all, let us introduce ourself. We are a small team from Norway, who want to change the world.
+                    The team is pretty different from each other, some people would think we don't even have anything in common. But we all have two things in common,
+                    technologi/computers and to change to world for the better. So we deicide to go out and start a business were we can to both.
+
+
                 </p>
-                <img src="Resources/images/placeholder.jpg" alt="Dumpster">
-            </div>
-
-
+                
         </div>
-        <div class="scroll-div">
-            <a href="#arrowHref">
-                <div>
-                    <span class="arrows-white en"></span>
-                    <span class="arrows-white to"></span>
-                </div>
-            </a>
-        </div>
-    </div>
-
-
-    <div class="slideshow-team last" id="meetteam">
-        <h1 class="slideshow-title">Our great <span class="green">Team</span></h1>
-        <div class="slideshow container">
-            <div class="grid">
-                <a href="#team1 " class="cards-link">
-                    <div class="cards">
-                        <img src="Resources/images/placeholder.png" alt="Profile Picture" class="profilePic">
-                        <h2 class="profileName">Erling Mahias Staff</h2>
-                        <p class="profileJobTitle">Sjefs-designer</p>
-
+        <!--Animated arrows-->     
+        <div class="div-arrows desktopArrow">
+            <div class="scroll-div">
+                <a href="#arrowHref" name="Scroll down the page" title="Scroll down the page">
+                    <div>
+                        <span class="arrows-green desktop en"></span>
+                        <span class="arrows-green desktop to"></span>
                     </div>
                 </a>
-            </div>
-            <!--Popup til første medlem-->
-            <div id="team1" class="popup">
-                <div class="popup-div">
-                    <div class="popup-innhold">
-                        <h1>Erling Mathias Staff</h1>
-                        <img src="Resources/images/placeholder.png" class="popup-img">
-                        <p class="popup-text">
-                            Dette er <b>Erling</b> vårt lags sjefs-designer. Erling er født og oppvokst på Høvik rett
-                            utenfor Oslo. Når han var yngre elsket han å lage og finne opp nye ting,
-                            han var kreativ gutt. Dette har ført til at han er en mester av design.
-                            <br> Kontakt informasjon:
-                            <br> Studentnr
-                            <br> s3xxxxx@oslomet.no
-                            <br> 111 11 111
-                        </p>
-                    </div>
-                    <a class="popup-knapp" href="#meetteam">Lukk</a>
-                </div>
-            </div>
-
-            <div class="grid">
-                <a href="#team2" class="cards-link">
-                    <div class="cards">
-                        <img src="Resources/images/placeholder.png" alt="Profile Picture" class="profilePic">
-                        <h2 class="profileName">Kristian Smedsrød</h2>
-                        <p class="profileJobTitle">Prosjektleder</p>
-
-                    </div>
-                </a>
-            </div>
-            <!--Popup til andre medlem-->
-            <div id="team2" class="popup">
-                <div class="popup-div">
-                    <div class="popup-innhold">
-                        <h1>Kristian Smedsrød</h1>
-                        <img src="Resources/images/placeholder.png" class="popup-img">
-                        <p class="popup-text">
-                            Dette er <b>Kristian</b>, vår store leder. Kristian er fra Groruddalen i Oslo, og styrer
-                            vårt lag. Han er hjernen bak operasjonen vår, og bidrar med sine råd.
-                            Selvom Kristian må være en hard leder er han alltid med på litt moro med de andre i laget.
-                            Tror det eller ei, men favoritt maten til Kristian er Sushi fra Carl Berner
-
-                            <br> Kontakt informasjon:
-                            <br> s3xxxxx@oslomet.no
-                            <br> 111 11 111
-                        </p>
-                    </div>
-                    <a class="popup-knapp" href="#meetteam">Close</a>
-                </div>
-            </div>
-            <div class="grid">
-                <a href="#team3" class="cards-link">
-                    <div class="cards">
-                        <img src="Resources/images/placeholder.png" alt="Profile Picture" class="profilePic">
-                        <h2 class="profileName">Ole Jørgen Knoph</h2>
-                        <p class="profileJobTitle">Lead-programmer</p>
-
-                    </div>
-                </a>
-            </div>
-
-            <!--Popup til tredje medlem-->
-            <div id="team3" class="popup">
-                <div class="popup-div">
-                    <div class="popup-innhold">
-                        <h1>Ole Jørgen Knoph</h1>
-                        <img src="Resources/images/placeholder.png" class="popup-img">
-                        <p class="popup-text">This is <b>Ole Jørgen</b> our teams lead-programmer. Born and raised in
-                            Lilestrøm, Norway and have enjoyed computer programming from an young age.
-                            I would guess, he is propably screaming at a code that won't work right now.
-                            <br> Contact Info
-                            <br> Student nr
-                            <br> s3xxxxx@oslomet.no
-                            <br> 111 11 111
-                        </p>
-                    </div>
-                    <a class="popup-knapp" href="#meetteam">Close</a>
-                </div>
-            </div>
-            <div class="grid">
-                <a href="#team4" class="cards-link">
-                    <div class="cards">
-                        <img src="Resources/images/placeholder.png" alt="Profile Picture" class="profilePic">
-                        <h2 class="profileName">Vetle Endrerud</h2>
-                        <p class="profileJobTitle">wip</p>
-                    </div>
-                </a>
-            </div>
-
-            <!--Popup til fjerde medlem-->
-            <div id="team4" class="popup">
-                <div class="popup-div">
-                    <div class="popup-innhold">
-                        <h2>Vetle Endrerud</h2>
-                        <img src="Resources/images/placeholder.png" class="popup-img">
-                        <p class="popup-text">This is <b>Vetle</b>, born and raised in Hønefoss. He is our everything
-                            guy, and also known to be the handsomest man in the world.
-                            He helps inn all the deparments of the project, design, programming. You name it, he could
-                            do it.
-                            <br> Contact Info
-                            <br> S354418
-                            <br> s354418@oslomet.no
-                            <br> +47 410 65 165
-                        </p>
-                    </div>
-                    <a class="popup-knapp" href="#meetteam">Close</a>
-                </div>
             </div>
         </div>
-
     </div>
     </div>
+    <!--Andre slideshow-->
+    <div class="slideshow even" id="meetteam">
+        <!--Title-->
+        <h1 class="slideshow-title-black">Our great <span class="green">Team</span></h1>
+        <span class="clickus">Click on us for more info!</span>
+        <div class="container">
 
 
+           <!--The href aktivates the popup when the user clicks on the person (only css)-->
+            <a href="#team1 "  class="team-link">
+            <div class="team">
+                <!--Image of person-->
+                <img src="../Resources/TeamMembers/erling.png" alt="Profile Picture" class="teamPic">
+                <!--Name of person-->
+                <h2>Erling Mahias Staff</h2>
+                <!--Role-->
+                <p class="role">Solutionist</p>
+                
+            </div>
+        </a>
+    
+        <!--Popup for the fist person-->
+        <div id="team1" class="popup">
+            <!--Main Div-->
+            <div class="popup-div">
+                <div class="popup-innhold">
+                    <!--Name-->
+                    <h1>Erling Mathias Staff</h1>
+                    <!--Image of person-->
+                    <img src="../Resources/TeamMembers/erling.png" class="popup-img" alt="Team member Erling">
+                    <!--Text and contact info-->
+                    <p class="popup-text"> This is <b>Erling</b> our teams solutionist. Born and raised in Høvik Norway, 
+                        and have always loved puzzles and solving problems. He is an awesome member of our team.
+                        Right now, he's probably stuck with a puzzle.
+                        <br> <span class="contact">Contact Info</span>
+                        <br> S354344
+                        <br> s354344@oslomet.no
+                    </p>
+                        <!--Button to close the popup-->
+                        <a class="popup-knapp" href="#meetteam">Close</a>
+                </div>
+                
+            </div>
+        </div>
+    
+        
+        <a href="#team2" class="team-link">
+            <div class="team">
+                <img src="../Resources/TeamMembers/kristian.png" alt="Profile Picture" class="teamPic">
+                <h2>Kristian Smedsrød</h2>
+                <p class="role">Project leader</p>
+                
+            </div>
+        </a>
+        
+            <!--Popup to second person-->
+        <div id="team2" class="popup">
+            <div class="popup-div">
+                <div class="popup-innhold">
+                    <h1>Kristian Smedsrød</h1>
+                    <img src="../Resources/TeamMembers/kristian.png" class="popup-img" alt="Team member Kristian">
+                    <p class="popup-text">This is <b>Kristian</b>, born and raised in Grorud. He is our great project leader and our mastermind.
+                        You are probably wondering what he's doing right now? Leading us into greatness!
+                        <br> <span class="contact">Contact Info</span> 
+                        <br> S354374
+                        <br> s354374@oslomet.no
+                    </p>
+                        <a class="popup-knapp" href="#meetteam">Close</a>
+                </div>
+                
+            </div>
+        </div>
+         
+            <a href="#team3" class="team-link">
+            <div class="team">
+                <img src="../Resources/TeamMembers/ole.png" alt="Profile Picture" class="teamPic">
+                <h2>Ole Jørgen Knoph</h2>
+                <p class="role">Lead-designer</p>
+                
+            </div>
+        </a>
+        
 
+        <!--Popup til third person-->
+        <div id="team3" class="popup">
+            <div class="popup-div">
+                <div class="popup-innhold">
+                    <h1>Ole Jørgen Knoph</h1>
+                    <img src="../Resources/TeamMembers/ole.png" class="popup-img" alt="Team member Ole">
+                    <p class="popup-text">This is <b>Ole Jørgen</b> our teams lead-designer. 
+                        Born and raised in Lilestrøm, Norway, and have designed and created things from a young age. 
+                        Right now, he is probably creating something cool.
+                        <br> <span class="contact">Contact Info</span> 
+                        <br> S354371
+                        <br> s354371@oslomet.no
+                        
+                        
+                    </p>
+                    <a class="popup-knapp" href="#meetteam">Close</a>
+                </div>
+                
+            </div>
+        </div>
+        
+            <a href="#team4" class="team-link">
+            <div class="team">
+                <img src="../Resources/TeamMembers/vetle.png" alt="Profile Picture" class="teamPic">
+                <h2>Vetle Endrerud</h2>
+                <p class="role">Lead-programmer</p>
+            </div>
+        </a>
+        
 
+        <!--Popup til fourth person-->
+        <div id="team4" class="popup">
+            <div class="popup-div">
+                <div class="popup-innhold">
+                    <h1>Vetle Endrerud</h1>
+                    <img src="../Resources/TeamMembers/vetle.png" class="popup-img" alt="Team member Vetle">
+                    <p class="popup-text">This is <b>Vetle</b>, born and raised in Hønefoss.
+                        Vetle is our great programmer and never says no to a challenge.
+                        He has programmed since was young, and it super excited to work on this project
+                        <br> <span class="contact">Contact Info</span> 
+                        <br> S354418
+                        <br> s354418@oslomet.no
+                    
+                    </p>
+                    <a class="popup-knapp" href="#meetteam">Close</a>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        </div>
+    
+            
+
+       
     <!------------------------- FOOTER CONTAINER ----------------------------------->
     <footer class="footer">
-        <!--Box where the adress, logo and mail button will be-->
-        <div class="footeraddr">
-            <!--Adding the logo-->
-            <img class="footerlogo" src="Resources/images/logo.png" alt="logo footer">
-        </div>
         <!--Makes a bracket for the for the links for navigation-->
         <ul class="footernav">
             <li class="navitem">
+                <img class="footerlogo" src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="logo footer">
+            </li>
+            <li class="navitem">
                 <!--Makes the titel over the bracket-->
-                <h2 class="navtitle">Vårt Arbeid</h2>
+                <h2 class="navtitle">Our Work</h2>
                 <!--Creates the bracket-->
                 <ul class="navul">
                     <li>
-                        <a href="sources.html">Kilder</a>
+                        <a href="https://docs.google.com/document/d/18leOfNzwUxOi3zi_y0RYoi8DIbaTN81uLxuI0pcd2JM/edit">Sources</a>
                     </li>
                     <li>
-                        <a href="omOss.html#meetteam">Medlemmer</a>
+                        <a href="omOss.html">Team</a>
                     </li>
                 </ul>
             <li class="navitem">
-                <h2 class="navtitle">Adresse</h2>
+                <h2 class="navtitle">Address</h2>
                 <address>
                     Pilestredet 35, 0166 Oslo
                     <br>
@@ -240,26 +264,27 @@
             </li>
             <!--Sosial media-->
             <li class="navitem">
-                <h2 class="navtitle">Sosiale Medier</h2>
+                <h2 class="navtitle">Social</h2>
                 <ul class="navul">
                     <li>
                         <a href="https://facebook.com">
-                            <img src="Resources/images/facebook.svg" class=sosialimg alt="facebook">
+                            <img src="../Resources/images/facebook.svg" class=sosialimg alt="facebook">
                         </a>
                         <a href="https://instagram.com">
-                            <img src="Resources/images/instagram.svg" class=sosialimg alt="instagram">
+                            <img src="../Resources/images/instagram.svg" class=sosialimg alt="instagram">
                         </a>
                         <a href="https://twitter.com">
-                            <img src="Resources/images/twitter.svg" class=sosialimg alt=twitter>
+                            <img src="../Resources/images/twitter.svg" class=sosialimg alt=twitter>
                         </a>
-                        <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
-                            <img src="Resources/images/github.svg" class=sosialimg alt="github">
+                        <a href="https://github.com/krissmed/DAFE1200-2021/">
+                            <img src="../Resources/images/github.svg" class=sosialimg alt="github">
                         </a>
                     </li>
                 </ul>
             </li>
         </ul>
     </footer>
+<script src="../Resources/scripts/contact.js"></script>
+<script src="../Resources/scripts/index.js"></script>
 </body>
-
 </html>
