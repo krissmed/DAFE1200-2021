@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="../Resources/stylesheets/index.css">
     <link rel="stylesheet" href="../Resources/stylesheets/footer.css">
     <link rel="stylesheet" href="../Resources/stylesheets/nav-bar.css">
+    <link rel="stylesheet" href="../Resources/stylesheets/scroll.css">
     <script src="../Resources/scripts/index.js"></script>
     <!--Special Chars (æ,ø,å)-->
     <meta charset="UTF-8">
@@ -17,12 +18,12 @@
 <body>
     <!------------------------- NAVBAR ----------------------------------->
     <nav class="nav-bar">
-        <a href="index.html" class="box">
+        <a href="indeks.html" class="box">
             <img src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="Rebound logo" class="nav-logo">
         </a>
         <ul class="nav-all-items box">
             <li class="nav-item-li active">
-                <a class="nav-item-a" href="index.html">Hjem</a>
+                <a class="nav-item-a" href="indeks.html">Home</a>
             </li>
 
             <li class="nav-item-li">
@@ -30,114 +31,118 @@
             </li>
 
             <li class="nav-item-li">
-                <a class="nav-item-a" href="løsning.html">Løsning</a>
+                <a class="nav-item-a" href="løsning.html">Solution</a>
             </li>
 
             <li class="nav-item-li">
-                <a class="nav-item-a" href="omOss.html">Om oss</a>
+                <a class="nav-item-a" href="omOss.html">About us</a>
             </li>
 
             <li class="nav-item-li">
-                <a class="nav-item-a" href="kontakt.html">Kontakt</a>
+                <a class="nav-item-a" href="kontakt.html">Contact</a>
             </li>
         </ul>
         <a href="../index.html" class="box flagbox">
-            <img src="../Resources/images/english.png" alt="English flag" class="nav-logo flag">
+            <img src="../Resources/images/US.png" alt="American flag" class="nav-logo flag">
         </a>
     </nav>
     <ul class="hamburger-nav-bar" id="hamburger-nav-bar">
-        <li class="hamburger-li"><a href="index.html">Hjem</a></li>
+        <li class="hamburger-li"><a href="indeks.html">Home</a></li>
         <li class="hamburger-li"><a href="problem.html">Problem</a></li>
-        <li class="hamburger-li"><a href="løsning.html">Løsning</a></li>
-        <li class="hamburger-li"><a href="omOss.html">Om Oss</a></li>
-        <li class="hamburger-li"><a href="kontakt.html">Kontakt</a></li>
-        <a href="#" class="hamburger-a-closed">
+        <li class="hamburger-li"><a href="løsning.html">Solution</a></li>
+        <li class="hamburger-li"><a href="omOss.html">About us</a></li>
+        <li class="hamburger-li"><a href="kontakt.html">Contact</a></li>
+        <a href="#" class="hamburger-a-closed" name="Close hamburger menu" title="Close hamburger menu">
             <div class="hamburger-line-closed"></div>
             <div class="hamburger-line-closed"></div>
             <div class="hamburger-line-closed"></div>
         </a>
     </ul>
-    <a class="hamburger-a" href="#hamburger-nav-bar">
+    <a class="hamburger-a" href="#hamburger-nav-bar" name="Open hamburger menu" title="Open hamburger menu">
         <div class="hamburger-line-open"></div>
         <div class="hamburger-line-open"></div>
         <div class="hamburger-line-open"></div>
     </a>
     <!-- First slideshow -->
     <div class="slideshow even">
-        <div class="scrolling" id="frontpageImg"></div>
-        <div class="logo-container">
-            <div class="logo-flex">
-                <img class="logo-img" src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="Logo">
-                <div>
-                    <h1 class="logo-text">Prosjekt Rebound</h1>
-                    <h2 class="logo-text">
-                        Gjenbruk, Resirkuler, <span class="span-rebound">Rebound</span>
-                    </h2>
-                </div>
+        <div class="div-arrows">
+            <div class="scroll-div">
+                <a href="#arrowHref" name="Scroll down the page" title="Scroll down the page">
+                    <div>
+                        <span class="arrows-green en"></span>
+                        <span class="arrows-green to"></span>
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="div-arrows">
-            <div class="arrow-box">
-                <a class="a-arrows" href="#arrowHref">
-                    <img class="arrows" src="../Resources/images/downarrows.png" alt="Scroll down">
-                </a>
+        <div class="scrolling" id="frontpageImg"><img id="front-img" alt="e-waste dumb site"
+                src="../Resources/images/edump.jpg"></div>
+        <div class="logo-container">
+            <div class="logo-flex">
+                <img class="logo-img" src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="">
+                <div>
+                    <h1 class="logo-text">Project Rebound</h1>
+                    <h2 class="logo-text">
+                        Reuse, Recycle, <span class="span-rebound">Rebound</span>
+                    </h2>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="slideshow even" id="arrowHref">
         <div class="slideshow-div">
-            <h1 class="slideshow-title">Hva er <span class="orange">problemet?</span></h1>
+            <h1 class="slideshow-title">What is the <span class="red">problem?</span></h1>
             <div class="split">
-                <p class="bodyText">Deponier er en vanlig måte å håndtere avfall på. Problemet er at deponier produserer
-                    mye metan, som er en klimagass. Det er faktisk 84-86 ganger mer potent enn CO2[1].
-                    Det betyr at 1 kilo metan tilsvarer 84-86 kilo CO2. Bare i USA drivhusgass
-                    utslipp fra deponier sto for 15 % av USAs totale metanutslipp[2]. Dette tilsvarer hva
-                    rundt 21 millioner biler forurenser på ett år.
+                <p class="bodyText">Landfills are a common way of managing waste. The problem is that landfills produce
+                    a lot of methane, which is a greenhouse gas. It is actually 84-86 times more potent than CO2[1].
+                    That means that 1 kilogram of methane equals 84-86 kilograms CO2. In the US alone greenhouse gas
+                    emissions from landfills accounted for 15% of the US’ total methane emissions[2]. This is approximately
+                    the same as 21 million cars pollutes in one year.
+
                 </p>
                 <img src="../Resources/images/Agbogbloshie-SS5_5431.jpg" alt="Dumpster">
             </div>
-            <a class="readMoreBtn" href="problem.html">Les mer</a>
+            <a class="readMoreBtn" href="problem.html">Read more</a>
+
         </div>
     </div>
-    <div class="slideshow odd">
+    <!--<div class="slideshow scrolling" id="img2"></div> -->
+    <div class="slideshow odd last">
         <div class="slideshow-div">
-            <h1 class="slideshow-title">Hva er <span class="green">løsningen?</span></h1>
+            <h1 class="slideshow-title">What is the <span class="lightergreen">solution?</span></h1>
             <div class="split">
                 <img src="../Resources/images/working.jpg" alt="Men Working">
-                <p class="bodyText">Vår løsning på problemet er Rebound Machine&copy;. Det fjerner metan fra
-                    søppelfyllinger ved å bruke en kjemisk reaksjon mellom vann og metanse for å produsere metanol og
-                    oksygen som
-                    et biprodukt[3]. Metanol er en svært giftig væske, men den kan brukes som drivstoff. Denne kan være
-                    en av mange energikilder som kan bruker som biodrivstoff[4].
+                <p class="bodyText">Our solution to the problem is the Rebound Machine&copy;. It removes methane from
+                    landfills by using a chemical reaction between water and methance to produce methanol and oxygen as
+                    a biproduct[3]. Methanol is a very toxic liquid, but it can be used as fuel. There has been a lot of science researching the possibility of using methanol as a biofuel[4].
+
                 </p>
             </div>
-            <a class="readMoreBtn btn-on-black" href="løsning.html">Les mer</a>
+            <a class="readMoreBtn btn-on-black" href="løsning.html">Read more</a>
         </div>
     </div>
     <!------------------------- FOOTER CONTAINER ----------------------------------->
     <footer class="footer">
-        <!--Box where the adress, logo and mail button will be-->
-        <div class="footeraddr">
-            <!--Adding the logo-->
-            <img class="footerlogo" src="Resources/images/logo.png" alt="logo footer">
-        </div>
         <!--Makes a bracket for the for the links for navigation-->
         <ul class="footernav">
             <li class="navitem">
+                <img class="footerlogo" src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="logo footer">
+            </li>
+            <li class="navitem">
                 <!--Makes the titel over the bracket-->
-                <h2 class="navtitle">Vårt Arbeid</h2>
+                <h2 class="navtitle">Our Work</h2>
                 <!--Creates the bracket-->
                 <ul class="navul">
                     <li>
-                        <a href="sources.html">Kilder</a>
+                        <a href="https://docs.google.com/document/d/18leOfNzwUxOi3zi_y0RYoi8DIbaTN81uLxuI0pcd2JM/edit">Sources</a>
                     </li>
                     <li>
-                        <a href="omOss.html#meetteam">Medlemmer</a>
+                        <a href="omOss.html">Team</a>
                     </li>
                 </ul>
             <li class="navitem">
-                <h2 class="navtitle">Adresse</h2>
+                <h2 class="navtitle">Address</h2>
                 <address>
                     Pilestredet 35, 0166 Oslo
                     <br>
@@ -146,20 +151,20 @@
             </li>
             <!--Sosial media-->
             <li class="navitem">
-                <h2 class="navtitle">Sosiale Medier</h2>
+                <h2 class="navtitle">Social</h2>
                 <ul class="navul">
                     <li>
                         <a href="https://facebook.com">
-                            <img src="Resources/images/facebook.svg" class=sosialimg alt="facebook">
+                            <img src="../Resources/images/facebook.svg" class=sosialimg alt="facebook">
                         </a>
                         <a href="https://instagram.com">
-                            <img src="Resources/images/instagram.svg" class=sosialimg alt="instagram">
+                            <img src="../Resources/images/instagram.svg" class=sosialimg alt="instagram">
                         </a>
                         <a href="https://twitter.com">
-                            <img src="Resources/images/twitter.svg" class=sosialimg alt=twitter>
+                            <img src="../Resources/images/twitter.svg" class=sosialimg alt=twitter>
                         </a>
-                        <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
-                            <img src="Resources/images/github.svg" class=sosialimg alt="github">
+                        <a href="https://github.com/krissmed/DAFE1200-2021/">
+                            <img src="../Resources/images/github.svg" class=sosialimg alt="github">
                         </a>
                     </li>
                 </ul>
