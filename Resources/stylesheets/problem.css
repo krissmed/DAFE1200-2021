@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
     .underslides {
@@ -107,10 +107,6 @@ body {
         text-align: center;
     }
 
-    .u9 img {
-        width: 100%;
-        margin: auto;
-    }
 
 @media only screen and (max-width: 768px){
     .slide1Main {
