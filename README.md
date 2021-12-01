@@ -1,5 +1,5 @@
 # DAFE1200-2021
-Webutvikling and inclusive design fall 2021
+Webdevelopment and inclusive design fall 2021 / Webutvikling og inkluderende design høst 2021
 
 # Group members:
 Erling Mathias Staff - s354344
