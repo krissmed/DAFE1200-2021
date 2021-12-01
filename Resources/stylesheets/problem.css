@@ -72,7 +72,7 @@ body {
     }
 
     .mobileArrow {
-        display: none;
+        display: none !important;
     }
 
 
@@ -132,10 +132,10 @@ body {
         min-width: 50%;
     }
     .desktopArrow {
-        display: none;
+        display: none !important;
     }
     .mobileArrow {
-        display: flex;
+        display: flex !important;
     }
 }
 
