@@ -4,16 +4,23 @@
 .footer {
     display: flex;
     flex-flow: row wrap;
-    padding-left: 5vw;
     padding-top: 2vh;
     color: black;
     border-top: 1px solid #E3E3E3;
     z-index: 0;
     position: relative;
     bottom: 0;
-    width: 95vw;
+    width: 100%;
     min-height: 30vh;
     background-color: #E3E3E3;
+    border-top: black 3px solid;
+}
+
+.navitem{
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
 }
     /*Properties when hovered over*/
     .footer a:hover {
@@ -33,8 +40,7 @@
 /*Chooses the size of the footer logo */
 .footerlogo {
     padding-top: 6vh;
-    width: 15em;
-    height: auto;
+    width: 8em;
 }
 
 
@@ -140,37 +146,29 @@
 
 @media screen and (min-width: 0) and (max-width: 648px){
     .sosialimg {
-        width: 20vw;
+        width: 8vw;
         height: auto;
-        margin-right: 10vh;
-        margin-bottom: 2vh;
     }
     
 }
 @media screen and (min-width: 648px){
     .sosialimg {
-        width: 13vw;
+        width: 4vw;
         height: auto;
-        margin-right: 3vh;
-        margin-bottom: 2vh;
     }
     
 }
 @media screen and (min-width: 697px){
     .sosialimg {
-        width: 5vw;
+        width: 4vw;
         height: auto;
-        margin-right: 1vh;
-        margin-bottom: 2vh;
     }
     
 }
 @media screen and (min-width: 1252px){
     .sosialimg {
-        width: 3vw;
+        width: 4vw;
         height: auto;
-        margin-right: 1vh;
-        margin-bottom: 2vh;
     }
     
 }
