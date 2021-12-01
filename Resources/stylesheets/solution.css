@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (max-width: 544px){
+@media screen and (max-width: 745px){
     .rbmtall{
         height: 65vh !important;
         margin-top: 12.5vh !important;
@@ -53,7 +53,7 @@
         top: 80% !important;
     }
     .about .info-sentence{
-        font-size: 9pt !important;
+        font-size: 8pt !important;
     }
         
 }
