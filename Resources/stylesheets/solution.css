@@ -387,3 +387,21 @@
 .right{
     right: 3%;
 }
+
+.lastdiv{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.lasttext{
+    display: flex;
+    text-align: center;
+}
+.lastss{
+    min-height: 80vh !important;
+    height: max-content !important;
+}

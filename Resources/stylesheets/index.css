@@ -163,7 +163,7 @@ body{
         height: auto !important;
         
     }
-    .ss-solution{
+    .ss-solution, .lastss{
         top: -7px !important;
     }
     .bodyText {
@@ -187,7 +187,7 @@ body{
         position: relative !important;
         height: auto !important;
     }
-    .ss-content{
+    .ss-content, .lastss{
         top: -7px;
     }
     .bodyText {
