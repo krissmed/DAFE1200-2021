@@ -1,13 +1,10 @@
-
-
 body{
     /* Removes the standard margin*/
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* */
-
+/* Makes split, text and the green arrows scale*/
 @media (max-width: 600px) {
     .split {
         display: initial;
