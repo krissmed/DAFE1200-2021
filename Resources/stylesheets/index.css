@@ -388,6 +388,7 @@ html {
     /*background-image: url("../images/ew.png");*/
     height: 100vh;
     position: sticky;
+    filter: saturate(75%);
 }
 
 #front-img{
