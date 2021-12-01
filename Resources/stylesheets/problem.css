@@ -33,12 +33,13 @@ body {
         }
         .img-frontPage {
             width: 100%;
+            display: flex;
             text-align: center;
             justify-content: center;
             display: inline-block;
         }
         .img-frontPage img{
-            height: 12vh;
+            height: 8vmax;
             border-radius: 3%;
         }
     .slide2Main {
