@@ -91,36 +91,10 @@ html {
     -webkit-text-decoration-color: #e9e9e9;
             text-decoration-color: #e9e9e9;
 }
-.last{
-    position: relative;
-}
+
 .slideshow-div {
     margin-top: 75px;
     margin-bottom: 15px;
-}
-
-.text-container {
-   
-    border: solid black 1px;
-}
-
-.logo-container {
-    margin: 0 auto;
-    margin-left: 0px;
-    position: absolute;
-    top: 14%;
-    width: 100%;
-}
-
-.logo-text {
-    margin-left: 10px;
-    color: #fefefe;
-    font-size: 18pt;
-    font-weight: 100;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .logo-text:first-child {
@@ -131,20 +105,6 @@ html {
 .green {
     color: darkgreen;
 }
-.lightergreen{
-    color: green;
-}
-
-.orange {
-    color: rgb(182, 100, 0);
-}
-
-.red{
-    color: rgb(182, 17, 17);
-}
-
-
-
 
 .scrolling {
     background-size: cover;
@@ -152,15 +112,6 @@ html {
     background-position: center;
 }
 
-#frontpageImg {
-    /*background-image: url("../images/ew.png");*/
-    height: 100vh;
-    position: sticky;
-}
-
-#front-img{
-    height: 100%;
-}
 
 .slideshow-title-black {
     text-align: center;
@@ -180,9 +131,6 @@ html {
     -webkit-text-decoration-color: white;
             text-decoration-color: white;
 }
-
-
-
 
 .bodyText {
     font-size: 1.3em;
@@ -206,14 +154,7 @@ html {
             align-items: center;
 }
 
-.split img {
-    height: auto; 
-    width: auto; 
-    max-height: 350px; 
-    border-radius: 7px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
+
 
 .cards-link {
     text-decoration: none;
