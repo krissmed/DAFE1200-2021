@@ -73,15 +73,17 @@
       
     .popup-div {
         position: relative;
-        top: 45vh;
-        left: 17ch;
+        
         transform: translate(-50%,-50%);
         margin: 7em auto;
         background: #fff;
         border-radius: 0.5em;
-        width: 80em;
+        left: 25%;
+        right: 55%;
+        top:40%;
         padding: 3em;
         float: right;
+        width: 70%;
       }
       
     .popup-knapp {
@@ -133,6 +135,21 @@
     .cards {
         margin-top: -20vh;
     }
+    .popup-div {
+        width: 90%;
+        height: 100%;
+        left:52%
+    }
+    .popup-img {
+        float: left;
+        width: 40vw;
+        height: auto;
+    }
+    .popup-titel {
+       
+        position: relative;
+        left: 30%;
+    }
 }
 @media screen and (max-width: 600px) {
     .profilePic {
@@ -148,4 +165,48 @@
     .cards {
         margin-top: -20vh;
     }
+    .popup-div{
+        width: 110%;
+        left: 75%;
+    }
+    .popup-img {
+        width: 32vh;
+        
+        margin-bottom: 20px;
+    }
+    .popup-innhold{
+        margin-top: 20px;
+        width: 50%;
+        position: fixed;
+        left: 27%;
+    }
+    .img-div {
+        left: -15%;
+        background-color: red;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+   
+    .popup-img {
+        width: 28vh;
+      
+        margin-bottom: 20px;
+    }
+    
+   
+
+}
+
+@media screen and (max-width: 350px) {
+   
+    .popup-img {
+        width: 27vh;
+      
+        margin-bottom: 20px;
+    }
+    
+   
+
 }
