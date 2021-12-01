@@ -266,5 +266,11 @@ html {
             background-color: black;
         }
 
-
+        .div-arrows {
+            position: relative;
+            
+            justify-content: center;
+            display: flex;
+            top: -20vh;
+        }
 
