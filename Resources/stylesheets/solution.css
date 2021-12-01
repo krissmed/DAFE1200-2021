@@ -363,6 +363,7 @@
 }
 .ss-solution{
     height: 150vh;
+    box-shadow: 2px 2px 2px black;
 }
 
 .about{
@@ -396,12 +397,16 @@
     flex-direction: column;
     margin-left: 10vw;
     margin-right: 10vw;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    
 }
 .lasttext{
     display: flex;
+    line-height: 170%;
     text-align: center;
 }
 .lastss{
-    min-height: 80vh !important;
     height: max-content !important;
+    min-height: max-content !important;
 }
