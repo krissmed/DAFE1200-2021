@@ -1,259 +1,271 @@
 <!DOCTYPE html>
 <html lang="no">
-
 <head>
-    <link rel="stylesheet" href="../Resources/stylesheets/footer.css">
-    <link rel="stylesheet" href="../Resources/stylesheets/nav-bar.css">
     <link rel="stylesheet" href="../Resources/stylesheets/problem.css">
     <link rel="stylesheet" href="../Resources/stylesheets/scroll.css">
     <link rel="stylesheet" href="../Resources/stylesheets/index.css">
+    <link rel="stylesheet" href="../Resources/stylesheets/footer.css">
+    <link rel="stylesheet" href="../Resources/stylesheets/nav-bar.css">
+
     <!-- Document Title -->
-    <title>Rebound | Problem</title>
+    <title>Rebound | Contact</title>
     <!-- Meta Description -->
-    <meta name="description" content="What is the problem?">
+    <meta name="description" content="Contact us">
+
     <!--Special Chars (æ,ø,å)-->
     <meta charset="UTF-8">
     <!--Better control of layout on mobile devices-->
     <link rel="icon" type="image/png" href="../Resources/images/infinite-mathematical-symbol(2).svg" />
     <!-- Viewport for responsive web design -->
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Problem</title>
+
 </head>
-
 <body>
-<!------------------------- NAVBAR ----------------------------------->
-<nav class="nav-bar">
-    <a href="index.html" class="box">
-        <img src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="Rebound logo" class="nav-logo">
-    </a>
-    <ul class="nav-all-items box">
-        <li class="nav-item-li">
-            <a class="nav-item-a" href="index.html">Home</a>
-        </li>
+    <!------------------------- NAVBAR ----------------------------------->
+    <nav class="nav-bar">
+        <a href="index.html" class="box">
+            <img src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="Rebound logo" class="nav-logo">
+        </a>
+        <ul class="nav-all-items box">
+            <li class="nav-item-li">
+                <a class="nav-item-a" href="index.html">Home</a>
+            </li>
 
-        <li class="nav-item-li active">
-            <a class="nav-item-a" href="problem.html">Problem</a>
-        </li>
+            <li class="nav-item-li active">
+                <a class="nav-item-a" href="problem.html">Problem</a>
+            </li>
 
-        <li class="nav-item-li">
-            <a class="nav-item-a" href="løsning.html">Løsning</a>
-        </li>
+            <li class="nav-item-li">
+                <a class="nav-item-a" href="løsning.html">Solution</a>
+            </li>
 
-        <li class="nav-item-li">
-            <a class="nav-item-a" href="omOss.html">Om oss</a>
-        </li>
+            <li class="nav-item-li">
+                <a class="nav-item-a" href="omOss.html">About us</a>
+            </li>
 
-        <li class="nav-item-li">
-            <a class="nav-item-a" href="kontakt.html">Kontakt</a>
-        </li>
+            <li class="nav-item-li">
+                <a class="nav-item-a" href="kontakt.html">Contact</a>
+            </li>
+        </ul>
+        <a href="../index.html" class="box flagbox">
+            <img src="../Resources/images/US.png" alt="American flag" class="nav-logo flag">
+        </a>
+    </nav>
+    <ul class="hamburger-nav-bar" id="hamburger-nav-bar">
+        <li class="hamburger-li"><a href="index.html">Home</a></li>
+        <li class="hamburger-li"><a href="problem.html">Problem</a></li>
+        <li class="hamburger-li"><a href="løsning.html">Solution</a></li>
+        <li class="hamburger-li"><a href="omOss.html">About us</a></li>
+        <li class="hamburger-li"><a href="kontakt.html">Contact</a></li>
+        <a href="#" class="hamburger-a-closed" name="Close hamburger menu" title="Close hamburger menu">
+            <div class="hamburger-line-closed"></div>
+            <div class="hamburger-line-closed"></div>
+            <div class="hamburger-line-closed"></div>
+        </a>
     </ul>
-    <a href="../problem.html" class="box flagbox">
-        <img src="../Resources/images/english.png" alt="English flag" class="nav-logo flag">
+    <a class="hamburger-a" href="#hamburger-nav-bar" name="Open hamburger menu" title="Open hamburger menu">
+        <div class="hamburger-line-open"></div>
+        <div class="hamburger-line-open"></div>
+        <div class="hamburger-line-open"></div>
     </a>
-</nav>
-<ul class="hamburger-nav-bar" id="hamburger-nav-bar">
-    <li class="hamburger-li"><a href="index.html">Home</a></li>
-    <li class="hamburger-li"><a href="problem.html">Problem</a></li>
-    <li class="hamburger-li"><a href="løsning.html">Løsning</a></li>
-    <li class="hamburger-li"><a href="omOss.html">Om oss</a></li>
-    <li class="hamburger-li"><a href="kontakt.html">Kontakt</a></li>
-    <a href="#" class="hamburger-a-closed" name="Close hamburger menu" title="Close hamburger menu">
-        <div class="hamburger-line-closed"></div>
-        <div class="hamburger-line-closed"></div>
-        <div class="hamburger-line-closed"></div>
-    </a>
-</ul>
-<a class="hamburger-a" href="#hamburger-nav-bar" name="Open hamburger menu" title="Open hamburger menu">
-    <div class="hamburger-line-open"></div>
-    <div class="hamburger-line-open"></div>
-    <div class="hamburger-line-open"></div>
-</a>
-<!------------------------- CONTENT ----------------------------------->
-<div class="container">
-    <!--Two parted on desktop, splits when less width-->
-    <div class="frontPage">
-        <div class="slide1Main">
-            <!--logo image-->
-            <img class="logo-img" src="Resources/images/infinite-mathematical-symbol(2).svg" alt="Logo">
-            <!--Slide title-->
-            <h1 class="slide1Title" id="slide1Title">The Problem</h1>
-        </div>
-        <div class="slide2Main" id="arrowHrefMobile">
-            <h2></h2>
-            <p class="slide2content">
-                The use of landfills is one of the cheapest ways of managing waste. It’s also one of the oldest.
-                However, landfills are still being used today, both by rich and poor coutries. Poor countries have
-                no other choice, since they can't afford to spend millions on recycling infrastructure. With the
-                worlds poorest coming out of extreme poverty and their purchasing pover goes up, you will likely see
-                an explotion of waste production of the worlds poorest countries.<br><br>
-                Rich countries, like the US, use landfills to manage the huge amount of waste they produce. The United States enviornment Protection
-                Agency estimates that 15 of the US' total methane emmision come from landfills.
-                <br><br>
-                At the same time, we know that production and sales increase a country's income. So we can't expect these countries to limit their spending when their affluence and purchasing power increases.
-                Below, we will look at how
-                landfills impacts the enviornment through different stages.
-            </p>
-        </div>
-        <div class="div-arrows desktopArrow">
-            <div class="scroll-div">
-                <a href="#arrowHref" name="Scroll down the page" title="Scroll down the page">
-                    <div>
-                        <span class="arrows-green desktop en"></span>
-                        <span class="arrows-green desktop to"></span>
-                    </div>
-                </a>
+    <!------------------------- CONTENT ----------------------------------->
+    <div class="container">
+        <!--Two parted on desktop, splits when less width-->
+        <div class="frontPage">
+            <div class="slide1Main">
+                <!--logo image-->
+                <img class="logo-img" src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="Logo">
+                <!--Slide title-->
+                <h1 class="slide1Title" id="slide1Title">The Problem</h1>
+                <div class="img-frontPage">
+                    <img src="../Resources/images/goal1.png" alt="UN Goal 1">
+                    <img src="../Resources/images/goal2.jpg" alt="UN Goal 2">
+                    <img src="../Resources/images/goal3.png" alt="UN Goal 3">
+                    <img src="../Resources/images/goal4.png" alt="UN Goal 4">
+                    <img src="../Resources/images/goal5.jpg" alt="UN Goal 5">
+                </div>
+            </div>
+            <div class="slide2Main" id="arrowHrefMobile">
+                <p class="slide2content">
+                    The use of landfills is one of the cheapest ways of managing waste. It’s also one of the oldest.
+                    However, landfills are still being used today, both by rich and poor coutries. Poor countries have
+                    no other choice, since they can't afford to spend millions on recycling infrastructure. With the
+                    worlds poorest coming out of extreme poverty and their purchasing pover goes up, you will likely see
+                    an explotion of waste production of the worlds poorest countries.<br><br>
+                    Rich countries, like the US, use landfills to manage the huge amount of waste they produce. The
+                    United States enviornment Protection
+                    Agency estimates that 15 of the US' total methane emmision come from landfills.
+                    <br><br>
+                    At the same time, we know that production and sales increase a country's income. So we can't expect
+                    these countries to limit their spending when their affluence and purchasing power increases.
+                    Below, we will look at how
+                    landfills impacts the enviornment through different stages.
+                </p>
+            </div>
+            <div class="div-arrows desktopArrow">
+                <div class="scroll-div">
+                    <a href="#arrowHref" name="Scroll down the page" title="Scroll down the page">
+                        <div>
+                            <span class="arrows-green desktop en"></span>
+                            <span class="arrows-green desktop to"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!--Arrows that become visible on smaller screens. a href to another div-->
+            <div class="div-arrows mobileArrow">
+                <div class="scroll-div">
+                    <a href="#arrowHrefMobile" name="Scroll down the page" title="Scroll down the page">
+                        <div>
+                            <span class="arrows-green en"></span>
+                            <span class="arrows-green to"></span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
 
-        <!--Arrows that become visible on smaller screens. a href to another div-->
-        <div class="div-arrows mobileArrow">
-            <div class="scroll-div">
-                <a href="#arrowHrefMobile" name="Scroll down the page" title="Scroll down the page">
-                    <div>
-                        <span class="arrows-green en"></span>
-                        <span class="arrows-green to"></span>
-                    </div>
-                </a>
+
+        <!--Main information-->
+        <div class="problemPage2" id="arrowHref">
+            <h2>The <span class="red">problem</span> with <span class="green">landsfills</span></h2>
+            <p class="bodytext">
+                As it
+                turns out, with a lot more waste being produced as more and more people are coming out of poverty and
+                purchasing power of the world's poorest are rising, the production of waste is also rising. This is
+                especially a problem in developing countries where governments can’t afford to manage the waste
+                sustainably. In the
+                end, the waste will end up in landfills, if it gets picked up and managed at all. When the waste ends up
+                in landfills, it goes through some processes[5]:
+            </p>
+        </div>
+
+        <div class="slides3">
+            <div class="underslides u4">
+                <h3><span class="orange">1. </span> Initial <span class="green">adjustment</span></h3>
+                <p>
+                    When waste is being thrown in the landfill and due to the pockets of O2, microbial population start
+                    growing.
+                </p>
+            </div>
+            <div class="underslides u5">
+                <h3><span class="orange">2. </span> <span class="green">Transition</span></h3>
+                <p>
+                    The O2 is rapidly being changed with CO2, due to the microbial populations living who thrive under
+                    these kinds of conditions.
+                </p>
+            </div>
+            <div class="underslides u6">
+                <h3><span class="orange">3. </span> <span class="green">Acid formation</span></h3>
+                <p>
+                    The microbial populations starts producing organic acids and which starts sinking into the soil.
+                    The acid also speeds up the degradation of other waste, such as metals, due to it’s high PH-value.
+                    This
+                    leads to even more concentration of metals in the leachate.
+                </p>
+            </div>
+            <div class="underslides u7">
+                <h3><span class="orange">4. </span><span class="green">Methane fermentation</span></h3>
+                <p>
+                    Up until this point, the only greenhouse gas that has been produced is CO2. Now the microbacterial
+                    populations are creating methane (CH4) in addition to Carbon Dioxide (CO2). Methane is much more
+                    potent
+                    than CO2, so this gas has a potential to cause much more damage than the CO2
+                    gas.
+                </p>
+            </div>
+            <div class="underslides u8">
+                <h3><span class="orange">5. </span>Final <span class="green">maturation</span> and <span
+                        class="green">stabilization</span></h3>
+                <p>
+                    At this point, the microbial population slows its activity and methane production almost completely
+                    disappears. This is due to the absence of biodegradable material, which up until this point has been
+                    available.
+                </p>
+            </div>
+            <div class="underslides u1">
+                <h3><span class="red">Dangers</span> to <span class="green">wildlife</span></h3>
+                <p>
+                    Landfills are obviously dangerious through it's natrual production of greenhouse gases, but one not
+                    so obvious downside is it's dangers to wildlife. As landfills goes through the aforementioned
+                    processes it dangers wildlife by decimating a large portion of an ecossytem by polluting the
+                    soil[6]. This slowly makes it way up the food chain and affect the whole ecosystem that live in
+                    close proximity to a landfill.
+                </p>
+
+            </div>
+            <div class="underslides u2">
+                <h3>How does <span class="green">greenhouse</span> gases work?</h3>
+                <p>
+                    Greenhouse gases, as we know, trap heat from the sun inside the airs atmosphere. As light reflect of
+                    the earth's surface and infrared light tried to move out into space again, it is absorbed by
+                    greenhouse
+                    gases along the way and gets radiated back at earths surface[7].
+                </p>
+            </div>
+            <div class="underslides u3">
+                <h3>How can we <span class="green">fix</span> this?</h3>
+                <p>
+                    There are a huge number of reasons not to use landfills as a waste management system any more, but
+                    still, we can't expect the worlds poorest to afford a more sustainable way of managing waste. There
+                    is no getting around the fact that landfills are much cheaper than other optionions and will
+                    therefore be used now, and in the future. As a part of a complete solution, have we made a machine
+                    that cleans the air for methane and CO2. <a href="problem.html">Read more about it here</a>
+                </p>
             </div>
         </div>
     </div>
+    <!------------------------- FOOTER CONTAINER ----------------------------------->
+    <footer class="footer">
+        <!--Makes a bracket for the for the links for navigation-->
+        <ul class="footernav">
+            <li class="navitem">
+                <img class="footerlogo" src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="logo footer">
+            </li>
+            <li class="navitem">
+                <!--Makes the titel over the bracket-->
+                <h2 class="navtitle">Our Work</h2>
+                <!--Creates the bracket-->
+                <ul class="navul">
+                    <li>
+                        <a href="https://docs.google.com/document/d/18leOfNzwUxOi3zi_y0RYoi8DIbaTN81uLxuI0pcd2JM/edit">Sources</a>
+                    </li>
+                    <li>
+                        <a href="omOss.html">Team</a>
+                    </li>
+                </ul>
+            <li class="navitem">
+                <h2 class="navtitle">Address</h2>
+                <address>
+                    Pilestredet 35, 0166 Oslo
+                    <br>
 
-
-    <!--Main information-->
-    <div class="problemPage2" id="arrowHref">
-        <h2>The <span class="red">problem</span> with <span class="green">landsfills</span></h2>
-        <p class="bodytext">
-            As it
-            turns out, with a lot more waste being produced as more and more people are coming out of poverty and
-            purchasing power of the world's poorest are rising, the production of waste is also rising. This is
-            especially a problem in developing countries where governments can’t afford to manage the waste
-            sustainably. In the
-            end, the waste will end up in landfills, if it gets picked up and managed at all. When the waste ends up
-            in landfills, it goes through some processes:
-        </p>
-    </div>
-
-    <div class="slides3">
-        <div class="underslides u4">
-            <h3><span class="orange">1. </span> Initial <span class="green">adjustment</span></h3>
-            <p>
-                When waste is being thrown in the landfill and due to the pockets of O2, microbial population start
-                growing.
-            </p>
-        </div>
-        <div class="underslides u5">
-            <h3><span class="orange">2. </span> <span class="green">Transition</span></h3>
-            <p>
-                The O2 is rapidly being changed with CO2, due to the microbial populations living who thrive under
-                these kinds of conditions.
-            </p>
-        </div>
-        <div class="underslides u6">
-            <h3><span class="orange">3. </span> <span class="green">Acid formation</span></h3>
-            <p>
-                The microbial populations starts producing organic acids and which starts sinking into the soil.
-                The acid also speeds up the degradation of other waste, such as metals, due to it’s high PH-value. This
-                leads to even more concentration of metals in the leachate.
-            </p>
-        </div>
-        <div class="underslides u7">
-            <h3><span class="orange">4. </span><span class="green">Methane fermentation</span></h3>
-            <p>
-                Up until this point, the only greenhouse gas that has been produced is CO2. Now the microbacterial
-                populations are creating methane (CH4) in addition to Carbon Dioxide (CO2). Methane is much more potent
-                than CO2, so this gas has a potential to cause much more damage than the CO2
-                gas.
-            </p>
-        </div>
-        <div class="underslides u8">
-            <h3><span class="orange">5. </span>Final <span class="green">maturation</span> and <span class="green">stabilization</span></h3>
-            <p>
-                At this point, the microbial population slows its activity and methane production almost completely
-                disappears. This is due to the absence of biodegradable material, which up until this point has been
-                available.
-            </p>
-        </div>
-        <div class="underslides u1">
-            <h3><span class="red">Dangers</span> to <span class="green">wildlife</span></h3>
-            <p>
-                Landfills is obviously dangerious through it's natrual production of greenhouse gases, but one not
-                so obvious downside is it's dangers to wildlife. As landfills goes through the aforemention
-                processes it dangers wildlife by decimating a large portion of an ecossytem by destroying the water
-                supply as well as the soil.
-            </p>
-
-        </div>
-        <div class="underslides u2">
-            <h3>How does <span class="green">greenhouse</span> gases work?</h3>
-            <p>
-                Greenhouse gases, as we know, trap heat from the sun inside the airs atmosphere. As light reflect of
-                the earth's surface and infrared light tried to move out into space again, it bumps into greenhouse
-                gases along the way and "pinballs" around, some of which moves then back to earth's surface again.
-            </p>
-        </div>
-        <div class="underslides u3">
-            <h3>How can we <span class="green">fix</span> this?</h3>
-            <p>
-                There are a huge number of reasons not to use landfills as a waste management system any more, but
-                still, we can't expect the worlds poorest to afford a more sustainable way of managing waste. There
-                is no getting around the fact that landfills are much cheaper than other optionions and will
-                therefore be used now, and in the future. As a part of a complete solution, have we made a machine
-                that cleans the air for methane and CO2. <a href="problem.html">Read more about it here</a>
-            </p>
-        </div>
-    </div>
-</div>
-<!------------------------- FOOTER CONTAINER ----------------------------------->
-<footer class="footer">
-    <!--Makes a bracket for the for the links for navigation-->
-    <ul class="footernav">
-        <li class="navitem">
-            <img class="footerlogo" src="../Resources/images/infinite-mathematical-symbol(2).svg" alt="logo footer">
-        </li>
-        <li class="navitem">
-            <!--Makes the titel over the bracket-->
-            <h2 class="navtitle">Our Work</h2>
-            <!--Creates the bracket-->
-            <ul class="navul">
-                <li>
-                    <a href="sources.html">Sources</a>
-                </li>
-                <li>
-                    <a href="../aboutus.html#meetteam">Team</a>
-                </li>
-            </ul>
-        <li class="navitem">
-            <h2 class="navtitle">Address</h2>
-            <address>
-                Pilestredet 35, 0166 Oslo
-                <br>
-
-            </address>
-        </li>
-        <!--Sosial media-->
-        <li class="navitem">
-            <h2 class="navtitle">Social</h2>
-            <ul class="navul">
-                <li>
-                    <a href="https://facebook.com">
-                        <img src="../Resources/images/facebook.svg" class=sosialimg alt="facebook">
-                    </a>
-                    <a href="https://instagram.com">
-                        <img src="../Resources/images/instagram.svg" class=sosialimg alt="instagram">
-                    </a>
-                    <a href="https://twitter.com">
-                        <img src="../Resources/images/twitter.svg" class=sosialimg alt=twitter>
-                    </a>
-                    <a href="https://github.com/krissmed/DAFE1200-2021/">
-                        <img src="../Resources/images/github.svg" class=sosialimg alt="github">
-                    </a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</footer>
-
-</body>
+                </address>
+            </li>
+            <!--Sosial media-->
+            <li class="navitem">
+                <h2 class="navtitle">Social</h2>
+                <ul class="navul">
+                    <li>
+                        <a href="https://facebook.com">
+                            <img src="../Resources/images/facebook.svg" class=sosialimg alt="facebook">
+                        </a>
+                        <a href="https://instagram.com">
+                            <img src="../Resources/images/instagram.svg" class=sosialimg alt="instagram">
+                        </a>
+                        <a href="https://twitter.com">
+                            <img src="../Resources/images/twitter.svg" class=sosialimg alt=twitter>
+                        </a>
+                        <a href="https://github.com/krissmed/DAFE1200-2021/">
+                            <img src="../Resources/images/github.svg" class=sosialimg alt="github">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+<script src="../Resources/scripts/contact.js"></script>
 <script src="../Resources/scripts/index.js"></script>
-
+</body>
 </html>
