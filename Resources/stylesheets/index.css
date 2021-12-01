@@ -156,11 +156,15 @@ body{
         -webkit-box-align: center !important;
             -ms-flex-align: center !important;
                 align-items: center !important;
-        margin-top: 5vh !important;
+        /*margin-top: 5vh !important;*/
     }
     .slideshow {
         position: relative !important;
         height: auto !important;
+        
+    }
+    .ss-solution{
+        top: -7px !important;
     }
     .bodyText {
         width: 80% !important;
@@ -182,6 +186,9 @@ body{
     .slideshow {
         position: relative !important;
         height: auto !important;
+    }
+    .ss-content{
+        top: -7px;
     }
     .bodyText {
         width: 80% !important;
