@@ -31,6 +31,17 @@ body {
             margin-top: 40px;
             font-size: 4vw;
         }
+        .img-frontPage {
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            display: inline-block;
+        }
+        .img-frontPage img{
+            height: 20vh;
+            width: 12vw;
+            border-radius: 3%;
+        }
     .slide2Main {
         min-height: 100vh;
         width: 50%;
