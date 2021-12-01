@@ -158,22 +158,13 @@ html {
             align-items: center;
 }
 
-<<<<<<< HEAD
-.cards-link {
-    text-decoration: none;
-    color: black;
-    
-}
-.cards {
+
+/*Creates the cards where we showcase our team*/
+.team {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
-=======
-
-/*Creates the cards where we showcase our team*/
-.team {
->>>>>>> 877117cd5547bebd3d54ee9601492d132681ed03
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -362,33 +353,18 @@ html {
             background-color: black;
         }
 
-<<<<<<< HEAD
-        .div-arrows {
-            position: relative;
-            
-            -webkit-box-pack: center;
-            
-            -webkit-justify-content: center;
-            
-               -moz-box-pack: center;
-            
-                -ms-flex-pack: center;
-            
-                    justify-content: center;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: flex;
-            top: -20vh;
-        }
-=======
 /*An class for the green arrows, spesific for this website*/
 .div-arrows {
     position: relative;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     top: -20vh;
 }
-
->>>>>>> 877117cd5547bebd3d54ee9601492d132681ed03
