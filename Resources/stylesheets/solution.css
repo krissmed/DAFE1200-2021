@@ -180,6 +180,10 @@
         display: none !important;
     }
     .infobox-left{
+        display: -webkit-box !important;
+        display: -webkit-flex !important;
+        display: -moz-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
         top: 35% !important;
     }
@@ -331,15 +335,33 @@
     position: absolute;
     top: 25%;
     width: 98%;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+       -moz-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     
 }
 
 .infobox-text{
     width: 35%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 
 }
 
@@ -363,7 +385,9 @@
 }
 .ss-solution{
     height: 150vh;
-    box-shadow: 2px 2px 2px black;
+    -webkit-box-shadow: 2px 2px 2px black;
+       -moz-box-shadow: 2px 2px 2px black;
+            box-shadow: 2px 2px 2px black;
 }
 
 .about{
@@ -390,11 +414,29 @@
 }
 
 .lastdiv{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     height: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 6vh;
@@ -402,11 +444,19 @@
     
 }
 .lasttext{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     line-height: 170%;
     text-align: center;
 }
 .lastss{
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
     height: max-content !important;
+    min-height: -webkit-max-content !important;
+    min-height: -moz-max-content !important;
     min-height: max-content !important;
 }

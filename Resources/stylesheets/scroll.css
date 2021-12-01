@@ -27,7 +27,9 @@
   /*Disse gjør at blocken roter seg 45 grader, slik at det ser ut som piler. */
   -ms-transform: rotate(45deg); /* Denne gjør at funksjonen fungerer sammen med internett exploerer*/
   -webkit-transform: rotate(45deg); /*Denne gjør at den fungerer sammen med alle chromium baserte nettlesere*/
-  transform: 45deg; /*Denne må være med ettersom at vi må definere en standerd transform i tilfelle det er en nettleser som ikke er chormium eller IE*/  
+  -moz-transform: 45deg;
+    -o-transform: 45deg;
+       transform: 45deg; /*Denne må være med ettersom at vi må definere en standerd transform i tilfelle det er en nettleser som ikke er chormium eller IE*/  
 }
 
 
@@ -53,7 +55,9 @@
   /*Disse gjør at blocken roter seg 45 grader, slik at det ser ut som piler. */
   -ms-transform: rotate(45deg); /* Denne gjør at funksjonen fungerer sammen med internett exploerer*/
   -webkit-transform: rotate(45deg); /*Denne gjør at den fungerer sammen med alle chromium baserte nettlesere*/
-  transform: 45deg; /*Denne må være med ettersom at vi må definere en standerd transform i tilfelle det er en nettleser som ikke er chormium eller IE*/  
+  -moz-transform: 45deg;
+    -o-transform: 45deg;
+       transform: 45deg; /*Denne må være med ettersom at vi må definere en standerd transform i tilfelle det er en nettleser som ikke er chormium eller IE*/  
 }
 
 
@@ -79,14 +83,22 @@
   /*Disse gjør at blocken roter seg 45 grader, slik at det ser ut som piler. */
   -ms-transform: rotate(45deg); /* Denne gjør at funksjonen fungerer sammen med internett exploerer*/
   -webkit-transform: rotate(45deg); /*Denne gjør at den fungerer sammen med alle chromium baserte nettlesere*/
-  transform: 45deg; /*Denne må være med ettersom at vi må definere en standerd transform i tilfelle det er en nettleser som ikke er chormium eller IE*/  
+  -moz-transform: 45deg;
+    -o-transform: 45deg;
+       transform: 45deg; /*Denne må være med ettersom at vi må definere en standerd transform i tilfelle det er en nettleser som ikke er chormium eller IE*/  
 }
 
 /*Setter animation til alle tre klassene vi bruker til pilene*/
 .en, .to, .tre
 {
-    animation: scroll-ani 2s infinite;
-    animation-timing-function: linear;
+    -webkit-animation: scroll-ani 2s infinite;
+       -moz-animation: scroll-ani 2s infinite;
+         -o-animation: scroll-ani 2s infinite;
+            animation: scroll-ani 2s infinite;
+    -webkit-animation-timing-function: linear;
+       -moz-animation-timing-function: linear;
+         -o-animation-timing-function: linear;
+            animation-timing-function: linear;
 }
 
 /*Ettersom at pil nr en ikke har noen overseg trenger vi kun å dytte pil to og tre lengere opp.*/
@@ -97,22 +109,112 @@
 /*Setter en bestemt forsinkelse i animasjonen slik at det ser ut som den går gradevis*/
 .en
 {
-  animation-delay: .2s;
+  -webkit-animation-delay: .2s;
+     -moz-animation-delay: .2s;
+       -o-animation-delay: .2s;
+          animation-delay: .2s;
 }
 
 /*Setter en bestemt forsinkelse i animasjonen slik at det ser ut som den går gradevis*/
 .to
 {
-  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+     -moz-animation-delay: .3s;
+       -o-animation-delay: .3s;
+          animation-delay: .3s;
 }
 
 /*Setter en bestemt forsinkelse i animasjonen slik at det ser ut som den går gradevis*/
 .tre
 {
-  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+     -moz-animation-delay: .5s;
+       -o-animation-delay: .5s;
+          animation-delay: .5s;
 }
 
 /*Oppretter animasjonen ved hjelp av keyframes. Den øker synling heten av boksene ila 5 trinn som øker gradevis*/
+@-webkit-keyframes scroll-ani {
+0%   { 
+    display: none;
+    opacity: 0;
+    }
+20% {
+    
+    opacity: 0.50;
+    }
+
+40%  { 
+    
+    opacity: 1;
+    }
+60% {
+    
+    opacity: 1;
+    }
+80% {
+    
+    opacity: 1;
+    }
+100% { 
+    
+    opacity: 1;
+    }
+}
+@-moz-keyframes scroll-ani {
+0%   { 
+    display: none;
+    opacity: 0;
+    }
+20% {
+    
+    opacity: 0.50;
+    }
+
+40%  { 
+    
+    opacity: 1;
+    }
+60% {
+    
+    opacity: 1;
+    }
+80% {
+    
+    opacity: 1;
+    }
+100% { 
+    
+    opacity: 1;
+    }
+}
+@-o-keyframes scroll-ani {
+0%   { 
+    display: none;
+    opacity: 0;
+    }
+20% {
+    
+    opacity: 0.50;
+    }
+
+40%  { 
+    
+    opacity: 1;
+    }
+60% {
+    
+    opacity: 1;
+    }
+80% {
+    
+    opacity: 1;
+    }
+100% { 
+    
+    opacity: 1;
+    }
+}
 @keyframes scroll-ani {
 0%   { 
     display: none;
@@ -140,5 +242,4 @@
     opacity: 1;
     }
 }
-
 

@@ -21,10 +21,13 @@
 <body>
     <!------------------------- NAVBAR ----------------------------------->
     <nav class="nav-bar">
+        <!-- Link and logo-->
         <a href="index.html" class="box">
             <img src="Resources/images/infinite-mathematical-symbol(2).svg" alt="Rebound logo" class="nav-logo">
         </a>
+        <!--The nav bars table-->
         <ul class="nav-all-items box">
+            <!--Item in the table with link-->
             <li class="nav-item-li">
                 <a class="nav-item-a" href="index.html">Home</a>
             </li>
@@ -45,6 +48,7 @@
                 <a class="nav-item-a" href="contact.html">Contact</a>
             </li>
         </ul>
+        
         <a href="Norwegian/problem.html" class="box flagbox">
             <img src="Resources/images/norge.png" alt="Norwegian flag" class="nav-logo flag">
         </a>
@@ -67,142 +71,165 @@
         <div class="hamburger-line-open"></div>
     </a>
     
-    
+    <!--First slideshow on the site, the odd tag changes it color to gray-->
     <div class="slideshow odd">
         <div class="slideshow-div">
-            <h1 class="slideshow-title">Who are <span class="green">we?</span></h1>
+            
+            <!--Title-->
+            <h1 class="slideshow-title-white">Who are <span class="green">we?</span></h1>
             <div class="split">
+                <!--Tekst-->
                 <p class="bodyText">First of all, let us introduce ourself. We are a small team from Norway, who want to change the world.
                     The team is pretty different from each other, some people would think we don't even have anything in common. But we all have two things in common,
                     technologi/computers and to change to world for the better. So we deicide to go out and start a business were we can to both.
 
 
                 </p>
-                <img src="Resources/images/placeholder.jpg" alt="Dumpster">
-            </div>
-            
-            
+                
         </div>
-        <div class="scroll-div">
-            <a href="#arrowHref">
-                <div>
-                    <span class="arrows-green en"></span>
-                    <span class="arrows-green to"></span>
-                </div>
-            </a>
+        <!--Animated arrows-->     
+        <div class="div-arrows desktopArrow">
+            <div class="scroll-div">
+                <a href="#arrowHref" name="Scroll down the page" title="Scroll down the page">
+                    <div>
+                        <span class="arrows-green desktop en"></span>
+                        <span class="arrows-green desktop to"></span>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
-    
-    
-    <div class="slideshow-team last" id="meetteam">
-        <h1 class="slideshow-title">Our great <span class="green">Team</span></h1>
-        <div class="slideshow container">
-            <div class="grid">
-            <a href="#team1 "  class="cards-link">
-            <div class="cards">
-                <img src="Resources/TeamMembers/erling.png" alt="Profile Picture" class="profilePic">
-                <h2 class="profileName">Erling Mahias Staff</h2>
-                <p class="profileJobTitle">Lead-designer</p>
+    </div>
+    <!--Andre slideshow-->
+    <div class="slideshow even" id="meetteam">
+        <!--Title-->
+        <h1 class="slideshow-title-black">Our great <span class="green">Team</span></h1>
+        <span class="clickus">Click on us for more info!</span>
+        <div class="container">
+
+
+           <!--The href aktivates the popup when the user clicks on the person (only css)-->
+            <a href="#team1 "  class="team-link">
+            <div class="team">
+                <!--Image of person-->
+                <img src="Resources/TeamMembers/erling.png" alt="Profile Picture" class="teamPic">
+                <!--Name of person-->
+                <h2>Erling Mahias Staff</h2>
+                <!--Role-->
+                <p class="role">Solutionist</p>
                 
             </div>
         </a>
-    </div>
-        <!--Popup til første medlem-->
+    
+        <!--Popup for the fist person-->
         <div id="team1" class="popup">
+            <!--Main Div-->
             <div class="popup-div">
                 <div class="popup-innhold">
+                    <!--Name-->
                     <h1>Erling Mathias Staff</h1>
-                    <img src="Resources/TeamMembers/erling.png" class="popup-img">
-                    <p class="popup-text"> This is <b>Erling</b> our teams lead-designer. Born and raised in Høvik, Norway and have always loved design and creating ideas. He as an awesome member to our team.
-                        Right now he's probably stuck to the drawing board.
-                        <br> Contact Info 
+                    <!--Image of person-->
+                    <img src="Resources/TeamMembers/erling.png" class="popup-img" alt="Team member Erling">
+                    <!--Text and contact info-->
+                    <p class="popup-text"> This is <b>Erling</b> our teams solutionist. Born and raised in Høvik Norway, 
+                        and have always loved puzzles and solving problems. He is an awesome member of our team.
+                        Right now, he's probably stuck with a puzzle.
+                        <br> <span class="contact">Contact Info</span>
                         <br> S354344
                         <br> s354344@oslomet.no
-                        <br> 111 11 111</p>
+                    </p>
+                        <!--Button to close the popup-->
+                        <a class="popup-knapp" href="#meetteam">Close</a>
                 </div>
-                <a class="popup-knapp" href="#meetteam">Close</a>
+                
             </div>
         </div>
     
-        <div class="grid">
-        <a href="#team2" class="cards-link">
-            <div class="cards">
-                <img src="Resources/TeamMembers/kristian.png" alt="Profile Picture" class="profilePic">
-                <h2 class="profileName">Kristian Smedsrød</h2>
-                <p class="profileJobTitle">Project leader</p>
+        
+        <a href="#team2" class="team-link">
+            <div class="team">
+                <img src="Resources/TeamMembers/kristian.png" alt="Profile Picture" class="teamPic">
+                <h2>Kristian Smedsrød</h2>
+                <p class="role">Project leader</p>
                 
             </div>
         </a>
-        </div>
-            <!--Popup til andre medlem-->
+        
+            <!--Popup to second person-->
         <div id="team2" class="popup">
             <div class="popup-div">
                 <div class="popup-innhold">
                     <h1>Kristian Smedsrød</h1>
-                    <img src="Resources/TeamMembers/kristian.png" class="popup-img">
-                    <p class="popup-text">This is <b>Kristian</b>, born in Hønefoss and raised in Grorud. He is our great project leader, and our mastermind.
-                        You are probality wondring what he's doing right now? Leading us into greatness!
-                        <br> Contact Info 
+                    <img src="Resources/TeamMembers/kristian.png" class="popup-img" alt="Team member Kristian">
+                    <p class="popup-text">This is <b>Kristian</b>, born and raised in Grorud. He is our great project leader and our mastermind.
+                        You are probably wondering what he's doing right now? Leading us into greatness!
+                        <br> <span class="contact">Contact Info</span> 
                         <br> S354374
                         <br> s354374@oslomet.no
-                        <br> 111 11 111</p>
+                    </p>
+                        <a class="popup-knapp" href="#meetteam">Close</a>
                 </div>
-                <a class="popup-knapp" href="#meetteam">Close</a>
+                
             </div>
         </div>
-        <div class="grid"> 
-            <a href="#team3" class="cards-link">
-            <div class="cards">
-                <img src="Resources/TeamMembers/ole.png" alt="Profile Picture" class="profilePic">
-                <h2 class="profileName">Ole Jørgen Knoph</h2>
-                <p class="profileJobTitle">Lead-programmer</p>
+         
+            <a href="#team3" class="team-link">
+            <div class="team">
+                <img src="Resources/TeamMembers/ole.png" alt="Profile Picture" class="teamPic">
+                <h2>Ole Jørgen Knoph</h2>
+                <p class="role">Lead-designer</p>
                 
             </div>
         </a>
-        </div>
+        
 
-        <!--Popup til tredje medlem-->
+        <!--Popup til third person-->
         <div id="team3" class="popup">
             <div class="popup-div">
                 <div class="popup-innhold">
                     <h1>Ole Jørgen Knoph</h1>
-                    <img src="Resources/TeamMembers/ole.png" class="popup-img">
-                    <p class="popup-text">This is <b>Ole Jørgen</b> our teams lead-programmer. Born and raised in Lilestrøm, Norway and have enjoyed computer programming from an young age. 
-                        I would guess, he is propably screaming at a code that won't work right now.
-                        <br> Contact Info 
+                    <img src="Resources/TeamMembers/ole.png" class="popup-img" alt="Team member Ole">
+                    <p class="popup-text">This is <b>Ole Jørgen</b> our teams lead-designer. 
+                        Born and raised in Lilestrøm, Norway, and have designed and created things from a young age. 
+                        Right now, he is probably creating something cool.
+                        <br> <span class="contact">Contact Info</span> 
                         <br> S354371
                         <br> s354371@oslomet.no
-                        <br> +47 954 70 772
+                        
+                        
                     </p>
+                    <a class="popup-knapp" href="#meetteam">Close</a>
                 </div>
-                <a class="popup-knapp" href="#meetteam">Close</a>
+                
             </div>
         </div>
-        <div class="grid">
-            <a href="#team4" class="cards-link">
-            <div class="cards">
-                <img src="Resources/TeamMembers/vetle.png" alt="Profile Picture" class="profilePic">
-                <h2 class="profileName">Vetle Endrerud</h2>
-                <p class="profileJobTitle">wip</p>
+        
+            <a href="#team4" class="team-link">
+            <div class="team">
+                <img src="Resources/TeamMembers/vetle.png" alt="Profile Picture" class="teamPic">
+                <h2>Vetle Endrerud</h2>
+                <p class="role">Lead-programmer</p>
             </div>
         </a>
-        </div>
+        
 
-        <!--Popup til fjerde medlem-->
+        <!--Popup til fourth person-->
         <div id="team4" class="popup">
             <div class="popup-div">
                 <div class="popup-innhold">
-                    <h2>Vetle Endrerud</h2>
-                    <img src="Resources/TeamMembers/vetle.png" class="popup-img">
-                    <p class="popup-text">This is <b>Vetle</b>, born and raised in Hønefoss. He is our everything guy, and also known to be the handsomest man in the world. 
-                        He helps inn all the deparments of the project, design, programming. You name it, he could do it. 
-                        <br> Contact Info 
+                    <h1>Vetle Endrerud</h1>
+                    <img src="Resources/TeamMembers/vetle.png" class="popup-img" alt="Team member Vetle">
+                    <p class="popup-text">This is <b>Vetle</b>, born and raised in Hønefoss.
+                        Vetle is our great programmer and never says no to a challenge.
+                        He has programmed since was young, and it super excited to work on this project
+                        <br> <span class="contact">Contact Info</span> 
                         <br> S354418
                         <br> s354418@oslomet.no
-                        <br> +47 410 65 165
+                    
                     </p>
+                    <a class="popup-knapp" href="#meetteam">Close</a>
                 </div>
-                <a class="popup-knapp" href="#meetteam">Close</a>
+                
             </div>
         </div>
         </div>

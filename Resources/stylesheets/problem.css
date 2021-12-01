@@ -7,8 +7,18 @@ body {
 }
 /*Front page with the 2 slides parted on desktop*/
 .frontPage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     margin: 0;
 }
     /*slides on main*/
@@ -23,7 +33,7 @@ body {
             height: 10vh;
             width: 25vw;
             position: relative;
-            margin-top: 40%;
+            margin-top: 30vh;
         }
         .slide1Title {
             color: rgb(7, 72, 19);
@@ -33,26 +43,42 @@ body {
         }
         .img-frontPage {
             width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
             text-align: center;
-            justify-content: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+               -moz-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
             display: inline-block;
         }
         .img-frontPage img{
-            height: 20vh;
-            width: 12vw;
-            border-radius: 3%;
+            height: 8vmax;
+            -webkit-border-radius: 3%;
+               -moz-border-radius: 3%;
+                    border-radius: 3%;
         }
     .slide2Main {
         min-height: 100vh;
         width: 50%;
         text-align: center;
-        display: inline-block;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         color: white;
         background-color: rgb(33,34,34);
     }
-        .slide2Main h2{
-            margin-top: 20%;
-        }
         p {
             margin: 20px 30px 0;
             padding: 10px;
@@ -63,9 +89,17 @@ body {
     .div-arrows {
         position: absolute;
         width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
         margin: 50vh auto 0;
-        justify-content: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .desktop {
         border-bottom: solid rgb(33,34,34) 3px !important;
@@ -92,22 +126,43 @@ body {
 /*Slide 3 with 2 underSlides*/
 .slides3 {
     width: 100vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+       -moz-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     margin-bottom: 50px;
 }
 
     .underslides {
        width: 50%;
         min-height: 120px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: column;
+           -moz-box-orient: vertical;
+           -moz-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
         background-color: rgb(227,227,227);
         color: rgb(33,34,34);
-    }
-    .u1 p, .u2 p, .u4 p, .u5 p, .u6 p, .u7 p, .u8 p{
-        margin: 0 80px;
     }
     .u3 {
         width: 100%;
@@ -134,6 +189,10 @@ body {
         display: none !important;
     }
     .mobileArrow {
+        display: -webkit-box !important;
+        display: -webkit-flex !important;
+        display: -moz-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
     /*.u1, .u4, .u5, .u8 {
