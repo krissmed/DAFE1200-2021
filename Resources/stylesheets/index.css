@@ -160,7 +160,7 @@ body{
     }
     .slideshow {
         position: relative !important;
-        height: auto !important;
+        /*height: auto !important;*/
     }
     .bodyText {
         width: 80% !important;
@@ -181,7 +181,7 @@ body{
     }
     .slideshow {
         position: relative !important;
-        height: auto !important;
+        /*height: auto !important;*/
     }
     .bodyText {
         width: 80% !important;
