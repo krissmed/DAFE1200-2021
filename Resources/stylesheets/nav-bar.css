@@ -71,7 +71,7 @@ html {
     border-bottom: solid white 0.5px;
 }
 
-@media (max-width:728px) {
+@media (max-width:745px) {
     .nav-all-items {
         display: none;
     }
@@ -86,7 +86,7 @@ html {
     }
 }
 
-@media (min-width:728px) {
+@media (min-width:745px) {
     .nav-all-items {
         display: -webkit-box;
         display: -ms-flexbox;
