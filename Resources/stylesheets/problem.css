@@ -102,12 +102,14 @@ body {
     .underslides {
        width: 33.33%;
         height: 100%;
-        border-radius: 5%;
-
     }
 
     .underslides h3 {
         text-align: center;
+    }
+
+    .u3 p a {
+        color: #FEFEFE;
     }
 
     .u1, .u3 {
