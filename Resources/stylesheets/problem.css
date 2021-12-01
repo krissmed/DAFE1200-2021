@@ -1,5 +1,3 @@
-/* Import external font*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 body {
     margin: 0;
     /* Remove default margin around the edges */
@@ -7,13 +5,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(227,227,227);
 }
-
-/*Container with all elements*/
-.container {
-    /*To account for navbar
-    margin-top: 60px;*/
-}
-
 /*Front page with the 2 slides parted on desktop*/
 .frontPage {
     display: flex;
@@ -40,6 +31,17 @@ body {
             margin-top: 40px;
             font-size: 4vw;
         }
+        .img-frontPage {
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            display: inline-block;
+        }
+        .img-frontPage img{
+            height: 20vh;
+            width: 12vw;
+            border-radius: 3%;
+        }
     .slide2Main {
         min-height: 100vh;
         width: 50%;
@@ -47,7 +49,6 @@ body {
         display: inline-block;
         color: white;
         background-color: rgb(33,34,34);
-        border-radius: 5%;
     }
         .slide2Main h2{
             margin-top: 20%;
@@ -72,14 +73,14 @@ body {
     }
 
     .mobileArrow {
-        display: none;
+        display: none !important;
     }
 
 
 
 /*Slide 2 with written conten*/
 .problemPage2 {
-    min-height: 100vh;
+    min-height: 300px;
     background-color: rgb(227,227,227);
     color: rgb(33,34,34);
 }
@@ -91,34 +92,32 @@ body {
 /*Slide 3 with 2 underSlides*/
 .slides3 {
     width: 100vw;
-    min-height: 100%;
     display: flex;
-    flex-wrap: wrap;
-    margin: auto;
+    flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: flex-start;
+    margin-bottom: 50px;
 }
 
     .underslides {
-       width: 33.33%;
-        height: 100%;
-        border-radius: 5%;
-
+       width: 50%;
+        min-height: 120px;
+        display: flex;
+        flex-flow: column;
+        background-color: rgb(227,227,227);
+        color: rgb(33,34,34);
     }
-
+    .u1 p, .u2 p, .u4 p, .u5 p, .u6 p, .u7 p, .u8 p{
+        margin: 0 80px;
+    }
+    .u3 {
+        width: 100%;
+        min-height: 150px;
+        margin: 0 5vw;
+    }
     .underslides h3 {
         text-align: center;
     }
 
-    .u1, .u3 {
-        background-color: rgb(33,34,34);
-        color: white;
-    }
-
-    .u2 {
-        background-color: rgb(227,227,227);
-        color: rgb(33,34,34);
-    }
 
 @media only screen and (max-width: 768px){
     .slide1Main {
@@ -132,10 +131,27 @@ body {
         min-width: 50%;
     }
     .desktopArrow {
-        display: none;
+        display: none !important;
     }
     .mobileArrow {
-        display: flex;
+        display: flex !important;
+    }
+    /*.u1, .u4, .u5, .u8 {
+        background-color: rgb(33,34,34);
+        color: white;
+    }
+
+    .u3, .u6, .u7 {
+        background-color: rgb(227,227,227);
+        color: rgb(33,34,34);
+    }*/
+    .u3 p a {
+        color: blue;
+    }
+    .underslides p {
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
     }
 }
 
@@ -144,7 +160,8 @@ body {
         width: 100%;
         margin-top: 50px;
     }
-    .graph {
-        margin: 30px;
+
+    .u9 {
+        display: none;
     }
 }

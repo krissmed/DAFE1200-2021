@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="Resources/stylesheets/aboutus.css">
-    <link rel="stylesheet" href="Resources/stylesheets/footer-dark.css">
+    <link rel="stylesheet" href="Resources/stylesheets/footer.css">
     <link rel="stylesheet" href="Resources/stylesheets/nav-bar.css">
     <link rel="stylesheet" href="Resources/stylesheets/scroll.css">
-    <link rel="stylesheet" href="Resources/stylesheets/index.css">
 
     <!-- Document Title -->
     <title>Rebound | About us</title>
@@ -20,38 +19,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 </head>
 <body>
-<!------------------------- NAVBAR ----------------------------------->
-<nav class="nav-bar">
-    <a href="index.html" class="box">
-        <img src="Resources/images/infilogo.png" alt="Rebound logo" class="nav-logo">
-    </a>
-    <ul class="nav-all-items box">
-        <li class="nav-item-li">
-            <a class="nav-item-a" href="index.html">Home</a>
-        </li>
-        
-        <li class="nav-item-li">
-            <a class="nav-item-a" href="problem.html">Problem</a>
-        </li>
+    <!------------------------- NAVBAR ----------------------------------->
+    <nav class="nav-bar">
+        <a href="index.html" class="box">
+            <img src="Resources/images/infinite-mathematical-symbol(2).svg" alt="Rebound logo" class="nav-logo">
+        </a>
+        <ul class="nav-all-items box">
+            <li class="nav-item-li">
+                <a class="nav-item-a" href="index.html">Home</a>
+            </li>
 
-        <li class="nav-item-li">
-            <a class="nav-item-a" href="solution.html">Solution</a>
-        </li>
+            <li class="nav-item-li">
+                <a class="nav-item-a" href="problem.html">Problem</a>
+            </li>
 
-        <li class="nav-item-li active">
-            <a class="nav-item-a" href="aboutus.html">About us</a>
-        </li>
+            <li class="nav-item-li">
+                <a class="nav-item-a" href="solution.html">Solution</a>
+            </li>
 
-        <li class="nav-item-li">
-            <a class="nav-item-a" href="contact.html">Contact</a>
-        </li>
+            <li class="nav-item-li active">
+                <a class="nav-item-a" href="aboutus.html">About us</a>
+            </li>
+
+            <li class="nav-item-li">
+                <a class="nav-item-a" href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <a href="Norwegian/problem.html" class="box flagbox">
+            <img src="Resources/images/norge.png" alt="Norwegian flag" class="nav-logo flag">
+        </a>
+    </nav>
+    <ul class="hamburger-nav-bar" id="hamburger-nav-bar">
+        <li class="hamburger-li"><a href="index.html">Home</a></li>
+        <li class="hamburger-li"><a href="problem.html">Problem</a></li>
+        <li class="hamburger-li"><a href="solution.html">Solution</a></li>
+        <li class="hamburger-li"><a href="aboutus.html">About us</a></li>
+        <li class="hamburger-li"><a href="contact.html">Contact</a></li>
+        <a href="#" class="hamburger-a-closed" name="Close hamburger menu" title="Close hamburger menu">
+            <div class="hamburger-line-closed"></div>
+            <div class="hamburger-line-closed"></div>
+            <div class="hamburger-line-closed"></div>
+        </a>
     </ul>
-    <a href="Norwegian/NO-omOss.html" class="box flagbox">
-        <img src="Resources/images/norge.png" alt="Norwegian flag" class="nav-logo flag">
+    <a class="hamburger-a" href="#hamburger-nav-bar" name="Open hamburger menu" title="Open hamburger menu">
+        <div class="hamburger-line-open"></div>
+        <div class="hamburger-line-open"></div>
+        <div class="hamburger-line-open"></div>
     </a>
-    
-        
-</nav>
     
     
     <div class="slideshow odd">
@@ -86,7 +100,7 @@
             <div class="grid">
             <a href="#team1 "  class="cards-link">
             <div class="cards">
-                <img src="Resources/pictures/TeamMembers/erling.png" alt="Profile Picture" class="profilePic">
+                <img src="Resources/TeamMembers/erling.png" alt="Profile Picture" class="profilePic">
                 <h2 class="profileName">Erling Mahias Staff</h2>
                 <p class="profileJobTitle">Lead-designer</p>
                 
@@ -98,7 +112,7 @@
             <div class="popup-div">
                 <div class="popup-innhold">
                     <h1>Erling Mathias Staff</h1>
-                    <img src="Resources/pictures/TeamMembers/erling.png" class="popup-img">
+                    <img src="Resources/TeamMembers/erling.png" class="popup-img">
                     <p class="popup-text"> This is <b>Erling</b> our teams lead-designer. Born and raised in Høvik, Norway and have always loved design and creating ideas. He as an awesome member to our team.
                         Right now he's probably stuck to the drawing board.
                         <br> Contact Info 
@@ -114,7 +128,7 @@
         <div class="grid">
         <a href="#team2" class="cards-link">
             <div class="cards">
-                <img src="Resources/pictures/TeamMembers/kristian.png" alt="Profile Picture" class="profilePic">
+                <img src="Resources/TeamMembers/kristian.png" alt="Profile Picture" class="profilePic">
                 <h2 class="profileName">Kristian Smedsrød</h2>
                 <p class="profileJobTitle">Project leader</p>
                 
@@ -126,7 +140,7 @@
             <div class="popup-div">
                 <div class="popup-innhold">
                     <h1>Kristian Smedsrød</h1>
-                    <img src="Resources/pictures/TeamMembers/kristian.png" class="popup-img">
+                    <img src="Resources/TeamMembers/kristian.png" class="popup-img">
                     <p class="popup-text">This is <b>Kristian</b>, born in Hønefoss and raised in Grorud. He is our great project leader, and our mastermind.
                         You are probality wondring what he's doing right now? Leading us into greatness!
                         <br> Contact Info 
@@ -141,7 +155,7 @@
         <div class="grid"> 
             <a href="#team3" class="cards-link">
             <div class="cards">
-                <img src="Resources/pictures/TeamMembers/ole.png" alt="Profile Picture" class="profilePic">
+                <img src="Resources/TeamMembers/ole.png" alt="Profile Picture" class="profilePic">
                 <h2 class="profileName">Ole Jørgen Knoph</h2>
                 <p class="profileJobTitle">Lead-programmer</p>
                 
@@ -154,7 +168,7 @@
             <div class="popup-div">
                 <div class="popup-innhold">
                     <h1>Ole Jørgen Knoph</h1>
-                    <img src="Resources/pictures/TeamMembers/ole.png" class="popup-img">
+                    <img src="Resources/TeamMembers/ole.png" class="popup-img">
                     <p class="popup-text">This is <b>Ole Jørgen</b> our teams lead-programmer. Born and raised in Lilestrøm, Norway and have enjoyed computer programming from an young age. 
                         I would guess, he is propably screaming at a code that won't work right now.
                         <br> Contact Info 
@@ -171,7 +185,7 @@
         <div class="grid">
             <a href="#team4" class="cards-link">
             <div class="cards">
-                <img src="Resources/pictures/TeamMembers/vetle.png" alt="Profile Picture" class="profilePic">
+                <img src="Resources/TeamMembers/vetle.png" alt="Profile Picture" class="profilePic">
                 <h2 class="profileName">Vetle Endrerud</h2>
                 <p class="profileJobTitle">wip</p>
             </div>
@@ -182,8 +196,8 @@
         <div id="team4" class="popup">
             <div class="popup-div">
                 <div class="popup-innhold">
-                    <h2 class="popup-titel">Vetle Endrerud</h2>
-                    <div class="img-div"><img src="Resources/pictures/TeamMembers/vetle.png" class="popup-img"></div>
+                    <h2>Vetle Endrerud</h2>
+                    <img src="Resources/TeamMembers/vetle.png" class="popup-img">
                     <p class="popup-text">This is <b>Vetle</b>, born and raised in Hønefoss. He is our everything guy, and also known to be the handsomest man in the world. 
                         He helps inn all the deparments of the project, design, programming. You name it, he could do it. 
                         <br> Contact Info 
@@ -202,57 +216,55 @@
             
 
        
-<!------------------------- FOOTER CONTAINER ----------------------------------->
-<footer class="footer">
-    <!--Box where the adress, logo and mail button will be-->
-    <div class="footeraddr">
-        <!--Adding the logo-->
-        <img class="footerlogo" src="Resources/images/logo.png" alt="logo footer">
-    </div>
-    <!--Makes a bracket for the for the links for navigation-->
-    <ul class="footernav">
-        <li class="navitem">
-            <!--Makes the titel over the bracket-->
-            <h2 class="navtitle">Our Work</h2>
-            <!--Creates the bracket-->
-            <ul class="navul">
-                <li>
-                    <a href="sources.html">Sources</a>
-                </li>
-                <li>
-                    <a href="aboutus.html#meetteam">Team</a>
-                </li>
-            </ul>
-        <li class="navitem">
-            <h2 class="navtitle">Address</h2>
-            <address>
-                Pilestredet 35, 0166 Oslo
-                <br>
-                
-            </address>
-        </li>
-        <!--Sosial media-->
-        <li class="navitem">
-            <h2 class="navtitle">Social</h2>
-            <ul class="navul">
-                <li>
-                    <a href="https://facebook.com">
-                        <img src="Resources/images/facebook.svg" class=sosialimg alt="facebook">
-                    </a>
-                    <a href="https://instagram.com">
-                        <img src="Resources/images/instagram.svg" class=sosialimg alt="instagram">
-                    </a>
-                    <a href="https://twitter.com">
-                        <img src="Resources/images/twitter.svg" class=sosialimg alt=twitter>
-                    </a>
-                    <a href="https://github.com/krissmed/DAFE1200-Eksamen/">
-                        <img src="Resources/images/github.svg" class=sosialimg alt="github">
-                    </a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</footer>
+    <!------------------------- FOOTER CONTAINER ----------------------------------->
+    <footer class="footer">
+        <!--Makes a bracket for the for the links for navigation-->
+        <ul class="footernav">
+            <li class="navitem">
+                <img class="footerlogo" src="Resources/images/infinite-mathematical-symbol(2).svg" alt="logo footer">
+            </li>
+            <li class="navitem">
+                <!--Makes the titel over the bracket-->
+                <h2 class="navtitle">Our Work</h2>
+                <!--Creates the bracket-->
+                <ul class="navul">
+                    <li>
+                        <a href="https://docs.google.com/document/d/18leOfNzwUxOi3zi_y0RYoi8DIbaTN81uLxuI0pcd2JM/edit">Sources</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html#meetteam">Team</a>
+                    </li>
+                </ul>
+            <li class="navitem">
+                <h2 class="navtitle">Address</h2>
+                <address>
+                    Pilestredet 35, 0166 Oslo
+                    <br>
+
+                </address>
+            </li>
+            <!--Sosial media-->
+            <li class="navitem">
+                <h2 class="navtitle">Social</h2>
+                <ul class="navul">
+                    <li>
+                        <a href="https://facebook.com">
+                            <img src="Resources/images/facebook.svg" class=sosialimg alt="facebook">
+                        </a>
+                        <a href="https://instagram.com">
+                            <img src="Resources/images/instagram.svg" class=sosialimg alt="instagram">
+                        </a>
+                        <a href="https://twitter.com">
+                            <img src="Resources/images/twitter.svg" class=sosialimg alt=twitter>
+                        </a>
+                        <a href="https://github.com/krissmed/DAFE1200-2021/">
+                            <img src="Resources/images/github.svg" class=sosialimg alt="github">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
     
 </body>
 <script src="Resources/scripts/index.js"></script>
