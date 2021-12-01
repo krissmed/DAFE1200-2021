@@ -43,6 +43,9 @@ body{
         -webkit-box-orient: horizontal !important;
         -webkit-box-direction: normal !important;
             -ms-flex-direction: row !important;
+                -webkit-flex-direction: row !important;
+                   -moz-box-orient: horizontal !important;
+                   -moz-box-direction: normal !important;
                 flex-direction: row !important;
         margin-right: 0px !important;
     }
@@ -111,6 +114,9 @@ body{
         -webkit-box-orient: vertical !important;
         -webkit-box-direction: normal !important;
             -ms-flex-direction: column !important;
+                -webkit-flex-direction: column !important;
+                   -moz-box-orient: vertical !important;
+                   -moz-box-direction: normal !important;
                 flex-direction: column !important;
         margin-right: 0px !important;
     }
@@ -152,9 +158,14 @@ body{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
+                -webkit-flex-direction: column;
+                   -moz-box-orient: vertical;
+                   -moz-box-direction: normal;
                 flex-direction: column;
         -webkit-box-align: center !important;
             -ms-flex-align: center !important;
+                -webkit-align-items: center !important;
+                   -moz-box-align: center !important;
                 align-items: center !important;
         /*margin-top: 5vh !important;*/
     }
@@ -178,9 +189,14 @@ body{
         -webkit-box-orient: vertical !important;
         -webkit-box-direction: normal !important;
             -ms-flex-direction: column !important;
+                -webkit-flex-direction: column !important;
+                   -moz-box-orient: vertical !important;
+                   -moz-box-direction: normal !important;
                 flex-direction: column !important;
         -webkit-box-align: center !important;
             -ms-flex-align: center !important;
+                -webkit-align-items: center !important;
+                   -moz-box-align: center !important;
                 align-items: center !important;
     }
     .slideshow {
@@ -232,6 +248,30 @@ body {
     }
 }
 
+@-moz-keyframes arrow-animation {
+    0% {
+        bottom: 35px;
+    }
+    50% {
+        bottom: 50px;
+    }
+    100% {
+        bottom: 35px;
+    }
+}
+
+@-o-keyframes arrow-animation {
+    0% {
+        bottom: 35px;
+    }
+    50% {
+        bottom: 50px;
+    }
+    100% {
+        bottom: 35px;
+    }
+}
+
 @keyframes arrow-animation {
     0% {
         bottom: 35px;
@@ -261,6 +301,7 @@ html {
     overflow: hidden;
     height: 100vh;
     width: 100%;
+    position: -webkit-sticky;
     position: sticky;
     scroll-snap-align: start;
     top: 0;
@@ -270,7 +311,8 @@ html {
     background-color: #1a1a1a;
     color: #e9e9e9;
     -webkit-text-decoration-color: #e9e9e9;
-            text-decoration-color: #e9e9e9;
+            -moz-text-decoration-color: #e9e9e9;
+         text-decoration-color: #e9e9e9;
 }
 .last{
     position: relative;
@@ -327,17 +369,26 @@ html {
 .logo-flex {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
+            -webkit-flex-direction: row;
+               -moz-box-orient: horizontal;
+               -moz-box-direction: normal;
             flex-direction: row;
     text-align: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
+            -webkit-justify-content: center;
+               -moz-box-pack: center;
             justify-content: center;
     margin-right: 0vw;
 }
@@ -353,12 +404,20 @@ html {
 
 .div-arrows {
     position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
+            -webkit-justify-content: center;
+               -moz-box-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
             align-items: center;
     width: 100%;
     z-index: 1;
@@ -367,9 +426,13 @@ html {
 .arrow-box {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
+            -webkit-justify-content: center;
+               -moz-box-pack: center;
             justify-content: center;
 }
 
@@ -379,7 +442,10 @@ html {
 }
 
 .scrolling {
-    background-size: cover;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
@@ -387,8 +453,10 @@ html {
 #frontpageImg {
     /*background-image: url("../images/ew.png");*/
     height: 100vh;
+    position: -webkit-sticky;
     position: sticky;
-    filter: saturate(75%);
+    -webkit-filter: saturate(75%);
+            filter: saturate(75%);
 }
 
 #front-img{
@@ -400,7 +468,8 @@ html {
     font-size: 2.5em;
     font-style: bold;
     -webkit-text-decoration-color: black;
-            text-decoration-color: black;
+            -moz-text-decoration-color: black;
+         text-decoration-color: black;
 }
 
 .readMoreBtn {
@@ -411,37 +480,46 @@ html {
     padding: 6px 15px 6px 15px;
     font-size: 1.2em;
     -webkit-box-shadow: inset 0 0 0 0 #222121;
-    box-shadow: inset 0 0 0 0 #222121;
+    -moz-box-shadow: inset 0 0 0 0 #222121;
+         box-shadow: inset 0 0 0 0 #222121;
     -webkit-transition: ease 0.3s;
     -o-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
     transition: ease 0.3s;
     border: solid #222121 2px;
     margin-left: auto;
     margin-right: auto;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
     display: flex;
-    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
     margin-top: 15px;
 }
 
 .btn-on-black {
     border: solid #e9e9e9 2px;
     -webkit-box-shadow: inset 0 0 0 0 #e9e9e9;
-            box-shadow: inset 0 0 0 0 #e9e9e9;
+            -moz-box-shadow: inset 0 0 0 0 #e9e9e9;
+         box-shadow: inset 0 0 0 0 #e9e9e9;
     background-color: #222121;
     color: #e9e9e9;
 }
 
 .readMoreBtn:hover {
     -webkit-box-shadow: inset 200px 200px 0 0 #222121;
-            box-shadow: inset 200px 200px 0 0 #222121;
+            -moz-box-shadow: inset 200px 200px 0 0 #222121;
+         box-shadow: inset 200px 200px 0 0 #222121;
     color: white;
 }
 
 .btn-on-black:hover {
     -webkit-box-shadow: inset 200px 200px 0 0 #e9e9e9;
-            box-shadow: inset 200px 200px 0 0 #e9e9e9;
+            -moz-box-shadow: inset 200px 200px 0 0 #e9e9e9;
+         box-shadow: inset 200px 200px 0 0 #e9e9e9;
     color: #222121;
 }
 
@@ -459,11 +537,16 @@ html {
     margin-top: 15vh;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+        -webkit-justify-content: space-around;
+            justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
+            -webkit-align-items: center;
+               -moz-box-align: center;
             align-items: center;
 }
 
@@ -471,7 +554,9 @@ html {
     height: auto; 
     width: auto; 
     max-height: 350px; 
-    border-radius: 7px;
+    -webkit-border-radius: 7px; 
+       -moz-border-radius: 7px; 
+            border-radius: 7px;
     margin-left: 25px;
     margin-right: 25px;
 }
