@@ -293,6 +293,7 @@ html {
       }
       
     .popup-innhold{
+        color: black;
         font-size: 1em;
         padding: 5vmin;
     }
